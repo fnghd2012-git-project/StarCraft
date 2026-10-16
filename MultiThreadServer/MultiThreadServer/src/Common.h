@@ -1,0 +1,66 @@
+#pragma once
+
+#include <array>
+#include <algorithm>
+#include <atomic>
+#include <charconv>
+#include <chrono>
+#include <cmath>
+#include <cstddef>
+#include <cstdint>
+#include <exception>
+#include <filesystem>
+#include <fstream>
+#include <iostream>
+#include <limits>
+#include <memory>
+#include <mutex>
+#include <sstream>
+#include <stdexcept>
+#include <string>
+#include <string_view>
+#include <thread>
+#include <unordered_map>
+#include <unordered_set>
+#include <utility>
+#include <vector>
+
+using std::array;
+using std::atomic;
+using std::errc;
+using std::endl;
+using std::exchange;
+using std::from_chars;
+using std::find;
+using std::getline;
+using std::ifstream;
+using std::isfinite;
+using std::lock_guard;
+using std::make_unique;
+using std::move;
+using std::mutex;
+using std::ostringstream;
+using std::stop_token;
+using std::unique_ptr;
+using std::unordered_map;
+using std::unordered_set;
+using std::u8string;
+using std::vector;
+namespace fs = std::filesystem;
+namespace chrono = std::chrono;
+namespace this_thread = std::this_thread;
+using std::cerr;
+using std::cin;
+using std::cout;
+using std::exception;
+using std::jthread;
+using std::numeric_limits;
+using std::runtime_error;
+using std::size_t;
+using std::string;
+using std::string_view;
+using std::thread;
+using std::to_string;
+using std::uintptr_t;
+using std::wstring;
+using std::wstring_view;

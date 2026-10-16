@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package wire;
+
+// 패킷 직렬화만 사용하므로 리플렉션 기능이 없는 작은 런타임으로 생성한다.
+option optimize_for = LITE_RUNTIME;
+
+enum ServerRole {
+  SERVER_ROLE_UNSPECIFIED = 0;
+  SERVER_ROLE_GAME = 1;
+  SERVER_ROLE_WORLD = 2;
+}
+
+enum Race {
+  RACE_UNSPECIFIED = 0;
+  RACE_TERRAN = 1;
+  RACE_PROTOSS = 2;
+  RACE_ZERG = 3;
+}
+
+message StartPoint {
+  Race race = 1;
+  // 서버 좌표는 소수점을 허용하되 X/Y 모두 0 이상이어야 한다.
+  double x = 2;
+  double y = 3;
+}
+
+message MapInfo {
+  uint32 map_index = 1;
+  double min_x = 2;
+  double max_x = 3;
+  double min_y = 4;
+  double max_y = 5;
+  repeated StartPoint start_points = 6;
+}
+
+// 계정 로그인이 아닌 통신 점검용 인사다. 이름은 서버에서 1~64바이트로 제한한다.
+message HelloRequest {
+  string client_name = 1;
+}
+
+message HelloReply {
+  string server_id = 1;
+  ServerRole server_role = 2;
+  Race race = 3;
+  MapInfo map = 4;
+  uint32 unit_count = 5;
+  uint32 skill_count = 6;
+  uint32 tick_rate = 7;
+}
+
+// sequence로 응답 순서를 확인한다. padding은 최대 크기 패킷 검증용 바이너리다.
+message Ping {
+  uint64 sequence = 1;
+  string text = 2;
+  bytes padding = 3;
+}
+
+message Pong {
+  uint64 sequence = 1;
+  string text = 2;
+  bytes padding = 3;
+}

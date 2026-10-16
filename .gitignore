@@ -426,3 +426,19 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# C++ 서버 포트폴리오의 빌드 결과와 외부 의존성
+**/build/
+**/x64/
+*.exe
+*.ipch
+.deps/
+Protocol/Generated/
+
+# 덤프와 개인 DB 접속 정보
+*.dmp
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.ini

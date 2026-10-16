@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProtocolRoot>$(MSBuildThisFileDirectory)</ProtocolRoot>
+    <ProtobufSettings>$(ProtocolRoot)..\.deps\protobuf-$(Configuration).props</ProtobufSettings>
+    <ProtocPath>$(ProtocolRoot)..\.deps\protoc-33.6\bin\protoc.exe</ProtocPath>
+    <ProtocolGeneratedDirectory>$(ProtocolRoot)Generated\33.6\$(Configuration)\$(MSBuildProjectName)\</ProtocolGeneratedDirectory>
+  </PropertyGroup>
+  <Import Project="$(ProtobufSettings)" Condition="Exists('$(ProtobufSettings)')" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProtocolGeneratedDirectory);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <!-- 외부 헤더 경고만 분리한다. 직접 작성한 서버/더미 코드는 /W4를 유지한다. -->
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <AdditionalOptions>/external:I&quot;$(ProtocolRoot)..\.deps\protobuf-33.6\src&quot; /external:I&quot;$(ProtocolRoot)..\.deps\abseil-cpp-20250512.1&quot; /external:I&quot;$(ProtocolRoot)..\.deps\protobuf-33.6\third_party\utf8_range&quot; /external:I&quot;$(ProtocolGeneratedDirectory).&quot; %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(ProtocolGeneratedDirectory)Game.pb.cc">
+      <!-- 자동 생성 코드는 직접 작성한 코드와 분리하고 원본 .proto만 수정한다. -->
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="$(ProtocolGeneratedDirectory)Game.pb.h" />
+    <None Include="$(ProtocolRoot)Game.proto" />
+  </ItemGroup>
+  <Target Name="CheckProtobufSetup" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(ProtobufSettings)') Or !Exists('$(ProtocPath)')"
+           Text="Run setup-protobuf.ps1 -Configuration $(Configuration) from the repository root first." />
+  </Target>
+  <Target Name="GenerateProtocol" BeforeTargets="ClCompile" DependsOnTargets="CheckProtobufSetup"
+          Inputs="$(ProtocolRoot)Game.proto;$(ProtocPath)"
+          Outputs="$(ProtocolGeneratedDirectory)Game.pb.cc;$(ProtocolGeneratedDirectory)Game.pb.h">
+    <MakeDir Directories="$(ProtocolGeneratedDirectory)" />
+    <Exec Command="&quot;$(ProtocPath)&quot; --proto_path=&quot;$(ProtocolRoot).&quot; --cpp_out=&quot;$(ProtocolGeneratedDirectory).&quot; &quot;$(ProtocolRoot)Game.proto&quot;" />
+  </Target>
+</Project>
