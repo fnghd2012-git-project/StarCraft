@@ -1,0 +1,30 @@
+[OK] Protobuf 33.6 / Release ready.
+[OK] hiredis 1.3.0 / Release ready
+  BattleWorkers.cpp
+  DummyClient.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Release\DummyClient.exe
+  코드를 생성하고 있습니다.
+  14 of 9110 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    20 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  MultiThreadServer.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Release\MultiThreadServer.exe
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Release
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[ODBC INFO] SQLDriverConnectW
+SQLSTATE=01000 NativeError=5701 [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]데이터베이스 컨텍스트가 'project_db'(으)로 변경되었습니다.
+SQLSTATE=01000 NativeError=5703 [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]언어 설정이 한국어(으)로 변경되었습니다.
+[OK] MSSQL ODBC 연결 및 조회
+서버: gnidev0051 / 버전: 16.0.1210.3
+DB: project_db / 전송: TCP / 인증: NTLM
+[OK] DB 이름, 정수 1, 한글 조회 결과 확인
+[OK] Parallel calculations: workers=1 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Parallel calculations: workers=2 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Parallel calculations: workers=4 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Spatial INI validation and legacy defaults. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\spatial-check-815bcc42f23846a18978efad336c3c73

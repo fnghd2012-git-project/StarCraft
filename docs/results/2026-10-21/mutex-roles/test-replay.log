@@ -1,0 +1,56 @@
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-a5bb9151b6a547d9965e0e1dd7316baf
+[REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[OK] Replay verified match=290793551e598cd08b0e16cb2b52c60b frames=355 snapshots=18 duration=17.700 complete=1 reason=server_shutdown winner=0
+[ACTION] Enter=2
+[ACTION] Return=2
+[ACTION] Move=1
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=1
+[BATTLE SUMMARY] peak_units=1 deaths=0 death_reentries=0
+[REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[OK] Replay verified match=ea8e57a22f44c343a879738147c95706 frames=266 snapshots=14 duration=13.300 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2250
+[REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[OK] Live network snapshot matches replay tick=148
+[OK] Replay verified match=ea8e57a22f44c343a879738147c95706 frames=266 snapshots=14 duration=13.300 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2250
+[OK] Rejected corrupt.replay : [REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected corrupt-partial.replay.part : [REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected magic.replay : [REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[FAIL] Replay: invalid file signature
+[OK] Rejected oversize.replay : [REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[FAIL] Replay: record size exceeds limit
+[OK] Rejected truncated.replay.part : [REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[FAIL] Replay: truncated record body
+[OK] Truncated tail: normal load rejected; explicit partial mode recovered validated frames
+[OK] Rejected trailing.replay : [REPLAY] ê¸°ë¡ ?Œì¼???½ê³  ê²€ì¦í•˜ê³??ˆìŠµ?ˆë‹¤...
+[FAIL] Replay: data after footer
+[OK] Release replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-a5bb9151b6a547d9965e0e1dd7316baf\replay-validation

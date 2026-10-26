@@ -1,0 +1,67 @@
+{
+  "career_unchanged": "8278cff51c9ba84c560c5934c65df7cddc3273a5f498d342f12e8aab249a346a",
+  "date": "2026-10-21",
+  "status": "verified",
+  "files": [
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\documents.json",
+      "sha256": "495631c6b0dca84ad0924f06953334947fe9c50cd568506dcc5031e5bce06032",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\content\\documents.json"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\build_portfolio.py",
+      "sha256": "01251500715fb57b3a499696ab706cd85373394c9e38a670be2b4d4dbfa7789c",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\build_portfolio.py"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\git-project-SKILL.md",
+      "sha256": "1ac6bc3eac41e09c785a31490209cd2c73d0014b26d44e94faac40de5c54cf76",
+      "file": "C:\\Users\\mycom\\.codex\\skills\\git-project\\SKILL.md"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-portfolio-explainer-184815\\민수홍_Cpp_멀티스레드_포트폴리오.pdf",
+      "sha256": "2d225a375ea5037e7c67aab0d8b148d92ad3a06d837b489cbd69f17d124cd59e",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오.pdf"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-portfolio-explainer-184815\\민수홍_멀티스레드_포트폴리오_페이지별_상세해설.pdf",
+      "sha256": "ae2dc642d30d731922ad695ba9a67d69008884565bfba65a4a363db8412d1d73",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_멀티스레드_포트폴리오_페이지별_상세해설.pdf"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-portfolio-explainer-184815\\민수홍_멀티스레드_포트폴리오_페이지별_상세해설.manifest.json",
+      "sha256": "57f23c7986ba61bde75d43af7f98fe69102919475c3ce51d386d8eae6a443285",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_멀티스레드_포트폴리오_페이지별_상세해설.manifest.json"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-portfolio-explainer-184815\\layout-manifest.json",
+      "sha256": "2ed4232d907783d8e04c403ecfa1c9fffb35e005c252f7f9c6fef57ce80f86ba",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\layout-manifest.json"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\current-documents.json",
+      "sha256": "1fe80b01db3b8723cbb0f4692a3f1a8a7a72daed4339b01610821692f56f5375",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\verification\\current-documents.json"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\explainer-build.py",
+      "sha256": "1c95b357f6bdbdc9a6fdb697f4794e428f9f78c612b02a6145adf03a92938d74",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\portfolio_explainer\\build.py"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\explainer-content.py",
+      "sha256": "0d873b15734726a12966a04db4a18fdbf63a380c6defb5461d91fdbfd718bb9d",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\portfolio_explainer\\content.py"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\explainer-appendices.py",
+      "sha256": "f153ed24906a0b03259713e7aa7ebbb0d900cbbbba897e4c7db4ad27db6a1d9e",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\portfolio_explainer\\appendices.py"
+    },
+    {
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-portfolio-explainer-184815\\explainer-README.md",
+      "sha256": "e812675d64b1614a5078bade7db1e858825ac3e88edac4ee5339dc139f1f5702",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\portfolio_explainer\\README.md"
+    }
+  ]
+}

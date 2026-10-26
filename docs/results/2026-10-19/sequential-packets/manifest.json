@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-19",
+  "protocol_version": 5,
+  "header_bytes": 4,
+  "packet_map": [
+    {
+      "name": "SYS_ServerVersionCheck",
+      "number": 1
+    },
+    {
+      "name": "SYS_ServerVersionCheckReply",
+      "number": 2
+    },
+    {
+      "name": "SYS_Ping",
+      "number": 3
+    },
+    {
+      "name": "SYS_Pong",
+      "number": 4
+    },
+    {
+      "name": "CM_JoinGame",
+      "number": 10
+    },
+    {
+      "name": "SM_JoinGameReply",
+      "number": 11
+    },
+    {
+      "name": "CM_RequestTicket",
+      "number": 12
+    },
+    {
+      "name": "SM_WorldTicket",
+      "number": 13
+    },
+    {
+      "name": "CM_ResumeGame",
+      "number": 14
+    },
+    {
+      "name": "CM_Logout",
+      "number": 15
+    },
+    {
+      "name": "CM_EnterWorld",
+      "number": 16
+    },
+    {
+      "name": "SM_WorldReply",
+      "number": 17
+    },
+    {
+      "name": "CM_Move",
+      "number": 18
+    },
+    {
+      "name": "CM_Attack",
+      "number": 19
+    },
+    {
+      "name": "CM_LeaveWorld",
+      "number": 20
+    },
+    {
+      "name": "SM_ActionReply",
+      "number": 21
+    },
+    {
+      "name": "SM_WorldState",
+      "number": 22
+    },
+    {
+      "name": "SM_WorldEvent",
+      "number": 23
+    },
+    {
+      "name": "CM_Skill",
+      "number": 24
+    },
+    {
+      "name": "CM_Chat",
+      "number": 25
+    },
+    {
+      "name": "SM_ChatMessage",
+      "number": 26
+    },
+    {
+      "name": "SS_RelayConnect",
+      "number": 27
+    },
+    {
+      "name": "SS_RelayChallenge",
+      "number": 28
+    },
+    {
+      "name": "SS_RelayAuth",
+      "number": 29
+    },
+    {
+      "name": "SS_RelayChat",
+      "number": 30
+    },
+    {
+      "name": "CM_Rank",
+      "number": 31
+    },
+    {
+      "name": "SM_RankReply",
+      "number": 32
+    }
+  ],
+  "source_sha256": {
+    "docs/Design.md": "709ff78f89574ddcb31674cbbbfd49b44344ded57ca6bef8a67fcc7f5658311a",
+    "docs/study/pdf_source/build_study_pdfs.py": "d327b72ab72b1f7fd57b482d47f5df945dfbc179036251ee2a610cd3853cf68c",
+    "docs/study/pdf_source/guide_content.py": "c0dec7f4d6199ab4a18ab87f8a67f4406349b2d27f4e6f39ddee998489c23bfa",
+    "docs/study/pdf_source/practice_content.py": "c5cd8d5ea0319f42a811619a541ee4d7470ea7ef5df3ab35e627a170bfefa4e5",
+    "docs/study/pdf_source/qa_content.py": "48423563017b5e90e46b0c2a2945497191da774ba1cff7018820195032da2321",
+    "docs/study/pdf_source/validate_pdfs.py": "9e0302d55772c05adc5e4b0e3cc4898b4aa6a07e1b4e71da4b1841e6a0f77bd2",
+    "DummyClient/src/AccountSkillCheck.cpp": "a4e2c86c616b8b1b90363dfcc11e87e302331f4c10c58fd977dcd348ff8b1c2e",
+    "DummyClient/src/AutoBattle.cpp": "ff8d21ab1c415bc20a1506106e89020741dd4671b6ad6aea8bc0963cf2d74770",
+    "DummyClient/src/BattleClient.cpp": "b26a8d1d4d970ab27bce9299ec4f6102c46c6847c03eed799879b92675e64341",
+    "DummyClient/src/BattleDecision.cpp": "163471bc443cf6e4a8645564e12ca77724a89413aea16fdf537df0591ae3d80d",
+    "DummyClient/src/BattleDecision.h": "d7828477058234b50ffa41cd31cbb70d92aed137b7b76ac7058c25d8582c04d5",
+    "DummyClient/src/ClientConnection.cpp": "94f3285a77068daef99b11ad2b753d464c26b6b259d08b35e86ad045930d1c00",
+    "DummyClient/src/FlowCheck.cpp": "a4e73500171205473cb5cb94d5317912e1a0cf5f2f45ef3e2fad606ddaa90f1e",
+    "DummyClient/src/LoadClient.cpp": "f446ee15c4d3726fe12b94bafb7699942fd1da6c045651067b63df4d1ff22772",
+    "DummyClient/src/Main.cpp": "6f8d13c6827a7a338d0dc613845165e0d9ab7f8e77d6bcfb9adfee9a1591f02d",
+    "DummyClient/src/PlayClient.cpp": "5442cf06fa76e2854eb6615fb542eea275bfd28a7ad28f2e481872e451f5bef1",
+    "DummyClient/src/RankingCheck.cpp": "a8363687a525c7ebf1e6cedfcc4c6be2607c483891049c363968d9f1ce31549e",
+    "DummyClient/src/SessionLoad.cpp": "8b2b6b149e9f2192b8bb7b765fc86904cbe9f3b456a6e5df96fd2b18f1b3fa1f",
+    "MultiThreadServer/MultiThreadServer/src/ChatRelay.cpp": "3c891863459f9f68ac317e1f2591ea5daf372d5a598e2a1bfe9b86460d46c472",
+    "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp": "36e0f2e4edb41e871a0646656130c3d03e2fbbf87e6cc67b7b1b23618d06b6e4",
+    "MultiThreadServer/MultiThreadServer/src/GamePersistence.cpp": "06102c7cf0720e2b04e86a7103fa72a025c63eed467c9a4c14395c91cd934b46",
+    "MultiThreadServer/MultiThreadServer/src/GameRanking.cpp": "5581bb2ef580bfeca7c6c90f28931194658b080cb0d5827075f9daf2613f10aa",
+    "MultiThreadServer/MultiThreadServer/src/GameReplay.cpp": "20a6a6aa3e1c8878bfa0deb6fa3a65e8db36b8c51ac97f6e606a292569fbd810",
+    "MultiThreadServer/MultiThreadServer/src/Packet.h": "f894a3bcc41fa544a92a7e936e73d55024e73a7b212018739cc2912956324751",
+    "MultiThreadServer/MultiThreadServer/src/TcpServer.cpp": "55b62db7d1214787d9e111c51c3887cf744e37bf0b96418762409c452e8f5514",
+    "Protocol/Game.proto": "5eb81fe61803e6d70c9c524fea983d26bd9f513a0ff97cfdba4ba91e1e009738",
+    "README.md": "79482e18fdfa4cbab439c73651be658141f3b8f1e7a4218116a3ae949005006b",
+    "test-chat-relay.ps1": "fde110a5474471e275f963a0d44e36f3d46887e390ea11ff46fafe5710526cbf",
+    "test-network.ps1": "c52962f58eb0b74fd288f186adc947b3fe53a56038dbe3f3c0600f4285cbcf1d",
+    "test-ranking.ps1": "883075f65c9bff828239ae2afc2eb546efaab2ce9fed5826b449c3fb85e2c26c",
+    "test-recovery.ps1": "13dbf9b0ae596c810be31c7000065897ec645aeb24a7eb81ea7e09668b2e8823"
+  },
+  "executables_sha256": {
+    "Run64/Debug/MultiThreadServer.exe": "4fed11b0b40ec282fd798c952a22d61b993e06a86ef19a4f7eaece1434491411",
+    "Run64/Debug/DummyClient.exe": "49b5b05c985e5b3a84605b3c1274e3169cc79af3deafd1f01653906405767ce3",
+    "Run64/Release/MultiThreadServer.exe": "ba5790228efd82605276cf5ce6845249b8e890416f38c9110028b6e3d22f48d3",
+    "Run64/Release/DummyClient.exe": "7986f6dd859063879786391e2b0ee5bdb8efa6f8884792b16d505e76b7ec7241"
+  },
+  "pdf_sha256": {
+    "01_Code_Study_Guide.pdf": "cbb34cbcfcccb2df1180d5db18541791cf30497fdb349b72f94969f5de3f8116",
+    "02_Interview_Questions_Answers.pdf": "54924ccb33a5916d208bf0ae0a73603f744ff9eda050a70a412de2a0e34cb14b",
+    "03_Practice_and_Portfolio_Workbook.pdf": "fd5cec6e17f8d3d0fa71ce69bdbbec3b38f9639d99812531a876b54ef367d769"
+  },
+  "log_sha256": {
+    "battle-client.txt": "a658805048fb6caf98d0b99d2583f2def9630a0df52236332e46d84cca8d5c7e",
+    "debug-build-network.txt": "a828fa59c8e04742ed9b789abb5cfedcb16f87074340ec95203f93a650fd6c29",
+    "old-replay.txt": "70b1a0a733813245ff1fe527e42c188048a160dd99b37c35413133fa23572237",
+    "ranking-initial-failure.txt": "bcbce3cad7618bbf7385766d8a4144413216d8c4d24211281173ec91afa79a9c",
+    "release-build-network.txt": "5de6000972705ea084dd7ecad07f351dc07efb7daba5be00a671a036b5a03ac6",
+    "test-auto-battle.txt": "d8cdfb5b1b5742df4e3c3f7360508e2ee6e15bc9f05029bd8f269003ce200e08",
+    "test-chat-relay.txt": "200ee3d8c62bb1286637e990360a5616a748ffad8f7dfaef38ec9198623b2f12",
+    "test-gameplay.txt": "e3e76d224fd6dd698ff42bb4df0149ebb6d2302045304369e2f6a4851efd88fb",
+    "test-ranking.txt": "948cda9d27064d63d1c867c93b2b9cf60d3714b4eae137e5765f8f230dd98f78",
+    "test-recovery.txt": "52552090f28834f6e45ef75317e7c4e3867bbc5817f442febf630f2d7f2bb2e6",
+    "test-replay.txt": "0de75b189f3050b37e930b6a76926b94e3930fac2cf488df17105a17e814166f",
+    "validation.txt": "8a232b1c88ef0135f66aa79fc71022f6dd51c06032a8dc1bbc4065ff24b3a989"
+  },
+  "battle_9": {
+    "Requested": 9,
+    "Ready": 9,
+    "PeakWorld": 9,
+    "Entered": 11,
+    "Deaths": 2,
+    "DeathReentries": 2,
+    "ResumedGame": 2,
+    "UnitAttacks": 25,
+    "BuildingAttacks": 0,
+    "Skills": 2,
+    "Rejected": 53,
+    "Errors": 0,
+    "LoggedOut": 9
+  },
+  "checks": {
+    "Debug build/network": "passed",
+    "Release build/network/ODBC": "passed",
+    "Release gameplay/replay/auto-battle/chat-relay/recovery/ranking": "passed",
+    "Reserved system packets 5-9 and versions 4/6 rejected": "passed",
+    "BattleClient 9 bots for 20 seconds": "passed; temporary death cooldown 1 second",
+    "Existing 1500-player replay": "passed; verification only, no new 1500-player simulation",
+    "PDF 43+29+19 pages": "passed; all 91 pages visually reviewed",
+    "Large performance benchmarks": "not rerun; old 8-byte results retained and labeled"
+  }
+}

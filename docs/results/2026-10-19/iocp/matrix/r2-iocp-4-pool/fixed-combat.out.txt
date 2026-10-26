@@ -1,0 +1,4 @@
+[LOAD PHASE] measure_begin
+[LOAD PHASE] measure_end
+[LOAD] Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+[LOAD] fixed-combat,96,12,20,23040,12922,10118,0,15.831,16.520,16.731,17.016,1919.388,313.117,5856

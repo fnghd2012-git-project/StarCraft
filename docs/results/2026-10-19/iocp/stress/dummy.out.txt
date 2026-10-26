@@ -1,0 +1,73 @@
+[BATTLE] ready=0/1500 world=0 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=160/1500 world=160 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=336/1500 world=336 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=510/1500 world=510 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=673/1500 world=673 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=849/1500 world=849 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=1025/1500 world=1025 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=1186/1500 world=1186 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=1362/1500 world=1362 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE START] ready=1500 world=1500
+[BATTLE] ready=1500/1500 world=1500 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=1500/1500 world=1500 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=1500/1500 world=1500 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=1500/1500 world=1330 deaths=170 reentries=0 unit_hits=723 skills=32 errors=0
+[BATTLE] ready=1500/1500 world=940 deaths=560 reentries=0 unit_hits=1061 skills=383 errors=0
+[BATTLE] ready=1500/1500 world=567 deaths=933 reentries=0 unit_hits=1378 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=380 deaths=1120 reentries=0 unit_hits=1400 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=534 deaths=1134 reentries=168 unit_hits=1659 skills=447 errors=0
+[BATTLE] ready=1500/1500 world=780 deaths=1273 reentries=553 unit_hits=2044 skills=479 errors=0
+[BATTLE] ready=1500/1500 world=920 deaths=1500 reentries=920 unit_hits=2308 skills=500 errors=0
+[BATTLE] ready=1500/1500 world=795 deaths=1810 reentries=1105 unit_hits=2328 skills=536 errors=0
+[BATTLE] ready=1500/1500 world=461 deaths=2144 reentries=1105 unit_hits=2340 skills=558 errors=0
+[BATTLE] ready=1500/1500 world=461 deaths=2144 reentries=1105 unit_hits=2340 skills=558 errors=0
+[BATTLE] ready=1500/1500 world=464 deaths=2144 reentries=1108 unit_hits=2340 skills=558 errors=0
+[BATTLE] ready=1500/1500 world=468 deaths=2145 reentries=1113 unit_hits=2347 skills=634 errors=0
+[BATTLE] ready=1500/1500 world=470 deaths=2150 reentries=1120 unit_hits=2364 skills=768 errors=0
+[BATTLE] ready=1500/1500 world=354 deaths=2266 reentries=1120 unit_hits=2388 skills=768 errors=0
+[BATTLE] ready=1500/1500 world=354 deaths=2266 reentries=1120 unit_hits=2388 skills=768 errors=0
+[BATTLE] ready=1500/1500 world=354 deaths=2266 reentries=1120 unit_hits=2388 skills=768 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=351 deaths=2269 reentries=1120 unit_hits=2433 skills=950 errors=0
+[BATTLE] ready=1500/1500 world=353 deaths=2281 reentries=1134 unit_hits=2751 skills=953 errors=0
+[BATTLE] ready=1500/1500 world=310 deaths=2465 reentries=1275 unit_hits=3227 skills=956 errors=0
+[BATTLE] ready=1500/1500 world=442 deaths=2647 reentries=1589 unit_hits=3245 skills=981 errors=0
+[BATTLE] ready=1500/1500 world=657 deaths=2647 reentries=1804 unit_hits=3245 skills=981 errors=0
+[BATTLE] ready=1500/1500 world=989 deaths=2649 reentries=2138 unit_hits=3288 skills=981 errors=0
+[BATTLE RESULT]
+Requested=1500
+Ready=1500
+PeakWorld=1500
+Entered=3638
+Deaths=2668
+DeathReentries=2138
+ResumedGame=2689
+UnitAttacks=3607
+BuildingAttacks=36048
+Skills=998
+Rejected=162752
+Errors=0
+LoggedOut=1500
+

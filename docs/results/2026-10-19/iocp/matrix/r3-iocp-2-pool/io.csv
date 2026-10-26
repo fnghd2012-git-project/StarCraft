@@ -1,0 +1,5 @@
+role,pending_io,recv_bytes,send_bytes,dropped,pool,pool_requests,pool_allocations,pool_reused,pool_exhausted,pool_in_use,pool_peak,pool_cached,pool_block_bytes,worker0,worker1
+A,0,1791278,1849194,0,1,277374,202,277172,0,0,202,202,4168,229194,186734
+B,0,2461,22170,0,1,266,16,250,0,0,16,16,4168,183,179
+C,0,2461,22106,0,1,266,16,250,0,0,16,16,4168,187,175
+World,0,883560,80260627,0,1,78965,205,78760,0,0,205,205,4168,59506,58959

@@ -1,0 +1,17 @@
+{
+  "Date": "2026-10-19",
+  "CPU": {
+    "Name": "AMD Ryzen 7 7700X 8-Core Processor             ",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "OS": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "BuildNumber": "26200",
+    "TotalVisibleMemorySize": 66224808
+  },
+  "Redis": "3.2.100",
+  "Hiredis": "1.3.0",
+  "Build": "x64 Release",
+  "Note": "Same PC: 4 server processes, 1 battle dummy, local MSSQL and existing Redis. No concurrent project build/test during battle."
+}

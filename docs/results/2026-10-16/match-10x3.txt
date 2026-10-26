@@ -1,0 +1,5 @@
+[OK] Replay verified match=ed05580caca007ff02513c88b3e92180 frames=1687 snapshots=85 duration=84.350 complete=1 reason=round_finished winner=3
+[ACTION] Attack=407
+[ACTION] Enter=30
+[ACTION] Move=3057
+[ACTION] Return=30

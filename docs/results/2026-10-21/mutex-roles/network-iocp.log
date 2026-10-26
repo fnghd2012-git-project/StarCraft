@@ -1,0 +1,75 @@
+[OK] Configuration / map / CSV
+ServerId=A
+ServerType=Game
+Race=Zerg
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+SpatialSearch=Grid
+SpatialCellSize=25
+VerifySpatialSearch=0
+NetworkMode=IOCP
+NetworkWorkers=2
+BattleWorkers=4
+VerifyParallel=0
+UsePool=1
+PoolCapacity=8192
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Skill.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Zero start coordinates accepted
+[OK] server=A clients=8 rounds=10 replies=160 elapsed_ms=29
+[OK] server=B clients=8 rounds=10 replies=160 elapsed_ms=25
+[OK] server=C clients=8 rounds=10 replies=160 elapsed_ms=33
+[OK] server=World clients=8 rounds=10 replies=160 elapsed_ms=28
+[OK] Malformed packet rejected: zero length
+[OK] Malformed packet rejected: length below header
+[OK] Malformed packet rejected: packet above 4096 bytes
+[OK] Malformed packet rejected: unsigned 16-bit length above limit
+[OK] Malformed packet rejected: legacy 8-byte frame
+[OK] Malformed packet rejected: ping before version check
+[OK] Malformed packet rejected: unknown type
+[OK] Malformed packet rejected: unknown 16-bit type
+[OK] Malformed packet rejected: reserved system type 5
+[OK] Malformed packet rejected: reserved system type 6
+[OK] Malformed packet rejected: reserved system type 7
+[OK] Malformed packet rejected: reserved system type 8
+[OK] Malformed packet rejected: reserved system type 9
+[OK] Malformed packet rejected: duplicate version check
+[OK] Malformed packet rejected: missing protocol version
+[OK] Malformed packet rejected: older protocol version
+[OK] Malformed packet rejected: newer protocol version
+[OK] Malformed packet rejected: missing client name
+[OK] Malformed packet rejected: truncated protobuf string
+[OK] Malformed packet rejected: invalid UTF-8 client name
+[OK] Malformed packet rejected: invalid protobuf wire type
+[OK] Malformed packet rejected: missing ping sequence
+[OK] Partial header accumulation and Protobuf response
+[OK] Partial body accumulation and Protobuf response
+[OK] server=A clients=16 rounds=10 replies=320 elapsed_ms=30
+[OK] Debug network checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\network-check-f03f2fbeeac747b490525fe9fdb5488c

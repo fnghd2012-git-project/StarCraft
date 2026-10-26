@@ -1,0 +1,16 @@
+[OK] ranking combat, friendly fire, voluntary return, reentry, ties; match=3b23d05a9784df5acf7c1481d440f3e2
+[OK] Redis empty restart restored totals; combat continued during outage
+[OK] new match reset; previous=3b23d05a9784df5acf7c1481d440f3e2 current=e0ed73e90cd91d24ba7719d81b3d1aaf
+
+Complete AccountId  Kills Deaths Entries
+-------- ---------  ----- ------ -------
+    True RankAlly       0      1       1
+    True RankCaster     1      0       1
+    True RankMarine     2      0       1
+    True RankZerg       0      3       4
+   False RankMarine     0      0       1
+
+
+[OK] Match result restored (existing committed match is unchanged)
+[OK] Match result restored (existing committed match is unchanged)
+[OK] Release ranking, Redis outage/recovery, final SQL transaction/idempotence. Realm=rank_9a7277ed59f644c2ad1c1ad113c45ecc Logs=D:\work\Josun_Server\git_ProJect\.deps\ranking-b4fd9484946348568294aacef282f74f

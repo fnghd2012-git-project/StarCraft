@@ -1,0 +1,4 @@
+[LOAD PHASE] measure_begin
+[LOAD PHASE] measure_end
+[LOAD] Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+[LOAD] ping,96,20,100,179243,179243,0,0,0.199,0.393,0.505,1.006,8956.878,30.507,0

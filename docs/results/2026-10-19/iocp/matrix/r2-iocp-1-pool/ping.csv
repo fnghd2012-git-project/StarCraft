@@ -1,0 +1,2 @@
+Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+ping,96,12,100,110872,110872,0,0,0.465,0.704,0.777,1.088,9227.906,1.563,0

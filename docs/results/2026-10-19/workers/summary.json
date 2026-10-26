@@ -1,0 +1,4259 @@
+{
+  "date": "2026-10-19",
+  "trials": 18,
+  "sessions": 1728,
+  "requests": 3907163,
+  "errors": 0,
+  "samples_per_session_run": 96,
+  "latency_definition": "nearest-rank on raw samples; table = median of three run quantiles, range = minimum..maximum",
+  "configurations": [
+    {
+      "network": 1,
+      "db": 1,
+      "session": {
+        "p50_ms": {
+          "median": 1537.8765,
+          "minimum": 1471.0798,
+          "maximum": 1611.202,
+          "runs": [
+            1471.0798,
+            1537.8765,
+            1611.202
+          ]
+        },
+        "p95_ms": {
+          "median": 2845.5361,
+          "minimum": 2799.9051,
+          "maximum": 2959.0345,
+          "runs": [
+            2799.9051,
+            2845.5361,
+            2959.0345
+          ]
+        },
+        "p99_ms": {
+          "median": 3106.9602,
+          "minimum": 2917.0157,
+          "maximum": 3169.3814,
+          "runs": [
+            2917.0157,
+            3106.9602,
+            3169.3814
+          ]
+        },
+        "max_ms": {
+          "median": 3106.9602,
+          "minimum": 2917.0157,
+          "maximum": 3169.3814,
+          "runs": [
+            2917.0157,
+            3106.9602,
+            3169.3814
+          ]
+        },
+        "throughput": {
+          "median": 10.196797122293905,
+          "minimum": 9.91059609964361,
+          "maximum": 10.516995793858996,
+          "runs": [
+            10.516995793858996,
+            10.196797122293905,
+            9.91059609964361
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 2842.7473,
+          "minimum": 2759.0038,
+          "maximum": 2911.5255,
+          "runs": [
+            2759.0038,
+            2842.7473,
+            2911.5255
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 3250.9937,
+          "minimum": 3032.7409,
+          "maximum": 3304.932,
+          "runs": [
+            3032.7409,
+            3250.9937,
+            3304.932
+          ]
+        },
+        "accepted": {
+          "median": 96,
+          "minimum": 96,
+          "maximum": 96,
+          "runs": [
+            96,
+            96,
+            96
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 94.73010542813905,
+            "minimum": 94.07322262879566,
+            "maximum": 94.92077233845367,
+            "runs": [
+              94.92077233845367,
+              94.07322262879566,
+              94.73010542813905
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.9972426427080812,
+            "minimum": 0.6455203095614246,
+            "maximum": 1.0280228051096065,
+            "runs": [
+              1.0280228051096065,
+              0.9972426427080812,
+              0.6455203095614246
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 93.5500752649742,
+            "minimum": 92.90977287896956,
+            "maximum": 93.76182496379691,
+            "runs": [
+              93.5500752649742,
+              92.90977287896956,
+              93.76182496379691
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 1.8847084760342787,
+            "minimum": 0.9682804643421368,
+            "maximum": 4.487591892186365,
+            "runs": [
+              1.8847084760342787,
+              4.487591892186365,
+              0.9682804643421368
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 18.02734375,
+            "minimum": 17.95703125,
+            "maximum": 18.22265625,
+            "runs": [
+              17.95703125,
+              18.22265625,
+              18.02734375
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 13.3515625,
+            "minimum": 13.3515625,
+            "maximum": 13.37109375,
+            "runs": [
+              13.3515625,
+              13.37109375,
+              13.3515625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 8,
+            "minimum": 8,
+            "maximum": 9,
+            "runs": [
+              8,
+              9,
+              8
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.036,
+            "minimum": 0.034,
+            "maximum": 0.05,
+            "runs": [
+              0.036,
+              0.05,
+              0.034
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.138,
+            "minimum": 0.084,
+            "maximum": 0.234,
+            "runs": [
+              0.084,
+              0.138,
+              0.234
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "ping": {
+        "p50_ms": {
+          "median": 0.658,
+          "minimum": 0.6496,
+          "maximum": 0.7061,
+          "runs": [
+            0.658,
+            0.7061,
+            0.6496
+          ]
+        },
+        "p95_ms": {
+          "median": 1.2759,
+          "minimum": 1.2314,
+          "maximum": 1.3324,
+          "runs": [
+            1.2314,
+            1.3324,
+            1.2759
+          ]
+        },
+        "p99_ms": {
+          "median": 1.6121,
+          "minimum": 1.5151,
+          "maximum": 1.6467,
+          "runs": [
+            1.5151,
+            1.6467,
+            1.6121
+          ]
+        },
+        "max_ms": {
+          "median": 2.4788,
+          "minimum": 2.2745,
+          "maximum": 8.0453,
+          "runs": [
+            2.2745,
+            8.0453,
+            2.4788
+          ]
+        },
+        "throughput": {
+          "median": 8976.918,
+          "minimum": 8916.364,
+          "maximum": 8983.109,
+          "runs": [
+            8976.918,
+            8916.364,
+            8983.109
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 179655,
+          "minimum": 178357,
+          "maximum": 179695,
+          "runs": [
+            179655,
+            178357,
+            179695
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 10.470064464243077,
+            "minimum": 9.761036190471245,
+            "maximum": 10.703855484617668,
+            "runs": [
+              9.761036190471245,
+              10.703855484617668,
+              10.470064464243077
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.15617657904753993,
+            "minimum": 0.0,
+            "maximum": 0.23440442830394947,
+            "runs": [
+              0.15617657904753993,
+              0.0,
+              0.23440442830394947
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 10.001255607635178,
+            "minimum": 9.604859611423706,
+            "maximum": 10.547594820608651,
+            "runs": [
+              9.604859611423706,
+              10.547594820608651,
+              10.001255607635178
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 25.393813066261192,
+            "minimum": 23.895016594273606,
+            "maximum": 25.783009561487816,
+            "runs": [
+              23.895016594273606,
+              25.783009561487816,
+              25.393813066261192
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 18.125,
+            "minimum": 18.03125,
+            "maximum": 19.203125,
+            "runs": [
+              18.03125,
+              19.203125,
+              18.125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 28.87890625,
+            "minimum": 27.78515625,
+            "maximum": 28.8828125,
+            "runs": [
+              27.78515625,
+              28.87890625,
+              28.8828125
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 18,
+            "maximum": 19,
+            "runs": [
+              19,
+              18,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.187,
+            "minimum": 0.181,
+            "maximum": 0.225,
+            "runs": [
+              0.225,
+              0.187,
+              0.181
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.351,
+            "minimum": 0.333,
+            "maximum": 0.43,
+            "runs": [
+              0.43,
+              0.333,
+              0.351
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "fixed-combat": {
+        "p50_ms": {
+          "median": 31.7474,
+          "minimum": 30.314,
+          "maximum": 32.0455,
+          "runs": [
+            31.7474,
+            32.0455,
+            30.314
+          ]
+        },
+        "p95_ms": {
+          "median": 33.4752,
+          "minimum": 31.599,
+          "maximum": 34.9591,
+          "runs": [
+            33.4752,
+            34.9591,
+            31.599
+          ]
+        },
+        "p99_ms": {
+          "median": 42.0265,
+          "minimum": 32.0965,
+          "maximum": 43.0515,
+          "runs": [
+            43.0515,
+            42.0265,
+            32.0965
+          ]
+        },
+        "max_ms": {
+          "median": 45.5266,
+          "minimum": 32.812,
+          "maximum": 47.0968,
+          "runs": [
+            47.0968,
+            45.5266,
+            32.812
+          ]
+        },
+        "throughput": {
+          "median": 1916.231,
+          "minimum": 1915.531,
+          "maximum": 1919.658,
+          "runs": [
+            1916.231,
+            1915.531,
+            1919.658
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 21532,
+          "minimum": 21517,
+          "maximum": 21534,
+          "runs": [
+            21534,
+            21517,
+            21532
+          ]
+        },
+        "rejected": {
+          "median": 16868,
+          "minimum": 16866,
+          "maximum": 16883,
+          "runs": [
+            16866,
+            16883,
+            16868
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 8.968124578900644,
+            "minimum": 8.124245826259996,
+            "maximum": 9.126132017895932,
+            "runs": [
+              9.126132017895932,
+              8.968124578900644,
+              8.124245826259996
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 8.112117349240828,
+            "minimum": 7.577421587954035,
+            "maximum": 8.18828765899624,
+            "runs": [
+              8.112117349240828,
+              8.18828765899624,
+              7.577421587954035
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 0.31200451343233954,
+            "minimum": 0.23395107597132114,
+            "maximum": 0.3124709933176921,
+            "runs": [
+              0.31200451343233954,
+              0.23395107597132114,
+              0.3124709933176921
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 28.08040620891056,
+            "minimum": 24.87679774495048,
+            "maximum": 28.278624895251138,
+            "runs": [
+              28.08040620891056,
+              24.87679774495048,
+              28.278624895251138
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 20.9765625,
+            "minimum": 20.81640625,
+            "maximum": 20.984375,
+            "runs": [
+              20.9765625,
+              20.984375,
+              20.81640625
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 28.28125,
+            "minimum": 28.01171875,
+            "maximum": 28.7734375,
+            "runs": [
+              28.7734375,
+              28.28125,
+              28.01171875
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 18,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              18
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 5.543,
+            "minimum": 5.422,
+            "maximum": 5.749,
+            "runs": [
+              5.749,
+              5.543,
+              5.422
+            ]
+          },
+          "tick_max_ms": {
+            "median": 6.07,
+            "minimum": 5.781,
+            "maximum": 6.35,
+            "runs": [
+              6.07,
+              6.35,
+              5.781
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 96,
+            "minimum": 96,
+            "maximum": 96,
+            "runs": [
+              96,
+              96,
+              96
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "network": 2,
+      "db": 2,
+      "session": {
+        "p50_ms": {
+          "median": 959.7359,
+          "minimum": 908.6798,
+          "maximum": 983.0391,
+          "runs": [
+            983.0391,
+            908.6798,
+            959.7359
+          ]
+        },
+        "p95_ms": {
+          "median": 1748.2248,
+          "minimum": 1680.6548,
+          "maximum": 1750.8097,
+          "runs": [
+            1748.2248,
+            1680.6548,
+            1750.8097
+          ]
+        },
+        "p99_ms": {
+          "median": 1833.6301,
+          "minimum": 1770.4577,
+          "maximum": 1906.5448,
+          "runs": [
+            1833.6301,
+            1770.4577,
+            1906.5448
+          ]
+        },
+        "max_ms": {
+          "median": 1833.6301,
+          "minimum": 1770.4577,
+          "maximum": 1906.5448,
+          "runs": [
+            1833.6301,
+            1770.4577,
+            1906.5448
+          ]
+        },
+        "throughput": {
+          "median": 16.469874540730686,
+          "minimum": 16.468721780159033,
+          "maximum": 16.931757433526535,
+          "runs": [
+            16.469874540730686,
+            16.931757433526535,
+            16.468721780159033
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 1690.6947,
+          "minimum": 1664.1086,
+          "maximum": 1693.4691,
+          "runs": [
+            1693.4691,
+            1664.1086,
+            1690.6947
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 1927.7866,
+          "minimum": 1912.7289,
+          "maximum": 1955.8484,
+          "runs": [
+            1927.7866,
+            1912.7289,
+            1955.8484
+          ]
+        },
+        "accepted": {
+          "median": 96,
+          "minimum": 96,
+          "maximum": 96,
+          "runs": [
+            96,
+            96,
+            96
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 183.30654842662162,
+            "minimum": 182.03762350956066,
+            "maximum": 187.08136029871912,
+            "runs": [
+              183.30654842662162,
+              182.03762350956066,
+              187.08136029871912
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 1.0735376188967591,
+            "minimum": 0.0,
+            "maximum": 1.075180231601834,
+            "runs": [
+              1.0735376188967591,
+              0.0,
+              1.075180231601834
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 182.23301080772487,
+            "minimum": 182.03762350956066,
+            "maximum": 185.46858995131637,
+            "runs": [
+              182.23301080772487,
+              182.03762350956066,
+              185.46858995131637
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 2.150360463203668,
+            "runs": [
+              0.0,
+              0.0,
+              2.150360463203668
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 18.9453125,
+            "minimum": 18.8125,
+            "maximum": 18.9765625,
+            "runs": [
+              18.9765625,
+              18.9453125,
+              18.8125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 13.73828125,
+            "minimum": 13.63671875,
+            "maximum": 13.9765625,
+            "runs": [
+              13.73828125,
+              13.63671875,
+              13.9765625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 5,
+            "minimum": 4,
+            "maximum": 5,
+            "runs": [
+              5,
+              4,
+              5
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.038,
+            "minimum": 0.035,
+            "maximum": 0.054,
+            "runs": [
+              0.054,
+              0.035,
+              0.038
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.257,
+            "minimum": 0.08,
+            "maximum": 0.346,
+            "runs": [
+              0.257,
+              0.08,
+              0.346
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 31,
+            "minimum": 30,
+            "maximum": 31,
+            "runs": [
+              31,
+              31,
+              30
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "ping": {
+        "p50_ms": {
+          "median": 0.3709,
+          "minimum": 0.3695,
+          "maximum": 0.4084,
+          "runs": [
+            0.3709,
+            0.4084,
+            0.3695
+          ]
+        },
+        "p95_ms": {
+          "median": 0.7096,
+          "minimum": 0.6923,
+          "maximum": 0.7775,
+          "runs": [
+            0.6923,
+            0.7775,
+            0.7096
+          ]
+        },
+        "p99_ms": {
+          "median": 0.9004,
+          "minimum": 0.8526,
+          "maximum": 0.9568,
+          "runs": [
+            0.8526,
+            0.9568,
+            0.9004
+          ]
+        },
+        "max_ms": {
+          "median": 1.395,
+          "minimum": 1.3408,
+          "maximum": 1.487,
+          "runs": [
+            1.3408,
+            1.395,
+            1.487
+          ]
+        },
+        "throughput": {
+          "median": 8921.35,
+          "minimum": 8903.274,
+          "maximum": 8958.162,
+          "runs": [
+            8958.162,
+            8903.274,
+            8921.35
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 178484,
+          "minimum": 178154,
+          "maximum": 179309,
+          "runs": [
+            179309,
+            178154,
+            178484
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 12.80930625567073,
+            "minimum": 12.573272282696111,
+            "maximum": 17.417217636003617,
+            "runs": [
+              12.573272282696111,
+              17.417217636003617,
+              12.80930625567073
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.4685691533924017,
+            "minimum": 0.2343123448789724,
+            "maximum": 1.0153718373397531,
+            "runs": [
+              0.4685691533924017,
+              0.2343123448789724,
+              1.0153718373397531
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 11.636133975911308,
+            "minimum": 11.247195736686495,
+            "maximum": 16.870488831286014,
+            "runs": [
+              11.636133975911308,
+              16.870488831286014,
+              11.247195736686495
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 28.586622497411508,
+            "minimum": 24.756070270898558,
+            "maximum": 38.036703985353185,
+            "runs": [
+              24.756070270898558,
+              38.036703985353185,
+              28.586622497411508
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 18.9375,
+            "minimum": 18.90234375,
+            "maximum": 20.109375,
+            "runs": [
+              18.9375,
+              20.109375,
+              18.90234375
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 31.21484375,
+            "minimum": 30.625,
+            "maximum": 31.8828125,
+            "runs": [
+              30.625,
+              31.8828125,
+              31.21484375
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 19,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.276,
+            "minimum": 0.235,
+            "maximum": 0.398,
+            "runs": [
+              0.398,
+              0.276,
+              0.235
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.406,
+            "minimum": 0.33,
+            "maximum": 0.434,
+            "runs": [
+              0.434,
+              0.406,
+              0.33
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "fixed-combat": {
+        "p50_ms": {
+          "median": 17.0356,
+          "minimum": 16.4757,
+          "maximum": 23.3575,
+          "runs": [
+            23.3575,
+            17.0356,
+            16.4757
+          ]
+        },
+        "p95_ms": {
+          "median": 33.6875,
+          "minimum": 32.8907,
+          "maximum": 33.7345,
+          "runs": [
+            32.8907,
+            33.7345,
+            33.6875
+          ]
+        },
+        "p99_ms": {
+          "median": 38.6258,
+          "minimum": 36.7082,
+          "maximum": 40.8364,
+          "runs": [
+            40.8364,
+            38.6258,
+            36.7082
+          ]
+        },
+        "max_ms": {
+          "median": 46.2512,
+          "minimum": 42.0533,
+          "maximum": 46.9957,
+          "runs": [
+            46.9957,
+            46.2512,
+            42.0533
+          ]
+        },
+        "throughput": {
+          "median": 1917.25,
+          "minimum": 1916.769,
+          "maximum": 1917.669,
+          "runs": [
+            1916.769,
+            1917.25,
+            1917.669
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 21532,
+          "minimum": 21527,
+          "maximum": 21535,
+          "runs": [
+            21535,
+            21527,
+            21532
+          ]
+        },
+        "rejected": {
+          "median": 16868,
+          "minimum": 16865,
+          "maximum": 16873,
+          "runs": [
+            16865,
+            16873,
+            16868
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 9.681402604232678,
+            "minimum": 7.568646708040917,
+            "maximum": 11.316788463741075,
+            "runs": [
+              7.568646708040917,
+              9.681402604232678,
+              11.316788463741075
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 9.291023466965232,
+            "minimum": 7.178510279791385,
+            "maximum": 10.224133025862626,
+            "runs": [
+              7.178510279791385,
+              9.291023466965232,
+              10.224133025862626
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 0.07802728564990635,
+            "minimum": 0.0,
+            "maximum": 0.39023408495658873,
+            "runs": [
+              0.07802728564990635,
+              0.0,
+              0.39023408495658873
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 28.34152536561663,
+            "minimum": 22.783967409772657,
+            "maximum": 28.877322286787567,
+            "runs": [
+              22.783967409772657,
+              28.34152536561663,
+              28.877322286787567
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 22.21875,
+            "minimum": 22.0078125,
+            "maximum": 22.25390625,
+            "runs": [
+              22.25390625,
+              22.21875,
+              22.0078125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 29.34765625,
+            "minimum": 28.90625,
+            "maximum": 30.1015625,
+            "runs": [
+              28.90625,
+              29.34765625,
+              30.1015625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 19,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 5.513,
+            "minimum": 5.304,
+            "maximum": 5.798,
+            "runs": [
+              5.513,
+              5.304,
+              5.798
+            ]
+          },
+          "tick_max_ms": {
+            "median": 5.859,
+            "minimum": 5.776,
+            "maximum": 6.228,
+            "runs": [
+              5.776,
+              6.228,
+              5.859
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 96,
+            "minimum": 96,
+            "maximum": 96,
+            "runs": [
+              96,
+              96,
+              96
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "network": 4,
+      "db": 6,
+      "session": {
+        "p50_ms": {
+          "median": 351.1745,
+          "minimum": 349.0238,
+          "maximum": 372.924,
+          "runs": [
+            372.924,
+            349.0238,
+            351.1745
+          ]
+        },
+        "p95_ms": {
+          "median": 600.8327,
+          "minimum": 591.3038,
+          "maximum": 622.0306,
+          "runs": [
+            622.0306,
+            591.3038,
+            600.8327
+          ]
+        },
+        "p99_ms": {
+          "median": 700.9164,
+          "minimum": 682.512,
+          "maximum": 717.2485,
+          "runs": [
+            717.2485,
+            682.512,
+            700.9164
+          ]
+        },
+        "max_ms": {
+          "median": 700.9164,
+          "minimum": 682.512,
+          "maximum": 717.2485,
+          "runs": [
+            717.2485,
+            682.512,
+            700.9164
+          ]
+        },
+        "throughput": {
+          "median": 42.115718200219874,
+          "minimum": 40.3186348110253,
+          "maximum": 42.72614145557282,
+          "runs": [
+            40.3186348110253,
+            42.115718200219874,
+            42.72614145557282
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 531.9355,
+          "minimum": 530.218,
+          "maximum": 547.8682,
+          "runs": [
+            547.8682,
+            530.218,
+            531.9355
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 774.2545,
+          "minimum": 754.3247,
+          "maximum": 781.5485,
+          "runs": [
+            781.5485,
+            774.2545,
+            754.3247
+          ]
+        },
+        "accepted": {
+          "median": 96,
+          "minimum": 96,
+          "maximum": 96,
+          "runs": [
+            96,
+            96,
+            96
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 475.8130638707429,
+            "minimum": 469.08583242164724,
+            "maximum": 490.6468782379952,
+            "runs": [
+              469.08583242164724,
+              475.8130638707429,
+              490.6468782379952
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 2.0967815309316036,
+            "runs": [
+              0.0,
+              0.0,
+              2.0967815309316036
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 475.8130638707429,
+            "minimum": 469.08583242164724,
+            "maximum": 487.8511695300864,
+            "runs": [
+              469.08583242164724,
+              475.8130638707429,
+              487.8511695300864
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 10.483907654658017,
+            "runs": [
+              0.0,
+              0.0,
+              10.483907654658017
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 20.9453125,
+            "minimum": 20.1640625,
+            "maximum": 21.01171875,
+            "runs": [
+              20.1640625,
+              21.01171875,
+              20.9453125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 13.765625,
+            "minimum": 13.5390625,
+            "maximum": 13.8125,
+            "runs": [
+              13.8125,
+              13.5390625,
+              13.765625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 1,
+            "minimum": 1,
+            "maximum": 1,
+            "runs": [
+              1,
+              1,
+              1
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.045,
+            "minimum": 0.036,
+            "maximum": 0.102,
+            "runs": [
+              0.102,
+              0.045,
+              0.036
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.104,
+            "minimum": 0.075,
+            "maximum": 0.122,
+            "runs": [
+              0.104,
+              0.122,
+              0.075
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 24,
+            "minimum": 21,
+            "maximum": 28,
+            "runs": [
+              21,
+              28,
+              24
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "ping": {
+        "p50_ms": {
+          "median": 0.2105,
+          "minimum": 0.2003,
+          "maximum": 0.2203,
+          "runs": [
+            0.2003,
+            0.2203,
+            0.2105
+          ]
+        },
+        "p95_ms": {
+          "median": 0.411,
+          "minimum": 0.3968,
+          "maximum": 0.4155,
+          "runs": [
+            0.3968,
+            0.411,
+            0.4155
+          ]
+        },
+        "p99_ms": {
+          "median": 0.5217,
+          "minimum": 0.5078,
+          "maximum": 0.5411,
+          "runs": [
+            0.5078,
+            0.5217,
+            0.5411
+          ]
+        },
+        "max_ms": {
+          "median": 1.0108,
+          "minimum": 0.8919,
+          "maximum": 1.3762,
+          "runs": [
+            0.8919,
+            1.0108,
+            1.3762
+          ]
+        },
+        "throughput": {
+          "median": 8958.971,
+          "minimum": 8888.366,
+          "maximum": 8973.363,
+          "runs": [
+            8888.366,
+            8958.971,
+            8973.363
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 179271,
+          "minimum": 177891,
+          "maximum": 179532,
+          "runs": [
+            177891,
+            179271,
+            179532
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 12.57459751103301,
+            "minimum": 10.779709795064253,
+            "maximum": 13.04054713970284,
+            "runs": [
+              13.04054713970284,
+              12.57459751103301,
+              10.779709795064253
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.23430927039191946,
+            "minimum": 0.1561742172419502,
+            "maximum": 0.39056919547334246,
+            "runs": [
+              0.1561742172419502,
+              0.23430927039191946,
+              0.39056919547334246
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 11.949772789987891,
+            "minimum": 9.998571404117568,
+            "maximum": 12.72819870521894,
+            "runs": [
+              12.72819870521894,
+              11.949772789987891,
+              9.998571404117568
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 21.55645287605659,
+            "minimum": 21.090736555560493,
+            "maximum": 26.003007170784706,
+            "runs": [
+              26.003007170784706,
+              21.55645287605659,
+              21.090736555560493
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 21.18359375,
+            "minimum": 20.16796875,
+            "maximum": 23.08203125,
+            "runs": [
+              20.16796875,
+              23.08203125,
+              21.18359375
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 31.15625,
+            "minimum": 30.3046875,
+            "maximum": 31.94140625,
+            "runs": [
+              31.94140625,
+              30.3046875,
+              31.15625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 18,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              18
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.444,
+            "minimum": 0.384,
+            "maximum": 0.509,
+            "runs": [
+              0.444,
+              0.384,
+              0.509
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.646,
+            "minimum": 0.576,
+            "maximum": 0.775,
+            "runs": [
+              0.775,
+              0.576,
+              0.646
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "fixed-combat": {
+        "p50_ms": {
+          "median": 18.0288,
+          "minimum": 17.8536,
+          "maximum": 30.1454,
+          "runs": [
+            18.0288,
+            30.1454,
+            17.8536
+          ]
+        },
+        "p95_ms": {
+          "median": 33.6134,
+          "minimum": 32.2624,
+          "maximum": 34.117,
+          "runs": [
+            33.6134,
+            32.2624,
+            34.117
+          ]
+        },
+        "p99_ms": {
+          "median": 37.3889,
+          "minimum": 33.0395,
+          "maximum": 38.009,
+          "runs": [
+            38.009,
+            33.0395,
+            37.3889
+          ]
+        },
+        "max_ms": {
+          "median": 47.0287,
+          "minimum": 44.2418,
+          "maximum": 48.6138,
+          "runs": [
+            48.6138,
+            47.0287,
+            44.2418
+          ]
+        },
+        "throughput": {
+          "median": 1916.857,
+          "minimum": 1916.049,
+          "maximum": 1916.947,
+          "runs": [
+            1916.947,
+            1916.857,
+            1916.049
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 21546,
+          "minimum": 21513,
+          "maximum": 21586,
+          "runs": [
+            21513,
+            21546,
+            21586
+          ]
+        },
+        "rejected": {
+          "median": 16854,
+          "minimum": 16814,
+          "maximum": 16887,
+          "runs": [
+            16887,
+            16854,
+            16814
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 10.377326352506106,
+            "minimum": 9.443273729628917,
+            "maximum": 12.710879701523893,
+            "runs": [
+              10.377326352506106,
+              9.443273729628917,
+              12.710879701523893
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 9.128926189798605,
+            "minimum": 8.66283788420504,
+            "maximum": 12.165013702071947,
+            "runs": [
+              9.128926189798605,
+              8.66283788420504,
+              12.165013702071947
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 0.23413075362716324,
+            "minimum": 0.07798085706456377,
+            "maximum": 0.3901250508460942,
+            "runs": [
+              0.3901250508460942,
+              0.23413075362716324,
+              0.07798085706456377
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 26.37873157532706,
+            "minimum": 21.37885278636596,
+            "maximum": 27.13733825846819,
+            "runs": [
+              21.37885278636596,
+              26.37873157532706,
+              27.13733825846819
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 24.48828125,
+            "minimum": 23.890625,
+            "maximum": 24.828125,
+            "runs": [
+              23.890625,
+              24.48828125,
+              24.828125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 29.90625,
+            "minimum": 29.76953125,
+            "maximum": 30.35546875,
+            "runs": [
+              29.90625,
+              29.76953125,
+              30.35546875
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 18,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              18
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 5.54,
+            "minimum": 5.441,
+            "maximum": 5.937,
+            "runs": [
+              5.441,
+              5.54,
+              5.937
+            ]
+          },
+          "tick_max_ms": {
+            "median": 5.987,
+            "minimum": 5.798,
+            "maximum": 6.744,
+            "runs": [
+              5.798,
+              5.987,
+              6.744
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 96,
+            "minimum": 96,
+            "maximum": 96,
+            "runs": [
+              96,
+              96,
+              96
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "network": 1,
+      "db": 2,
+      "session": {
+        "p50_ms": {
+          "median": 940.5872,
+          "minimum": 908.2683,
+          "maximum": 974.6878,
+          "runs": [
+            974.6878,
+            940.5872,
+            908.2683
+          ]
+        },
+        "p95_ms": {
+          "median": 1736.0909,
+          "minimum": 1688.1087,
+          "maximum": 1744.059,
+          "runs": [
+            1744.059,
+            1736.0909,
+            1688.1087
+          ]
+        },
+        "p99_ms": {
+          "median": 1823.5266,
+          "minimum": 1771.8529,
+          "maximum": 1911.4455,
+          "runs": [
+            1911.4455,
+            1823.5266,
+            1771.8529
+          ]
+        },
+        "max_ms": {
+          "median": 1823.5266,
+          "minimum": 1771.8529,
+          "maximum": 1911.4455,
+          "runs": [
+            1911.4455,
+            1823.5266,
+            1771.8529
+          ]
+        },
+        "throughput": {
+          "median": 16.389625094154983,
+          "minimum": 16.1340524639051,
+          "maximum": 16.80742005576912,
+          "runs": [
+            16.1340524639051,
+            16.389625094154983,
+            16.80742005576912
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 1682.377,
+          "minimum": 1612.318,
+          "maximum": 1696.783,
+          "runs": [
+            1696.783,
+            1682.377,
+            1612.318
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 1927.6494,
+          "minimum": 1910.5584,
+          "maximum": 1975.9599,
+          "runs": [
+            1975.9599,
+            1927.6494,
+            1910.5584
+          ]
+        },
+        "accepted": {
+          "median": 96,
+          "minimum": 96,
+          "maximum": 96,
+          "runs": [
+            96,
+            96,
+            96
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 180.62529559583137,
+            "minimum": 179.46071768294703,
+            "maximum": 181.20973729735556,
+            "runs": [
+              181.20973729735556,
+              180.62529559583137,
+              179.46071768294703
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.5336050091457353,
+            "minimum": 0.2626228076773269,
+            "maximum": 0.5479716570471665,
+            "runs": [
+              0.2626228076773269,
+              0.5336050091457353,
+              0.5479716570471665
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 180.09169058668564,
+            "minimum": 178.91274602589988,
+            "maximum": 180.6844916820009,
+            "runs": [
+              180.6844916820009,
+              180.09169058668564,
+              178.91274602589988
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 0.2626228076773269,
+            "minimum": 0.0,
+            "maximum": 3.0138441137594163,
+            "runs": [
+              0.2626228076773269,
+              0.0,
+              3.0138441137594163
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 19.1328125,
+            "minimum": 18.89453125,
+            "maximum": 19.2109375,
+            "runs": [
+              19.2109375,
+              18.89453125,
+              19.1328125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 13.640625,
+            "minimum": 13.3203125,
+            "maximum": 13.71484375,
+            "runs": [
+              13.3203125,
+              13.71484375,
+              13.640625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 4,
+            "minimum": 4,
+            "maximum": 5,
+            "runs": [
+              5,
+              4,
+              4
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.043,
+            "minimum": 0.042,
+            "maximum": 0.075,
+            "runs": [
+              0.042,
+              0.043,
+              0.075
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.967,
+            "minimum": 0.774,
+            "maximum": 0.972,
+            "runs": [
+              0.967,
+              0.774,
+              0.972
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 31,
+            "minimum": 31,
+            "maximum": 32,
+            "runs": [
+              31,
+              32,
+              31
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 29,
+            "runs": [
+              29,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "ping": {
+        "p50_ms": {
+          "median": 0.6678,
+          "minimum": 0.6461,
+          "maximum": 0.6888,
+          "runs": [
+            0.6678,
+            0.6888,
+            0.6461
+          ]
+        },
+        "p95_ms": {
+          "median": 1.2606,
+          "minimum": 1.227,
+          "maximum": 1.2966,
+          "runs": [
+            1.2606,
+            1.2966,
+            1.227
+          ]
+        },
+        "p99_ms": {
+          "median": 1.5536,
+          "minimum": 1.5373,
+          "maximum": 1.5894,
+          "runs": [
+            1.5536,
+            1.5894,
+            1.5373
+          ]
+        },
+        "max_ms": {
+          "median": 2.2523,
+          "minimum": 2.1567,
+          "maximum": 2.3798,
+          "runs": [
+            2.3798,
+            2.1567,
+            2.2523
+          ]
+        },
+        "throughput": {
+          "median": 8912.96,
+          "minimum": 8893.917,
+          "maximum": 8917.608,
+          "runs": [
+            8917.608,
+            8912.96,
+            8893.917
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 178353,
+          "minimum": 177914,
+          "maximum": 178428,
+          "runs": [
+            178428,
+            178353,
+            177914
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 12.108090210548015,
+            "minimum": 11.01558738176918,
+            "maximum": 13.278588174214645,
+            "runs": [
+              12.108090210548015,
+              13.278588174214645,
+              11.01558738176918
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.3905467110063131,
+            "minimum": 0.31249893281614693,
+            "maximum": 0.5468169772505556,
+            "runs": [
+              0.5468169772505556,
+              0.3905467110063131,
+              0.31249893281614693
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 10.93633954501111,
+            "minimum": 10.31246478293285,
+            "maximum": 12.419385410000757,
+            "runs": [
+              10.93633954501111,
+              12.419385410000757,
+              10.31246478293285
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 28.43740288626937,
+            "minimum": 25.46604779766873,
+            "maximum": 31.32184622270631,
+            "runs": [
+              25.46604779766873,
+              31.32184622270631,
+              28.43740288626937
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 19.15234375,
+            "minimum": 19.02734375,
+            "maximum": 20.13671875,
+            "runs": [
+              19.02734375,
+              20.13671875,
+              19.15234375
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 29.05078125,
+            "minimum": 28.94140625,
+            "maximum": 29.69140625,
+            "runs": [
+              29.05078125,
+              28.94140625,
+              29.69140625
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 19,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.257,
+            "minimum": 0.184,
+            "maximum": 0.264,
+            "runs": [
+              0.184,
+              0.264,
+              0.257
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.346,
+            "minimum": 0.316,
+            "maximum": 0.427,
+            "runs": [
+              0.316,
+              0.427,
+              0.346
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "fixed-combat": {
+        "p50_ms": {
+          "median": 30.2497,
+          "minimum": 17.3936,
+          "maximum": 32.08,
+          "runs": [
+            32.08,
+            17.3936,
+            30.2497
+          ]
+        },
+        "p95_ms": {
+          "median": 33.5152,
+          "minimum": 32.9555,
+          "maximum": 34.3252,
+          "runs": [
+            34.3252,
+            33.5152,
+            32.9555
+          ]
+        },
+        "p99_ms": {
+          "median": 42.3735,
+          "minimum": 36.5134,
+          "maximum": 42.9877,
+          "runs": [
+            42.3735,
+            42.9877,
+            36.5134
+          ]
+        },
+        "max_ms": {
+          "median": 45.5567,
+          "minimum": 44.747,
+          "maximum": 47.7856,
+          "runs": [
+            44.747,
+            47.7856,
+            45.5567
+          ]
+        },
+        "throughput": {
+          "median": 1916.167,
+          "minimum": 1912.104,
+          "maximum": 1917.784,
+          "runs": [
+            1912.104,
+            1916.167,
+            1917.784
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 21527,
+          "minimum": 21510,
+          "maximum": 21536,
+          "runs": [
+            21536,
+            21510,
+            21527
+          ]
+        },
+        "rejected": {
+          "median": 16873,
+          "minimum": 16789,
+          "maximum": 16881,
+          "runs": [
+            16789,
+            16881,
+            16873
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 8.118914467660762,
+            "minimum": 7.328882957831365,
+            "maximum": 9.440041951459062,
+            "runs": [
+              7.328882957831365,
+              9.440041951459062,
+              8.118914467660762
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 7.806648526596886,
+            "minimum": 6.54921455806207,
+            "maximum": 8.815906946403917,
+            "runs": [
+              6.54921455806207,
+              8.815906946403917,
+              7.806648526596886
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 0.23405062689567924,
+            "minimum": 0.0,
+            "maximum": 0.389834199884647,
+            "runs": [
+              0.389834199884647,
+              0.23405062689567924,
+              0.0
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 22.532416753332598,
+            "minimum": 19.98502022808803,
+            "maximum": 27.774007724953936,
+            "runs": [
+              22.532416753332598,
+              27.774007724953936,
+              19.98502022808803
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 22.03125,
+            "minimum": 21.84375,
+            "maximum": 22.14453125,
+            "runs": [
+              22.14453125,
+              21.84375,
+              22.03125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 28.39453125,
+            "minimum": 28.30078125,
+            "maximum": 28.73828125,
+            "runs": [
+              28.73828125,
+              28.39453125,
+              28.30078125
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 18,
+            "maximum": 19,
+            "runs": [
+              18,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 5.549,
+            "minimum": 4.392,
+            "maximum": 5.569,
+            "runs": [
+              4.392,
+              5.549,
+              5.569
+            ]
+          },
+          "tick_max_ms": {
+            "median": 5.72,
+            "minimum": 5.313,
+            "maximum": 5.952,
+            "runs": [
+              5.313,
+              5.952,
+              5.72
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 96,
+            "minimum": 96,
+            "maximum": 96,
+            "runs": [
+              96,
+              96,
+              96
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "network": 4,
+      "db": 2,
+      "session": {
+        "p50_ms": {
+          "median": 922.9686,
+          "minimum": 913.7722,
+          "maximum": 948.4802,
+          "runs": [
+            948.4802,
+            922.9686,
+            913.7722
+          ]
+        },
+        "p95_ms": {
+          "median": 1723.0932,
+          "minimum": 1711.0465,
+          "maximum": 1774.0856,
+          "runs": [
+            1774.0856,
+            1711.0465,
+            1723.0932
+          ]
+        },
+        "p99_ms": {
+          "median": 1829.6749,
+          "minimum": 1792.1126,
+          "maximum": 1891.1519,
+          "runs": [
+            1891.1519,
+            1792.1126,
+            1829.6749
+          ]
+        },
+        "max_ms": {
+          "median": 1829.6749,
+          "minimum": 1792.1126,
+          "maximum": 1891.1519,
+          "runs": [
+            1891.1519,
+            1792.1126,
+            1829.6749
+          ]
+        },
+        "throughput": {
+          "median": 16.273426105423322,
+          "minimum": 15.714452680345444,
+          "maximum": 16.54798372298951,
+          "runs": [
+            16.273426105423322,
+            16.54798372298951,
+            15.714452680345444
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 1675.0977,
+          "minimum": 1647.5383,
+          "maximum": 1725.6727,
+          "runs": [
+            1725.6727,
+            1675.0977,
+            1647.5383
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 2035.8145,
+          "minimum": 1975.533,
+          "maximum": 2194.3697,
+          "runs": [
+            2035.8145,
+            1975.533,
+            2194.3697
+          ]
+        },
+        "accepted": {
+          "median": 96,
+          "minimum": 96,
+          "maximum": 96,
+          "runs": [
+            96,
+            96,
+            96
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 180.51061290326436,
+            "minimum": 179.31798276309476,
+            "maximum": 182.63229843405904,
+            "runs": [
+              182.63229843405904,
+              180.51061290326436,
+              179.31798276309476
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.7685056404132633,
+            "minimum": 0.26506864794493334,
+            "maximum": 1.077675300915011,
+            "runs": [
+              0.26506864794493334,
+              1.077675300915011,
+              0.7685056404132633
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 179.1635187771206,
+            "minimum": 178.03714002907265,
+            "maximum": 181.83709249022425,
+            "runs": [
+              181.83709249022425,
+              179.1635187771206,
+              178.03714002907265
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 1.7931798276309476,
+            "minimum": 0.26506864794493334,
+            "maximum": 2.424769427058775,
+            "runs": [
+              0.26506864794493334,
+              2.424769427058775,
+              1.7931798276309476
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 19.1953125,
+            "minimum": 18.9921875,
+            "maximum": 19.50390625,
+            "runs": [
+              19.1953125,
+              19.50390625,
+              18.9921875
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 13.5546875,
+            "minimum": 13.3984375,
+            "maximum": 13.8984375,
+            "runs": [
+              13.5546875,
+              13.3984375,
+              13.8984375
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 5,
+            "minimum": 5,
+            "maximum": 5,
+            "runs": [
+              5,
+              5,
+              5
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.08,
+            "minimum": 0.049,
+            "maximum": 0.08,
+            "runs": [
+              0.08,
+              0.049,
+              0.08
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.186,
+            "minimum": 0.093,
+            "maximum": 0.214,
+            "runs": [
+              0.214,
+              0.093,
+              0.186
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 31,
+            "minimum": 27,
+            "maximum": 32,
+            "runs": [
+              31,
+              32,
+              27
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 23,
+            "minimum": 0,
+            "maximum": 29,
+            "runs": [
+              0,
+              29,
+              23
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "ping": {
+        "p50_ms": {
+          "median": 0.1869,
+          "minimum": 0.1703,
+          "maximum": 0.1992,
+          "runs": [
+            0.1703,
+            0.1869,
+            0.1992
+          ]
+        },
+        "p95_ms": {
+          "median": 0.3832,
+          "minimum": 0.3525,
+          "maximum": 0.3933,
+          "runs": [
+            0.3525,
+            0.3832,
+            0.3933
+          ]
+        },
+        "p99_ms": {
+          "median": 0.5048,
+          "minimum": 0.4722,
+          "maximum": 0.509,
+          "runs": [
+            0.4722,
+            0.509,
+            0.5048
+          ]
+        },
+        "max_ms": {
+          "median": 1.0059,
+          "minimum": 0.9451,
+          "maximum": 1.0953,
+          "runs": [
+            0.9451,
+            1.0953,
+            1.0059
+          ]
+        },
+        "throughput": {
+          "median": 8916.633,
+          "minimum": 8883.483,
+          "maximum": 8956.878,
+          "runs": [
+            8883.483,
+            8916.633,
+            8956.878
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 178482,
+          "minimum": 177698,
+          "maximum": 179243,
+          "runs": [
+            177698,
+            178482,
+            179243
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 14.924325201090024,
+            "minimum": 14.214015098360337,
+            "maximum": 19.139551749635245,
+            "runs": [
+              14.924325201090024,
+              19.139551749635245,
+              14.214015098360337
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.4688269696677494,
+            "minimum": 0.15624123877253263,
+            "maximum": 0.5466928883984745,
+            "runs": [
+              0.4688269696677494,
+              0.15624123877253263,
+              0.5466928883984745
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 14.142946918310441,
+            "minimum": 13.511124241848012,
+            "maximum": 18.592707413931382,
+            "runs": [
+              14.142946918310441,
+              18.592707413931382,
+              13.511124241848012
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 29.926788230458005,
+            "minimum": 28.349931212663748,
+            "maximum": 33.20126323916318,
+            "runs": [
+              29.926788230458005,
+              33.20126323916318,
+              28.349931212663748
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 19.16015625,
+            "minimum": 19.1015625,
+            "maximum": 20.90625,
+            "runs": [
+              19.16015625,
+              20.90625,
+              19.1015625
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 31.2734375,
+            "minimum": 30.70703125,
+            "maximum": 31.625,
+            "runs": [
+              31.625,
+              31.2734375,
+              30.70703125
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 19,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.411,
+            "minimum": 0.324,
+            "maximum": 0.539,
+            "runs": [
+              0.411,
+              0.539,
+              0.324
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.649,
+            "minimum": 0.528,
+            "maximum": 0.861,
+            "runs": [
+              0.861,
+              0.649,
+              0.528
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "fixed-combat": {
+        "p50_ms": {
+          "median": 29.3391,
+          "minimum": 17.8053,
+          "maximum": 29.4701,
+          "runs": [
+            17.8053,
+            29.3391,
+            29.4701
+          ]
+        },
+        "p95_ms": {
+          "median": 31.0809,
+          "minimum": 31.0362,
+          "maximum": 33.7301,
+          "runs": [
+            33.7301,
+            31.0362,
+            31.0809
+          ]
+        },
+        "p99_ms": {
+          "median": 31.4966,
+          "minimum": 31.4424,
+          "maximum": 41.9719,
+          "runs": [
+            41.9719,
+            31.4966,
+            31.4424
+          ]
+        },
+        "max_ms": {
+          "median": 32.2688,
+          "minimum": 31.9904,
+          "maximum": 47.0193,
+          "runs": [
+            47.0193,
+            32.2688,
+            31.9904
+          ]
+        },
+        "throughput": {
+          "median": 1918.638,
+          "minimum": 1916.785,
+          "maximum": 1919.483,
+          "runs": [
+            1916.785,
+            1919.483,
+            1918.638
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 21538,
+          "minimum": 21516,
+          "maximum": 21543,
+          "runs": [
+            21516,
+            21543,
+            21538
+          ]
+        },
+        "rejected": {
+          "median": 16862,
+          "minimum": 16857,
+          "maximum": 16884,
+          "runs": [
+            16884,
+            16857,
+            16862
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 9.984113976728239,
+            "minimum": 8.594740071082397,
+            "maximum": 10.074542895527811,
+            "runs": [
+              9.984113976728239,
+              8.594740071082397,
+              10.074542895527811
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 9.516108634069102,
+            "minimum": 7.5008640620355465,
+            "maximum": 9.605959505038145,
+            "runs": [
+              9.516108634069102,
+              7.5008640620355465,
+              9.605959505038145
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 0.07800089044318936,
+            "minimum": 0.0,
+            "maximum": 0.5469380045234252,
+            "runs": [
+              0.07800089044318936,
+              0.5469380045234252,
+              0.0
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 24.444433537210887,
+            "minimum": 18.83029415573507,
+            "maximum": 28.470325011764114,
+            "runs": [
+              28.470325011764114,
+              18.83029415573507,
+              24.444433537210887
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 22.640625,
+            "minimum": 22.453125,
+            "maximum": 22.6953125,
+            "runs": [
+              22.6953125,
+              22.640625,
+              22.453125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 30.2578125,
+            "minimum": 29.6953125,
+            "maximum": 30.4609375,
+            "runs": [
+              29.6953125,
+              30.2578125,
+              30.4609375
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 19,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 5.929,
+            "minimum": 5.579,
+            "maximum": 5.95,
+            "runs": [
+              5.95,
+              5.929,
+              5.579
+            ]
+          },
+          "tick_max_ms": {
+            "median": 6.413,
+            "minimum": 6.211,
+            "maximum": 6.64,
+            "runs": [
+              6.64,
+              6.413,
+              6.211
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 96,
+            "minimum": 96,
+            "maximum": 96,
+            "runs": [
+              96,
+              96,
+              96
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 16,
+            "minimum": 0,
+            "maximum": 23,
+            "runs": [
+              16,
+              0,
+              23
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "network": 4,
+      "db": 1,
+      "session": {
+        "p50_ms": {
+          "median": 1488.4307,
+          "minimum": 1473.749,
+          "maximum": 1706.4829,
+          "runs": [
+            1706.4829,
+            1473.749,
+            1488.4307
+          ]
+        },
+        "p95_ms": {
+          "median": 2835.9534,
+          "minimum": 2825.6436,
+          "maximum": 3184.5086,
+          "runs": [
+            3184.5086,
+            2825.6436,
+            2835.9534
+          ]
+        },
+        "p99_ms": {
+          "median": 3027.8712,
+          "minimum": 2964.9543,
+          "maximum": 3360.4634,
+          "runs": [
+            3360.4634,
+            3027.8712,
+            2964.9543
+          ]
+        },
+        "max_ms": {
+          "median": 3027.8712,
+          "minimum": 2964.9543,
+          "maximum": 3360.4634,
+          "runs": [
+            3360.4634,
+            3027.8712,
+            2964.9543
+          ]
+        },
+        "throughput": {
+          "median": 10.385941589464501,
+          "minimum": 9.230400902271688,
+          "maximum": 10.41985729571273,
+          "runs": [
+            9.230400902271688,
+            10.41985729571273,
+            10.385941589464501
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 2810.1716,
+          "minimum": 2763.8506,
+          "maximum": 3159.8202,
+          "runs": [
+            3159.8202,
+            2810.1716,
+            2763.8506
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 3186.61,
+          "minimum": 3115.0117,
+          "maximum": 3519.6876,
+          "runs": [
+            3519.6876,
+            3186.61,
+            3115.0117
+          ]
+        },
+        "accepted": {
+          "median": 96,
+          "minimum": 96,
+          "maximum": 96,
+          "runs": [
+            96,
+            96,
+            96
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 95.10141729262084,
+            "minimum": 95.01085355883686,
+            "maximum": 95.545439068945,
+            "runs": [
+              95.01085355883686,
+              95.10141729262084,
+              95.545439068945
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.1503336290487925,
+            "minimum": 0.0,
+            "maximum": 0.16940680685983156,
+            "runs": [
+              0.1503336290487925,
+              0.0,
+              0.16940680685983156
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 94.86051992978807,
+            "minimum": 94.76176937371862,
+            "maximum": 95.03721864836551,
+            "runs": [
+              94.86051992978807,
+              94.76176937371862,
+              95.03721864836551
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 0.3396479189022173,
+            "minimum": 0.300667258097585,
+            "maximum": 1.8634748754581472,
+            "runs": [
+              0.300667258097585,
+              0.3396479189022173,
+              1.8634748754581472
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 18.05078125,
+            "minimum": 18.03125,
+            "maximum": 18.15234375,
+            "runs": [
+              18.03125,
+              18.15234375,
+              18.05078125
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 13.5390625,
+            "minimum": 13.515625,
+            "maximum": 13.734375,
+            "runs": [
+              13.515625,
+              13.5390625,
+              13.734375
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 8,
+            "minimum": 8,
+            "maximum": 9,
+            "runs": [
+              9,
+              8,
+              8
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.037,
+            "minimum": 0.036,
+            "maximum": 0.054,
+            "runs": [
+              0.037,
+              0.054,
+              0.036
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.104,
+            "minimum": 0.09,
+            "maximum": 0.111,
+            "runs": [
+              0.09,
+              0.111,
+              0.104
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 31,
+            "minimum": 31,
+            "maximum": 32,
+            "runs": [
+              31,
+              32,
+              31
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 32,
+            "minimum": 32,
+            "maximum": 32,
+            "runs": [
+              32,
+              32,
+              32
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "ping": {
+        "p50_ms": {
+          "median": 0.1863,
+          "minimum": 0.1661,
+          "maximum": 0.2052,
+          "runs": [
+            0.1661,
+            0.2052,
+            0.1863
+          ]
+        },
+        "p95_ms": {
+          "median": 0.4118,
+          "minimum": 0.369,
+          "maximum": 0.4398,
+          "runs": [
+            0.369,
+            0.4398,
+            0.4118
+          ]
+        },
+        "p99_ms": {
+          "median": 0.5522,
+          "minimum": 0.5049,
+          "maximum": 0.5804,
+          "runs": [
+            0.5049,
+            0.5804,
+            0.5522
+          ]
+        },
+        "max_ms": {
+          "median": 1.2178,
+          "minimum": 0.9935,
+          "maximum": 1.2313,
+          "runs": [
+            1.2313,
+            0.9935,
+            1.2178
+          ]
+        },
+        "throughput": {
+          "median": 8920.309,
+          "minimum": 8895.84,
+          "maximum": 8949.477,
+          "runs": [
+            8949.477,
+            8895.84,
+            8920.309
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 178490,
+          "minimum": 177997,
+          "maximum": 179094,
+          "runs": [
+            179094,
+            177997,
+            178490
+          ]
+        },
+        "rejected": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 17.029024136254634,
+            "minimum": 14.21340426758813,
+            "maximum": 17.578683211084726,
+            "runs": [
+              14.21340426758813,
+              17.029024136254634,
+              17.578683211084726
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 0.39047813921945407,
+            "minimum": 0.07811478961584693,
+            "maximum": 0.6250198475052348,
+            "runs": [
+              0.39047813921945407,
+              0.07811478961584693,
+              0.6250198475052348
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 16.32864351607426,
+            "minimum": 13.744830500524785,
+            "maximum": 16.638450188175398,
+            "runs": [
+              13.744830500524785,
+              16.638450188175398,
+              16.32864351607426
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 26.942991606142332,
+            "minimum": 26.094578633343552,
+            "maximum": 34.91731095828358,
+            "runs": [
+              26.942991606142332,
+              34.91731095828358,
+              26.094578633343552
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 18.375,
+            "minimum": 18.0625,
+            "maximum": 20.0234375,
+            "runs": [
+              18.375,
+              20.0234375,
+              18.0625
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 31.171875,
+            "minimum": 29.890625,
+            "maximum": 31.41796875,
+            "runs": [
+              29.890625,
+              31.41796875,
+              31.171875
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 18,
+            "maximum": 19,
+            "runs": [
+              18,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 0.632,
+            "minimum": 0.45,
+            "maximum": 0.642,
+            "runs": [
+              0.642,
+              0.45,
+              0.632
+            ]
+          },
+          "tick_max_ms": {
+            "median": 0.818,
+            "minimum": 0.62,
+            "maximum": 0.997,
+            "runs": [
+              0.818,
+              0.62,
+              0.997
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "fixed-combat": {
+        "p50_ms": {
+          "median": 16.916,
+          "minimum": 16.821,
+          "maximum": 17.1348,
+          "runs": [
+            16.916,
+            16.821,
+            17.1348
+          ]
+        },
+        "p95_ms": {
+          "median": 32.9727,
+          "minimum": 32.9277,
+          "maximum": 33.4631,
+          "runs": [
+            33.4631,
+            32.9277,
+            32.9727
+          ]
+        },
+        "p99_ms": {
+          "median": 39.4624,
+          "minimum": 38.4376,
+          "maximum": 39.5801,
+          "runs": [
+            38.4376,
+            39.5801,
+            39.4624
+          ]
+        },
+        "max_ms": {
+          "median": 46.1905,
+          "minimum": 45.6442,
+          "maximum": 47.6228,
+          "runs": [
+            45.6442,
+            46.1905,
+            47.6228
+          ]
+        },
+        "throughput": {
+          "median": 1916.847,
+          "minimum": 1916.728,
+          "maximum": 1918.547,
+          "runs": [
+            1916.847,
+            1916.728,
+            1918.547
+          ]
+        },
+        "transfer_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cycle_p95_ms": {
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0,
+          "runs": [
+            0,
+            0,
+            0
+          ]
+        },
+        "accepted": {
+          "median": 21522,
+          "minimum": 21522,
+          "maximum": 21541,
+          "runs": [
+            21522,
+            21522,
+            21541
+          ]
+        },
+        "rejected": {
+          "median": 16878,
+          "minimum": 16859,
+          "maximum": 16878,
+          "runs": [
+            16878,
+            16878,
+            16859
+          ]
+        },
+        "resources": {
+          "server_cpu_one_core_pct": {
+            "median": 9.525363896633436,
+            "minimum": 8.894752065321232,
+            "maximum": 10.144074219874952,
+            "runs": [
+              8.894752065321232,
+              10.144074219874952,
+              9.525363896633436
+            ]
+          },
+          "world_cpu_one_core_pct": {
+            "median": 8.354212597867031,
+            "minimum": 7.5683416696154335,
+            "maximum": 9.675886178957647,
+            "runs": [
+              7.5683416696154335,
+              9.675886178957647,
+              8.354212597867031
+            ]
+          },
+          "game_a_cpu_one_core_pct": {
+            "median": 0.31230701300437497,
+            "minimum": 0.07803134015288425,
+            "maximum": 0.5461689864670931,
+            "runs": [
+              0.5461689864670931,
+              0.07803134015288425,
+              0.31230701300437497
+            ]
+          },
+          "dummy_cpu_one_core_pct": {
+            "median": 20.05405441929125,
+            "minimum": 18.58226727376031,
+            "maximum": 22.62700086792243,
+            "runs": [
+              22.62700086792243,
+              20.05405441929125,
+              18.58226727376031
+            ]
+          },
+          "world_sampled_peak_mb": {
+            "median": 21.734375,
+            "minimum": 21.63671875,
+            "maximum": 21.93359375,
+            "runs": [
+              21.734375,
+              21.63671875,
+              21.93359375
+            ]
+          },
+          "dummy_sampled_peak_mb": {
+            "median": 29.6875,
+            "minimum": 29.38671875,
+            "maximum": 29.93359375,
+            "runs": [
+              29.93359375,
+              29.6875,
+              29.38671875
+            ]
+          },
+          "world_metric_intervals": {
+            "median": 19,
+            "minimum": 19,
+            "maximum": 19,
+            "runs": [
+              19,
+              19,
+              19
+            ]
+          },
+          "tick_bucket_p95_max_ms": {
+            "median": 5.652,
+            "minimum": 5.552,
+            "maximum": 5.69,
+            "runs": [
+              5.69,
+              5.552,
+              5.652
+            ]
+          },
+          "tick_max_ms": {
+            "median": 6.081,
+            "minimum": 5.871,
+            "maximum": 6.237,
+            "runs": [
+              5.871,
+              6.081,
+              6.237
+            ]
+          },
+          "skipped_ticks": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "command_queue_observed_max": {
+            "median": 96,
+            "minimum": 96,
+            "maximum": 96,
+            "runs": [
+              96,
+              96,
+              96
+            ]
+          },
+          "game_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "world_db_outstanding_sampled_max": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          },
+          "replay_failed": {
+            "median": 0,
+            "minimum": 0,
+            "maximum": 0,
+            "runs": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "identical_non_worker_config": true,
+  "identical_unit_skill_map_data": true,
+  "fixed_fixture_sha256": {
+    "Map.ini": "1e1c4a739582367460bd1098f1c52225956e84be0f35ddce1cae56461e3131ec",
+    "Skill.csv": "c85ec46becbb967bbabd2e330d2a8c28916169338e1ebe2360a3e314d56a719c",
+    "StartPoint.csv": "511727ae8e8e354cb134d64f5edd30df7113fcd6d2b88a0256f74fe99d7916a8",
+    "Unit.csv": "836a8583a3cc6bf022e329c9226899319d0a45ca446588661e937f35d00bd518"
+  },
+  "source_and_binary_hashes": {
+    "MultiThreadServer.exe": "cad937f99b027ae8fb9d933bf6b7781a597c472726d3d9fb5e1701ef903c28a5",
+    "DummyClient.exe": "2b093475dc9c460af1c23306a932fac05a2dfffcc84d1f204ee2bef1f8e61b99"
+  }
+}

@@ -1,0 +1,5 @@
+[OK] Game crash/restart: active lease rejected, same account/unit restored after expiry
+[OK] World crash/restart: account survives and persisted reentry cooldown remains
+[OK] Lost transfer: pending duplicate rejected, recovery after expiry, old ticket rejected
+[OK] DB lock/write failure: game chat responsive, no false login success, fresh retry succeeds
+[OK] Release recovery checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\recovery-ce0ea9bd70bd4f2f89ac578b001549f9

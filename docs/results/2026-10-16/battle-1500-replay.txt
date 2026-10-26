@@ -1,0 +1,11 @@
+[OK] Replay verified match=447f0796569a8bcd022a510c296f9942 frames=1470 snapshots=294 duration=293.950 complete=1 reason=server_shutdown winner=0
+[ACTION] Attack=6684
+[ACTION] Enter=3051
+[ACTION] Move=189401
+[ACTION] Return=2954
+[ACTION] Skill=1237
+[ACTION] Logout=97
+[PARTICIPANTS] server=C unique=500
+[PARTICIPANTS] server=B unique=500
+[PARTICIPANTS] server=A unique=500
+[BATTLE SUMMARY] peak_units=1500 deaths=2954 death_reentries=1551 min_reentry_ms=100400

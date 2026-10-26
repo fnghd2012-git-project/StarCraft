@@ -1,0 +1,6 @@
+﻿"Phase","Mode","Clients","WholePhaseSeconds","WorldCpuOneCorePercent","WorldPeakWorkingSetMB"
+"1","ping","64","11.635","0.134","11.656"
+"2","world","16","12.947","1.207","18.93"
+"3","world","32","14.265","2.848","19.973"
+"4","world","64","19.329","5.173","23.012"
+"5","combat","64","69.54","6.089","24.02"

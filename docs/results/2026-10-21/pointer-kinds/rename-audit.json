@@ -1,0 +1,620 @@
+{
+  "files": 31,
+  "code_tokens": "identical after normalizing pointer prefixes; literals and operators compared",
+  "plan": [
+    {
+      "file": "DummyClient/src/AccountSkillCheck.cpp",
+      "identifiers": 16,
+      "changes": [
+        [
+          "world",
+          "up_world",
+          "field"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/BattleClient.cpp",
+      "identifiers": 8,
+      "changes": [
+        [
+          "bot",
+          "up_bot",
+          "local"
+        ],
+        [
+          "worker",
+          "up_worker",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/BattleDecision.cpp",
+      "identifiers": 63,
+      "changes": [
+        [
+          "self",
+          "p_self",
+          "local"
+        ],
+        [
+          "enemy",
+          "p_enemy",
+          "local"
+        ],
+        [
+          "injured",
+          "p_injured",
+          "local"
+        ],
+        [
+          "building",
+          "p_building",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/BattleWorker.cpp",
+      "identifiers": 8,
+      "changes": [
+        [
+          "owned",
+          "up_owned",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/BattleWorker.h",
+      "identifiers": 2,
+      "changes": []
+    },
+    {
+      "file": "DummyClient/src/FlowCheck.cpp",
+      "identifiers": 31,
+      "changes": [
+        [
+          "allyGame",
+          "up_allyGame",
+          "local"
+        ],
+        [
+          "allyWorld",
+          "up_allyWorld",
+          "local"
+        ],
+        [
+          "first",
+          "up_first",
+          "local"
+        ],
+        [
+          "second",
+          "up_second",
+          "local"
+        ],
+        [
+          "world1",
+          "up_world1",
+          "local"
+        ],
+        [
+          "world2",
+          "up_world2",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/LoadClient.cpp",
+      "identifiers": 3,
+      "changes": [
+        [
+          "connection",
+          "up_connection",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/PlayClient.cpp",
+      "identifiers": 54,
+      "changes": [
+        [
+          "game",
+          "up_game",
+          "local"
+        ],
+        [
+          "world",
+          "up_world",
+          "local"
+        ],
+        [
+          "returning",
+          "up_returning",
+          "local"
+        ],
+        [
+          "connection",
+          "p_connection",
+          "local"
+        ],
+        [
+          "destination",
+          "up_destination",
+          "local"
+        ],
+        [
+          "connection",
+          "p_connection",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/RankingCheck.cpp",
+      "identifiers": 17,
+      "changes": [
+        [
+          "world",
+          "up_world",
+          "field"
+        ]
+      ]
+    },
+    {
+      "file": "DummyClient/src/ReplayWindow.cpp",
+      "identifiers": 46,
+      "changes": [
+        [
+          "unit",
+          "p_unit",
+          "field"
+        ],
+        [
+          "image",
+          "up_image",
+          "local"
+        ],
+        [
+          "speed",
+          "p_speed",
+          "local"
+        ],
+        [
+          "source",
+          "p_source",
+          "local"
+        ],
+        [
+          "unit",
+          "p_unit",
+          "local"
+        ],
+        [
+          "size",
+          "p_size",
+          "local"
+        ],
+        [
+          "self",
+          "p_self",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.cpp",
+      "identifiers": 7,
+      "changes": [
+        [
+          "connection",
+          "up_connection",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameBattle.cpp",
+      "identifiers": 20,
+      "changes": [
+        [
+          "player",
+          "p_player",
+          "local"
+        ],
+        [
+          "player",
+          "p_player",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "identifiers": 122,
+      "changes": [
+        [
+          "definition",
+          "p_definition",
+          "local"
+        ],
+        [
+          "building",
+          "p_building",
+          "local"
+        ],
+        [
+          "target",
+          "p_target",
+          "local"
+        ],
+        [
+          "candidate",
+          "p_candidate",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.h",
+      "identifiers": 16,
+      "changes": [
+        [
+          "channel",
+          "sp_channel",
+          "field"
+        ],
+        [
+          "skill",
+          "p_skill",
+          "field"
+        ],
+        [
+          "channel",
+          "sp_channel",
+          "field"
+        ],
+        [
+          "definition",
+          "p_definition",
+          "field"
+        ],
+        [
+          "stim",
+          "p_stim",
+          "field"
+        ],
+        [
+          "cloak",
+          "p_cloak",
+          "field"
+        ],
+        [
+          "heal",
+          "p_heal",
+          "field"
+        ],
+        [
+          "channel",
+          "sp_channel",
+          "field"
+        ],
+        [
+          "channel",
+          "sp_channel",
+          "field"
+        ],
+        [
+          "skill",
+          "p_skill",
+          "field"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GamePersistence.cpp",
+      "identifiers": 28,
+      "changes": [
+        [
+          "definition",
+          "p_definition",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameRanking.cpp",
+      "identifiers": 9,
+      "changes": []
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameReplay.cpp",
+      "identifiers": 27,
+      "changes": [
+        [
+          "effect",
+          "p_effect",
+          "local"
+        ],
+        [
+          "skill",
+          "p_skill",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameSkills.cpp",
+      "identifiers": 72,
+      "changes": [
+        [
+          "target",
+          "p_target",
+          "local"
+        ],
+        [
+          "current",
+          "p_current",
+          "local"
+        ],
+        [
+          "target",
+          "p_target",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameSnapshot.cpp",
+      "identifiers": 25,
+      "changes": [
+        [
+          "player",
+          "p_player",
+          "local"
+        ],
+        [
+          "receiver",
+          "p_receiver",
+          "local"
+        ],
+        [
+          "candidate",
+          "p_candidate",
+          "local"
+        ],
+        [
+          "candidate",
+          "p_candidate",
+          "local"
+        ],
+        [
+          "state",
+          "p_state",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp",
+      "identifiers": 10,
+      "changes": [
+        [
+          "item",
+          "p_item",
+          "local"
+        ],
+        [
+          "item",
+          "p_item",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.h",
+      "identifiers": 1,
+      "changes": [
+        [
+          "session",
+          "sp_session",
+          "field"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "identifiers": 162,
+      "changes": [
+        [
+          "operation",
+          "p_operation",
+          "local"
+        ],
+        [
+          "operation",
+          "p_operation",
+          "local"
+        ],
+        [
+          "operation",
+          "p_operation",
+          "local"
+        ],
+        [
+          "session",
+          "sp_session",
+          "local"
+        ],
+        [
+          "overlapped",
+          "p_overlapped",
+          "local"
+        ],
+        [
+          "operation",
+          "p_operation",
+          "local"
+        ],
+        [
+          "session",
+          "sp_session",
+          "local"
+        ],
+        [
+          "session",
+          "sp_session",
+          "local"
+        ],
+        [
+          "session",
+          "sp_session",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.h",
+      "identifiers": 4,
+      "changes": []
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpSession.h",
+      "identifiers": 1,
+      "changes": [
+        [
+          "channel",
+          "sp_channel",
+          "field"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/NetworkWorker.cpp",
+      "identifiers": 12,
+      "changes": []
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/NetworkWorker.h",
+      "identifiers": 1,
+      "changes": [
+        [
+          "channel",
+          "sp_channel",
+          "field"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.cpp",
+      "identifiers": 13,
+      "changes": []
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.h",
+      "identifiers": 1,
+      "changes": []
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.cpp",
+      "identifiers": 57,
+      "changes": [
+        [
+          "reply",
+          "up_reply",
+          "local"
+        ],
+        [
+          "raw",
+          "p_raw",
+          "local"
+        ],
+        [
+          "reply",
+          "up_reply",
+          "local"
+        ],
+        [
+          "raw",
+          "up_raw",
+          "local"
+        ],
+        [
+          "top",
+          "up_top",
+          "local"
+        ],
+        [
+          "id",
+          "p_id",
+          "local"
+        ],
+        [
+          "rank",
+          "up_rank",
+          "local"
+        ],
+        [
+          "snapshot",
+          "sp_snapshot",
+          "local"
+        ],
+        [
+          "connection",
+          "up_connection",
+          "local"
+        ],
+        [
+          "saved",
+          "sp_saved",
+          "local"
+        ],
+        [
+          "snapshot",
+          "sp_snapshot",
+          "local"
+        ]
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.h",
+      "identifiers": 1,
+      "changes": []
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/TcpServer.cpp",
+      "identifiers": 28,
+      "changes": [
+        [
+          "info",
+          "p_info",
+          "local"
+        ],
+        [
+          "mapInfo",
+          "p_mapInfo",
+          "local"
+        ],
+        [
+          "point",
+          "p_point",
+          "local"
+        ],
+        [
+          "iocp",
+          "up_iocp",
+          "local"
+        ],
+        [
+          "worker",
+          "up_worker",
+          "local"
+        ]
+      ]
+    }
+  ]
+}

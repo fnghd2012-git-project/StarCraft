@@ -1,0 +1,2 @@
+Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+fixed-combat,12,3,20,720,404,316,0,30.249,33.662,35.340,35.511,239.751,500.885,192

@@ -1,0 +1,12 @@
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=9686cc240d2f93f9ae6ecabd8b77b8c6 frames=1434 snapshots=287 duration=286.700 complete=1 reason=server_shutdown winner=0
+[ACTION] Attack=39655
+[ACTION] Enter=3638
+[ACTION] Move=243403
+[ACTION] Return=2668
+[ACTION] Skill=998
+[ACTION] Logout=970
+[PARTICIPANTS] server=C unique=500
+[PARTICIPANTS] server=B unique=500
+[PARTICIPANTS] server=A unique=500
+[BATTLE SUMMARY] peak_units=1500 deaths=2668 death_reentries=2138 min_reentry_ms=100200

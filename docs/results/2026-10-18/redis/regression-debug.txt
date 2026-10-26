@@ -1,0 +1,154 @@
+[OK] Protobuf 33.6 / Debug ready.
+[OK] hiredis 1.3.0 / Debug ready
+  DummyClient.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\DummyClient.exe
+  MultiThreadServer.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\MultiThreadServer.exe
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Debug
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[OK] Configuration / map / CSV
+ServerId=A
+ServerType=Game
+Race=Zerg
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+SpatialSearch=Grid
+SpatialCellSize=25
+VerifySpatialSearch=0
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Skill.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Zero start coordinates accepted
+[OK] server=A clients=8 rounds=10 replies=160 elapsed_ms=25
+[OK] server=B clients=8 rounds=10 replies=160 elapsed_ms=39
+[OK] server=C clients=8 rounds=10 replies=160 elapsed_ms=29
+[OK] server=World clients=8 rounds=10 replies=160 elapsed_ms=52
+[OK] Malformed packet rejected: length below header
+[OK] Malformed packet rejected: packet above 4096 bytes
+[OK] Malformed packet rejected: unsupported version
+[OK] Malformed packet rejected: ping before hello
+[OK] Malformed packet rejected: unknown type
+[OK] Malformed packet rejected: duplicate hello
+[OK] Malformed packet rejected: missing client name
+[OK] Malformed packet rejected: truncated protobuf string
+[OK] Malformed packet rejected: invalid UTF-8 client name
+[OK] Malformed packet rejected: invalid protobuf wire type
+[OK] Malformed packet rejected: missing ping sequence
+[OK] Partial header accumulation and Protobuf response
+[OK] server=A clients=16 rounds=10 replies=320 elapsed_ms=32
+[OK] Debug network checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\network-check-fe479390386e4a5d93269e2de6e27e4e
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Spatial INI validation and legacy defaults. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\spatial-check-812778e304cc40708228de2434d29b10
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Debug gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-0e6a34fff7d248be98e7ba36d597d149
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=5d61d4f01a103890acb18739771a13ad frames=327 snapshots=17 duration=16.300 complete=1 reason=server_shutdown winner=0
+[ACTION] Enter=2
+[ACTION] Return=2
+[ACTION] Move=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=1
+[BATTLE SUMMARY] peak_units=1 deaths=0 death_reentries=0
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=c2499a6da7cfaf3b14c6bb4fabcc85a9 frames=295 snapshots=15 duration=14.750 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2350
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Live network snapshot matches replay tick=172
+[OK] Replay verified match=c2499a6da7cfaf3b14c6bb4fabcc85a9 frames=295 snapshots=15 duration=14.750 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2350
+[OK] Rejected corrupt.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected corrupt-partial.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected magic.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: invalid file signature
+[OK] Rejected oversize.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record size exceeds limit
+[OK] Rejected truncated.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: truncated record body
+[OK] Truncated tail: normal load rejected; explicit partial mode recovered validated frames
+[OK] Rejected trailing.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: data after footer
+[OK] Debug replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-0e6a34fff7d248be98e7ba36d597d149\replay-validation
+[OK] A concurrent login accepted=1 rejected=7
+[OK] B concurrent login accepted=2 rejected=6
+[OK] DB queue rejection releases capacity reservation
+[OK] C concurrent login accepted=16 rejected=16
+[OK] World capacity=1, second entry rejected, original game login restored
+[OK] Debug capacity checks: override A=1, fallback B=2, World=1, zero rejected. Logs: D:\work\Josun_Server\git_ProJect\.deps\capacity-a23ded42e1ff404e8b268f17c6352dd9
+[OK] Password authentication, duplicate login rejection, stable ID, per-server unit persistence, reconnect cooldown
+[OK] Insufficient MP/friendly-fire rejection, armor reduction and shield-first damage
+[OK] Slot/range validation, Stim HP cost/cooldown/expiry, channeled Heal
+[OK] Cloak cost/drain/detection, hidden-target rejection, Lockdown, OpticalFlare
+[OK] Burrow transition, visibility and action restrictions
+[OK] Storm periodic ally/enemy damage, DarkSwarm ranged/melee rules, damage type/size ratios
+[OK] Different cast times share one Storm damage interval per target
+[OK] Plague shield bypass/minimum HP, Restoration, channel stop, skill death and persisted return
+[OK] Debug account/skill checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\account-skills-741055f6ccb447fba8ed75da720c93bc
+[OK] A: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] B: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] C: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] Non-attacking unit approaches safely and waits; back remains available
+[OK] Debug automatic building battle checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\auto-battle-check-b22597f2ba0740238b48ce49473f949e
+[OK] Debug relay outage/restart: local chat stays available, global fails offline, reconnect restores delivery. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\chat-relay-check-a75bb5058f414195abd734bbaf07b737
+[OK] Game crash/restart: active lease rejected, same account/unit restored after expiry
+[OK] World crash/restart: account survives and persisted reentry cooldown remains
+[OK] Lost transfer: pending duplicate rejected, recovery after expiry, old ticket rejected
+[OK] DB lock/write failure: game chat responsive, no false login success, fresh retry succeeds
+[OK] Debug recovery checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\recovery-65852681f56c47a380397c8b5b63c0ee
+[OK] Debug full regression passed

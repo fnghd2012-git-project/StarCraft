@@ -1,0 +1,142 @@
+[LISTEN] B 127.0.0.1:53439 workers=1 units=3 skills=10 max_players=500 spatial=Grid cell=25 spatial_verify=0 (Ctrl+C to stop)
+[CHAT RELAY] B connected to World
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] B Bench_1792380293040_7 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_4 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_7 -> World
+[GAME LOGOUT] B Bench_1792380293040_4 -> World
+[GAME LOGIN] B Bench_1792380293040_1 saved unit=Zealot
+[METRICS] server=B active=1 commands=5 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGOUT] B Bench_1792380293040_1 -> World
+[GAME LOGIN] B Bench_1792380293040_13 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_10 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_13 -> World
+[GAME LOGOUT] B Bench_1792380293040_10 -> World
+[GAME LOGIN] B Bench_1792380293040_22 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_19 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_19 -> World
+[GAME LOGOUT] B Bench_1792380293040_22 -> World
+[GAME LOGIN] B Bench_1792380293040_16 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_16 -> World
+[METRICS] server=B active=0 commands=14 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=3 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] B Bench_1792380293040_28 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_25 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_25 -> World
+[GAME LOGOUT] B Bench_1792380293040_28 -> World
+[GAME LOGIN] B Bench_1792380293040_31 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_31 -> World
+[GAME LOGIN] B Bench_1792380293040_37 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_34 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_34 -> World
+[GAME LOGOUT] B Bench_1792380293040_37 -> World
+[GAME LOGIN] B Bench_1792380293040_46 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_40 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_46 -> World
+[GAME LOGOUT] B Bench_1792380293040_40 -> World
+[METRICS] server=B active=0 commands=12 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] B Bench_1792380293040_43 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_43 -> World
+[GAME LOGIN] B Bench_1792380293040_52 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_49 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_52 -> World
+[GAME LOGOUT] B Bench_1792380293040_49 -> World
+[GAME LOGIN] B Bench_1792380293040_55 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_55 -> World
+[GAME LOGIN] B Bench_1792380293040_58 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_61 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_61 -> World
+[GAME LOGOUT] B Bench_1792380293040_58 -> World
+[METRICS] server=B active=0 commands=11 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] B Bench_1792380293040_70 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_67 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_70 -> World
+[GAME LOGOUT] B Bench_1792380293040_67 -> World
+[GAME LOGIN] B Bench_1792380293040_64 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_64 -> World
+[GAME LOGIN] B Bench_1792380293040_79 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_76 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_79 -> World
+[GAME LOGOUT] B Bench_1792380293040_76 -> World
+[GAME LOGIN] B Bench_1792380293040_73 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_73 -> World
+[METRICS] server=B active=0 commands=12 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] B Bench_1792380293040_82 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_85 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_85 -> World
+[GAME LOGOUT] B Bench_1792380293040_82 -> World
+[GAME LOGIN] B Bench_1792380293040_91 saved unit=Zealot
+[GAME LOGIN] B Bench_1792380293040_94 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_91 -> World
+[GAME LOGOUT] B Bench_1792380293040_94 -> World
+[GAME LOGIN] B Bench_1792380293040_88 saved unit=Zealot
+[GAME LOGOUT] B Bench_1792380293040_88 -> World
+[METRICS] server=B active=0 commands=10 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=B active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[STOP] Network workers joined; sockets closed.

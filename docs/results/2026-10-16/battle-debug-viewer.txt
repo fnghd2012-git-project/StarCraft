@@ -1,0 +1,3 @@
+[OK] Debug graphical replay: default 1x, continuous play, pause, resume speed, live speed, seek, replay after end.
+[FRAME IMAGE] D:\work\Josun_Server\git_ProJect\.deps\replay-window-check\Debug.png
+[VIEWER] pid=401348 hwnd=460746

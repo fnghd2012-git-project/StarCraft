@@ -1,0 +1,140 @@
+[
+  {
+    "realm": "battle_57761a86e07b4d7fabe1f0799e8656f6",
+    "id": "8002d6d1d6db6c3a9c0b9a6e2bc013c9",
+    "winner": "0",
+    "complete": "0",
+    "reason": "server_shutdown",
+    "participants": 1500,
+    "kills": 2677,
+    "kills_top10": [
+      [
+        "9a2d874debf041f59e5e0b7d923c6ba1",
+        164
+      ],
+      [
+        "f97903becac847198f9f40048fc49625",
+        157
+      ],
+      [
+        "92eedadef2714c8c8b5a8837de864351",
+        154
+      ],
+      [
+        "f31c4c7cbd814604b46dc95c6f82314d",
+        151
+      ],
+      [
+        "47d37270174641269a74044de2572b98",
+        115
+      ],
+      [
+        "8eb2577369e14bf4bcc59a260f9b5bc9",
+        112
+      ],
+      [
+        "f76580ffaee143ef824886eae8aaa1cf",
+        109
+      ],
+      [
+        "8aed4ea6c9c5469c9295e93be47965d9",
+        107
+      ],
+      [
+        "fdb751d764744f1d9d8b2f804599c601",
+        100
+      ],
+      [
+        "ebff6cf817de47e6b2027a6a2da5a56b",
+        92
+      ]
+    ],
+    "deaths": 3075,
+    "deaths_top10": [
+      [
+        "fe74b00645f84888ba3ab9466dc5c72e",
+        3
+      ],
+      [
+        "fd81896ea5544eb5837934f6fcaea594",
+        3
+      ],
+      [
+        "fb221f52cc7a455e8386a34708b58158",
+        3
+      ],
+      [
+        "fb1b2b4f22e847af8efd9a39fe679a29",
+        3
+      ],
+      [
+        "fab86b89ed64448e901c06be714f20fc",
+        3
+      ],
+      [
+        "fa567ebb03da4704a87b2522aab5ad64",
+        3
+      ],
+      [
+        "fa24f271a36f4d45a1c1db8a21287c82",
+        3
+      ],
+      [
+        "f85a303625194ceab4ce9d4f0594123e",
+        3
+      ],
+      [
+        "f78864343c7d4d84a4ee430a9b3928ce",
+        3
+      ],
+      [
+        "f5470b6e9b32498a877d8b80365c9018",
+        3
+      ]
+    ],
+    "entries": 3192,
+    "entries_top10": [
+      [
+        "fe74b00645f84888ba3ab9466dc5c72e",
+        3
+      ],
+      [
+        "fd963625f3ca419dbec085112af7cd83",
+        3
+      ],
+      [
+        "fd81896ea5544eb5837934f6fcaea594",
+        3
+      ],
+      [
+        "fb221f52cc7a455e8386a34708b58158",
+        3
+      ],
+      [
+        "fb1b2b4f22e847af8efd9a39fe679a29",
+        3
+      ],
+      [
+        "fab86b89ed64448e901c06be714f20fc",
+        3
+      ],
+      [
+        "fa567ebb03da4704a87b2522aab5ad64",
+        3
+      ],
+      [
+        "fa24f271a36f4d45a1c1db8a21287c82",
+        3
+      ],
+      [
+        "f85a303625194ceab4ce9d4f0594123e",
+        3
+      ],
+      [
+        "f78864343c7d4d84a4ee430a9b3928ce",
+        3
+      ]
+    ],
+    "redis_xml_all_players_equal": true
+  }
+]

@@ -1,233 +1,292 @@
-# StarCraft
+# StarCraft — IOCP 기반 멀티스레드 게임 서버
 
-C++ 멀티스레드 게임 서버와 C++ 더미 클라이언트를 먼저 개발하고, 최종적으로 언리얼 클라이언트를 연결하는 개인 포트폴리오 프로젝트입니다.
-테란·프로토스·저그 게임 서버와 공용 전장, 마지막 건물 생존에 따른 승패, 전투 리플레이를 목표로 합니다.
+게임 서버 A·B·C와 공용 World 전장을 연결한 **C++20 서버 포트폴리오**입니다.
+계정 로그인부터 서버 이동, 유닛 전투, Redis 랭킹, MSSQL 결과 저장과 오프라인 리플레이까지 구현했습니다.
+C++ 더미 클라이언트로 기능과 부하를 검증하며, 언리얼 클라이언트 연동은 이후 범위입니다.
 
-## 현재 구현 범위
+`C++20` · `Windows IOCP` · `Protobuf` · `MSSQL / ODBC` · `Redis / hiredis` · `Visual Studio 2019 / x64`
 
-현재는 로컬 MSSQL 연결 점검과 설정/데이터 로딩, Protobuf를 사용하는 TCP 서버·더미 클라이언트 통신까지 구현했습니다.
+[구조와 쓰레드](#구조와-쓰레드) · [실행 화면](#실행-화면) · [빌드와 실행](#빌드와-실행) · [테스트](#테스트) · [측정 결과](#측정-결과) · [코드 읽기](#코드-읽기)
 
-- x64 Debug/Release 빌드와 C++20 사용
-- Winsock 초기화 및 정리
-- ODBC 환경·연결·명령 핸들의 RAII 관리
-- Windows 인증으로 MSSQL 접속, 로그인/조회 제한 시간 5초
-- DB 이름, 정수 1, 한글 문자열 조회 결과 확인
-- ODBC SQLSTATE·서버 오류 번호·진단 메시지 출력
-- std::jthread 생성, 합류, 결과 확인
-- 명령줄 기본 점검과 오류 종료 코드
-- `Server.ini`의 A/B/C/World 프로필, 네트워크 워커 수, 접속/송신 버퍼 상한 적용
-- `Unit.csv`, `Skill.csv`, `StartPoint.csv`, `Map.ini` 읽기와 기본 유효성 검사
-- 워커별로 연결을 소유하는 nonblocking TCP / WSAPoll 송수신
-- 길이·종류·버전 헤더, 분할/병합 수신, 부분 송신, 비정상 패킷 연결 종료
-- 서버/더미가 공유하는 `Game.proto`, Hello/Ping/Pong 직렬화·역직렬화 및 필드 검증
-- C++ 더미 클라이언트의 동시 접속, 서버/맵 정보 확인, 한글·바이너리·최대 크기 Ping/Pong 검증
-- 맵 X/Y 최소 0, 시작 좌표와 건물 범위 검사
+## 구현한 것
 
-로그인, 채팅, 유닛 선택/DB 저장, 서버 간 이동, 전투, 리플레이는 아직 구현하지 않았습니다.
-CSV 스킬 데이터와 전투 설정을 읽는 것과 해당 기능의 실행은 구분합니다.
-현재 더미 접속 검증은 기능 점검이며 서버 성능이나 대규모 부하를 검증한 결과는 아닙니다.
+| 기능 | 내용 |
+|---|---|
+| 계정과 유닛 | ID·비밀번호 로그인, 첫 로그인 시 자동 등록, 고정 PlayerId와 서버별 랜덤 유닛 저장, 중복 로그인 차단 |
+| 서버 이동 | 출발 Game 로그아웃 → 일회용 서명 입장권 발급 → World 로그인. 복귀도 입장권 검증 후 처리 |
+| World 전투 | 이동, 건물 충돌, 유닛·건물 공격, 10종 스킬, 은신·탐지·장판, MP 회복 |
+| 경기 규칙 | 사망·자발적 복귀 후 100초 재입장 대기, 본진 파괴 진영 퇴장, 마지막 본진 생존 진영 승리, 300초 후 재시작 |
+| 채팅 | Game 서버 내부 일반 채팅, Game 서버 간 월드 채팅 중계, World 전장 내부 일반 채팅 |
+| 랭킹과 정산 | Redis에서 경기별 킬·죽음·진입 순위 조회, 종료 결과는 MSSQL 저장, XML 결과 재적재 |
+| 리플레이 | 전체 상태 + 변경분 + 행동 기록 저장, C++ 2D 뷰어의 재생·일시정지·배속·탐색·무결성 검사 |
+| 비교와 검증 | IOCP / WSAPoll, 전투 계산 쓰레드 1·2·4, I/O 메모리 풀 ON/OFF, Linear / Grid 검색 비교 |
 
-게임 규칙과 데이터 컬럼 설명은 [설계 문서](docs/Design.md)에 정리했습니다.
+서버 목록·종족·포트는 [GameServer.csv](Data/GameServer.csv), 유닛·스킬·시작 좌표는 CSV, 쓰레드 수와 정원·틱은 [Server.ini](Server.ini)에서 관리합니다.
+기본 서버는 A=저그, B=프로토스, C=테란이며 목록을 추가하거나 종족을 바꿀 수 있습니다.
 
-## 개발 환경
+## 구조와 쓰레드
 
-- Visual Studio 2019, C++ 데스크톱 개발 도구, v142 도구 집합
-- Windows SDK 10.0.19041.0
-- C++20, x64, Unicode, UTF-8 소스/실행 문자 집합
-- 경고 수준 /W4, 표준 준수 모드
-- Debug /MDd, Release /MD
-- Debug/Release 모두 PDB 생성
-- 링크 라이브러리: Ws2_32.lib, odbc32.lib
-- Protobuf v33.6의 C++ lite 런타임과 protoc, Abseil 20250512.1 (프로젝트 내부 정적 링크)
+Game A/B/C와 World는 **같은 실행 파일을 서로 다른 설정으로 실행한 별도 프로세스**입니다.
+클라이언트는 이동권을 받아 목적지 서버에 새로 접속합니다.
 
-실제 MSSQL 접속에는 x64용 Microsoft ODBC Driver 17 또는 18과 개인 테스트 DB가 필요합니다.
-현재 PC에서는 SQL Server 2022 Developer Edition과 x64 ODBC Driver 17을 확인했습니다.
-ODBC 환경 핸들 생성 성공만으로 SQL Server 드라이버 설치나 DB 접속을 확인할 수는 없습니다.
-
-## Visual Studio에서 실행
-
-1. 아래 명령줄 빌드로 사용할 구성(Debug/Release)의 Protobuf 의존성을 한 번 준비합니다.
-2. MultiThreadServer/MultiThreadServer/MultiThreadServer.sln을 엽니다. 이미 열려 있다면 다시 로드합니다.
-3. 상단 구성을 Debug, 플랫폼을 x64로 선택합니다.
-4. Ctrl+Shift+B로 빌드하고 F5로 실행합니다. `.proto` 변경 시 C++ 코드는 자동 생성됩니다.
-5. `[OK] MSSQL ODBC 연결 및 조회`와 `DB: project_db`를 확인한 뒤 Enter로 종료합니다.
-
-기본 설정으로 현재 Windows 계정을 사용해 `127.0.0.1:1433`의 `project_db`에 연결합니다.
-이 계정에 SQL Server 로그인과 해당 DB 접근 권한이 있어야 합니다.
-
-## 명령줄 빌드
-
-저장소 루트에서 아래 명령을 실행합니다. ExecutionPolicy Bypass는 해당 프로세스에만 적용합니다.
-첫 실행은 공식 GitHub 릴리스에서 고정 버전의 소스와 protoc를 받아 SHA-256을 확인하고, `.deps` 안에서 런타임을 빌드합니다.
-인터넷 연결과 Visual Studio의 CMake 구성 요소가 필요하며 최초 빌드에는 추가 시간이 걸립니다.
-전역 PATH는 바꾸지 않습니다. 이후 같은 구성의 빌드는 로컬 결과를 재사용합니다.
-
-    powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Debug -RunChecks
-    powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Release -RunChecks
-
-솔루션에 `MultiThreadServer`와 `DummyClient` 프로젝트가 함께 포함되어 있습니다.
-통합 네트워크 테스트는 `-RunNetworkChecks`를 추가합니다. 테스트는 별도 임시 설정과 로컬 포트로 서버 4개를 실행하고 종료합니다.
-
-    powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Debug -RunChecks -RunNetworkChecks
-    powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Release -RunChecks -RunNetworkChecks
-
-실제 DB 연결까지 확인하려면 `-RunDbCheck`를 사용합니다. 기본 환경 점검도 함께 실행합니다.
-
-    powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Debug -RunDbCheck
-    powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Release -RunDbCheck
-
-실행 파일과 PDB는 MultiThreadServer/MultiThreadServer/build/x64/{Debug 또는 Release}/bin에 생성됩니다.
-의존성만 준비하려면 `setup-protobuf.ps1 -Configuration Debug` 또는 `Release`를 실행합니다.
-
-실행 파일 인수:
-
-- 인수 없음: 기본 환경과 DB 연결 점검 후 Enter를 기다립니다.
-- --self-check: DB에 접속하지 않고 기본 환경만 점검한 뒤 종료합니다.
-- --db-check: 기본 환경과 DB 연결 점검 후 즉시 종료합니다.
-- --help: 사용법을 출력합니다.
-- --config-check A: 설정·맵·CSV만 검증합니다. A 대신 B/C/World도 가능합니다.
-- --server A: 지정한 서버 프로필로 TCP 서버를 실행합니다. Ctrl+C로 종료합니다.
-- --config 경로: 사용할 Server.ini를 지정합니다. 기본값은 작업 폴더의 Server.ini입니다.
-- --run-seconds N: TCP 서버를 N초 후 종료합니다. 자동 테스트에 사용합니다.
-- 종료 코드 0: 성공, 1: 초기화/점검 실패, 2: 잘못된 인수.
-
-신규 서버 모드의 설정/인수 오류와 더미 클라이언트 오류는 종료 코드 1을 반환합니다.
-
-## 서버와 더미 클라이언트 실행
-
-프로젝트 루트에서 PowerShell 두 개를 열어 각각 실행합니다.
-
-```powershell
-# 첫 번째 창: A 서버 (7001번 포트)
-.\MultiThreadServer\MultiThreadServer\build\x64\Debug\bin\MultiThreadServer.exe --server A
-
-# 두 번째 창: 더미 8개 접속, 각각 20회 왕복 검증 후 종료
-.\MultiThreadServer\MultiThreadServer\build\x64\Debug\bin\DummyClient.exe --server A --clients 8 --rounds 20
+```mermaid
+flowchart TB
+    Client["C++ DummyClient"] --> Games["Game A · B · C\n로그인 · 유닛 배정 · 채팅"]
+    Client --> World["World\n전투 · 승패 · 경기별 랭킹"]
+    Games <-->|SS_ 채팅 중계| World
+    Games --> SQL[("MSSQL / project_db\n계정 · 유닛 · 세션")]
+    World --> SQL
+    World --> Redis[("Redis\n킬 · 죽음 · 진입 순위")]
+    World --> Replay[".replay 파일"]
+    Replay --> Viewer["C++ 오프라인 리플레이 뷰어"]
 ```
 
-B는 7002, C는 7003, World는 7100 포트입니다. 실제 값은 `Server.ini`에서 읽습니다.
-다른 폴더에서 실행할 때는 `--config`로 파일 경로를 전달합니다. 데이터 파일의 상대 경로는 INI 위치를 기준으로 해석합니다.
-현재 Hello 응답은 서버 종류, 종족, 맵 외곽, 진영별 시작 좌표를 알려주는 통신 점검입니다. 전장 입장이나 유닛 생성은 아직 수행하지 않습니다.
+**게임 상태는 게임 로직 쓰레드가 확정합니다.** 다른 쓰레드는 통신·독립 계산·저장을 맡습니다.
 
-접속 수락은 메인 스레드, 송수신은 `Network.WorkerCount`개 워커가 담당합니다.
-한 연결의 버퍼는 배정된 워커만 수정하며, 새 연결 인계 시에만 mutex를 사용합니다.
-느린 클라이언트의 송신 대기는 `MaxPendingSendBytes`로 제한합니다. 접속 수 상한은 `WorkerCount × MaxClientsPerWorker`입니다.
-DB/전투 로직 워커는 아직 생성하지 않으며, 구현 단계에서 해당 설정도 추가합니다.
+| 실행 주체 | 맡는 일 | 주요 코드 |
+|---|---|---|
+| IOCP 쓰레드(워커) | AcceptEx·WSARecv·WSASend 등록/완료 처리, 패킷 경계 확인, 게임 명령 등록 | `CIocpServer` |
+| 게임 로직 쓰레드(메인) | 명령 처리, 틱 진행, HP·사망·킬·승패 확정 | `CGameLogic` |
+| 전투 쓰레드(워커) | 이동·MP, 스톰 대상별 피해, 수신자별 시야 선택·직렬화 계산 | `CBattleWorkers` |
+| DB 쓰레드(워커) | 계정·세션 처리, 종료 경기 저장, 완료 결과 반환 | `CDatabaseWorker` |
+| Redis 쓰레드(워커) | 총계 갱신, 순위 조회, Redis 재연결 | `CRedisWorker` |
+| 리플레이 기록 쓰레드(워커) | 기록 큐를 읽어 디스크 저장 | `Replay::CRecorder` |
 
-## Protobuf 패킷
+전투 계산은 입력과 결과 배열을 먼저 만들고 각 쓰레드가 다른 결과 칸을 채웁니다.
+메인은 완료를 기다린 뒤 결과를 순서대로 반영합니다. 전투 전체가 병렬 실행되는 구조는 아닙니다.
+`Battle.WorkerCount=1`이면 같은 계산을 메인에서 수행합니다.
 
-공유 명세는 `Protocol/Game.proto`입니다. TCP의 8바이트 헤더 뒤에 Protobuf 본문을 붙입니다.
+### 패킷 한 개가 처리되는 흐름
 
 ```text
-[전체 길이 u32][패킷 종류 u16][버전 u16][Protobuf 본문]
+WSARecv 수신 완료 → GQCS → HandleSessionCompletion
+  → HandleClientPackets: TCP 바이트에서 완성된 패킷 분리
+  → Submit: m_commands에 등록
+  → Update → HandlePacket → HandleMove: Protobuf 해석·검증, 이동 목표 설정
+  → Tick → MovePlayers: 이동 계산 분배 → 메인에서 결과 반영
+  → BroadcastWorldState → SendPacket: 채널 sendQueue에 응답 적재
+  → NotifySend → PostSend → WSASend → 송신 완료 처리
 ```
 
-헤더는 네트워크 바이트 순서, 버전은 2이며 전체 길이는 최대 4096바이트입니다.
-HelloRequest/HelloReply는 접속 점검과 서버·맵 정보를, Ping/Pong은 순번·한글 문자열·바이너리 왕복을 검증합니다.
-Protobuf 파싱에 성공해도 이름 길이와 필수 값 등 서버 규칙을 추가로 검사합니다.
-계정 로그인은 이후 별도 메시지로 구현합니다.
+헤더는 **전체 길이 2바이트 + 종류 2바이트**, 본문은 Protobuf입니다. 전체 패킷은 4~4096바이트입니다.
+패킷 종류는 [Packet.h](MultiThreadServer/MultiThreadServer/src/Packet.h), 필드는 [Game.proto](Protocol/Game.proto)에 있습니다.
+`SYS_`는 시스템, `CM_`은 클라이언트→서버, `SM_`은 서버→클라이언트, `SS_`는 서버 간 통신입니다.
 
-`Protocol.props`가 같은 `.proto`에서 서버와 더미의 C++ 파일을 생성합니다.
-생성 파일은 `Protocol/Generated`에 두며 직접 수정하지 않습니다. 표준 라이브러리 공통 헤더/using 규칙은 직접 작성한 코드에 적용합니다.
-protoc와 C++ 런타임은 v33.6로 맞추고, Debug/Release 런타임도 각각 /MDd, /MD로 맞춥니다.
-VS2019(v142) 환경에 맞춰 33.x 유지보수 계열을 사용합니다. 의존성 갱신 시 생성 코드와 런타임을 함께 갱신하고 두 구성의 통신 테스트를 다시 실행합니다.
-최종 언리얼 클라이언트에서도 이 명세를 사용하고 Unreal 모듈에서 런타임 링크와 소켓 처리를 추가할 예정입니다.
-언리얼 연동은 아직 구현하지 않았습니다.
+## 실행 화면
 
-현재 맵은 X/Y 모두 0~120, 중심 (60,60)입니다. 테란 (60,104), 프로토스 (104,60), 저그 (60,16)으로 배치합니다.
-`StartPoint.csv`의 음수 좌표는 거부하고 0은 허용합니다.
+아래 이미지는 **실제 리플레이 파일을 현재 Release 뷰어의 화면 그리기 함수로 출력한 PNG**입니다.
+2026-10-19의 1,500명 시연 기록을 2026-10-26 빌드로 재생했습니다. 새 부하 측정 결과는 아닙니다.
+100명 초과 화면은 가까운 유닛을 묶어 표시하므로 `×N`은 표시 단위이며 피해 대상 제한이 아닙니다.
 
-## DB 연결 설정
+### 전투 진행 — 60초
 
-`src/Database.h`의 `DatabaseConfig`에 로컬 기본값을 두고, `LoadDatabaseConfig()`에서 환경 변수로 덮어씁니다.
-현재는 Windows 인증만 사용하므로 ID와 비밀번호 설정은 없습니다. DB 점검은 기존 환경 변수를 사용합니다.
-`Server.ini`는 신규 TCP 서버와 게임 데이터 설정용이며 DB 연결 풀은 아직 연결하지 않았습니다.
+![1,500명 시연 리플레이 60초: 유닛 위치와 본진 상태](docs/images/replay-1500-60s.png)
 
-| 환경 변수 | 기본값 | 용도 |
-| --- | --- | --- |
-| `MTS_DB_DRIVER` | `ODBC Driver 17 for SQL Server` | 설치된 x64 드라이버 이름 |
-| `MTS_DB_SERVER` | `tcp:127.0.0.1,1433` | 서버 주소와 TCP 포트 |
-| `MTS_DB_NAME` | `project_db` | 접속할 DB 이름 |
-| `MTS_DB_TRUST_SERVER_CERTIFICATE` | 기본 로컬 주소에서 `yes`, 다른 주소에서 `no` | 인증서 검증 생략 여부. `yes`/`no`만 허용 |
+### 전투 후반 — 210초
 
-기본값으로 실행할 때는 환경 변수를 지정할 필요가 없습니다. 다른 테스트 설정을 쓸 때만 현재 PowerShell에서 지정합니다.
+![1,500명 시연 리플레이 210초: 전투 후반 상태](docs/images/replay-1500-210s.png)
 
-```powershell
-$env:MTS_DB_SERVER = 'tcp:127.0.0.1,1433'
-$env:MTS_DB_NAME = 'project_db'
-powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Debug -RunDbCheck
-```
+재생기는 서버·DB 없이 실행할 수 있습니다. 유닛 이미지는 Blizzard 자료를 식별 목적으로 사용하며 [출처](Assets/Replay/SOURCES.txt)를 별도로 남겼습니다.
 
-Visual Studio에서는 프로젝트 속성의 **디버깅 → 환경**에 같은 변수를 지정할 수 있습니다.
-연결에는 `Encrypt=yes`를 명시합니다. 로컬 테스트에서는 자체 서명 인증서를 허용하며, 다른 서버에서는 유효한 인증서를 사용하는 설정이 기본입니다.
-관련 옵션은 [Microsoft ODBC 연결 문자열 문서](https://learn.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=sql-server-ver17)를 참고합니다.
+## 빌드와 실행
 
-`DatabaseConnection`은 환경 핸들을 소유하고, 소멸 시 연결 해제 후 핸들을 반납합니다.
-조회용 명령 핸들은 함수 안에서만 유지합니다. 연결을 여러 스레드에서 공유하는 기능은 아직 없으며 현재 점검은 메인 스레드에서 실행합니다.
-`SQL_SUCCESS_WITH_INFO`도 진단 메시지를 출력합니다. 예를 들어 서버의 DB 전환 안내(5701)와 언어 설정 안내(5703)는 연결 실패가 아닙니다.
+### 1. 준비와 빌드
 
-## 로컬 검증 결과
-
-2026-10-13, `tcp:127.0.0.1,1433` / `project_db`에서 확인했습니다.
-
-- SQL Server 2022 Developer Edition (64-bit), 버전 `16.0.1200.5`
-- x64 Debug/Release 빌드 및 `--db-check` 성공, 종료 코드 0
-- TCP / Windows 인증(NTLM), 요청한 DB 이름 일치 확인
-- 정수 `1`과 `N'한글 연결 확인'`의 조회 결과 일치 확인
-- 없는 드라이버: `IM002`, 없는 DB: 서버 오류 `4060`, 각각 종료 코드 1
-- 접속할 수 없는 로컬 포트: 로그인 제한 시간 후 `HYT00`, 종료 코드 1
-- 잘못된 인증서 설정: 오류 메시지와 종료 코드 1
-- 도움말과 기본 환경 점검: 종료 코드 0, 잘못된 인수: 종료 코드 2
-- 드라이버 설정이 잘못되어도 `--self-check`는 DB 접속 없이 성공
-
-DB 연결 테스트는 읽기 전용 SELECT만 실행합니다. 이후 유닛 선택 저장과 전투/리플레이 저장에 필요한 테이블을 추가할 계획입니다.
-
-2026-10-16 통신 검증 항목:
-
-- x64 Debug/Release의 서버 및 더미 클라이언트 빌드와 기본 점검
-- A/B/C/World 각각 더미 8개, A 서버 추가 16개 접속의 Hello/Ping/Pong 검증
-- Protobuf 서버/맵 필드 일치, 한글 문자열과 0/0xff 바이너리, 4096바이트 최대 패킷
-- 분할 헤더와 이어 붙인 패킷 복원
-- 짧거나 과도한 길이, 잘못된 버전/종류, Hello 이전 Ping, 중복 Hello 거부
-- 잘린 Protobuf 문자열, 잘못된 UTF-8/와이어 타입, 누락된 이름/순번 거부
-- 초기 MP 초과, 없는 스킬 참조, 스킬 번호 중복, 시작 좌표 중복/범위 오류, 워커 수 0 거부
-- 시작 좌표/맵 외곽의 음수 X/Y 거부, 시작 좌표 (0,0) 허용
-- 정해진 시간 후 서버 종료, 워커 합류, 소켓 정리
-
-Debug와 Release 각각 총 48개의 더미 접속 시나리오에서 Ping/Pong 응답 960개를 확인했습니다.
-최대 동시 더미 수는 한 서버에 16개이며, 설정 오류 10건과 잘못된 패킷 11건의 거부도 확인했습니다.
-빌드 중 외부 Protobuf/Abseil 헤더에서 발생하는 MSVC 경고는 의존성 갱신 때 별도로 확인합니다.
-
-테스트 스크립트는 `test-network.ps1`이며, 로그는 무시되는 `build/network-check-*` 폴더에 남깁니다.
-채팅, 이동, 스킬, 전장 승패는 아직 테스트 대상이 아닙니다.
-
-## 다음 구현 순서
-
-1. 게임 서버 내 일반 채팅, A/B/C 공통 월드 채팅, 유닛 선택과 저장.
-2. 전장 진입/복귀, 단일 전장 로직 소유 스레드, 서버 판정 이동과 기본 공격.
-3. MP/스킬/사망 100초 대기, 건물 파괴와 마지막 생존 진영 승리, 300초 재시작.
-4. 전투 틱·이벤트 순서·데이터 버전과 스냅샷을 기록하고 더미에서 리플레이 검증.
-5. C++ 더미 부하/장애 검증 후 언리얼 클라이언트의 조작·표시·리플레이 화면 연결.
-
-DB 작업 큐 도입 시 종료·재시도·중복·프로세스 중단 시 유실 정책을 먼저 정합니다.
-게임 응답 완료와 DB 저장 완료는 구분해서 측정합니다.
-
-## 저장소 관리
-
-.gitignore에 빌드 결과, Protobuf 의존성/생성 코드, VS 개인 설정, 덤프, 개인 접속 설정을 제외했습니다.
-개인 접속 설정을 파일로 보관할 경우 *.local.json 또는 *.local.ini처럼 제외되는 이름을 사용합니다.
-DB 점검은 환경 변수, TCP 서버와 게임 데이터는 Server.ini에서 설정을 읽습니다.
-원격 저장소는 [fnghd2012-git-project/StarCraft](https://github.com/fnghd2012-git-project/StarCraft)이며 기본 작업 브랜치는 `main`입니다.
-현재 프로젝트 폴더에서 Git으로 변경 이력을 관리합니다. GitHub 인증 정보는 소스 파일에 넣지 않고 로컬 자격 증명 저장소에서 관리합니다.
-
-다른 PC에서는 저장소를 복제한 뒤 위의 `build.ps1`을 실행하면 Protobuf 의존성을 다시 준비할 수 있습니다.
+- Windows x64, Visual Studio 2019 C++ 도구(v142), Windows SDK 10.0.19041.0, CMake 구성 요소
+- Windows PowerShell 5.1
+- 로컬 SQL Server와 ODBC Driver 17 for SQL Server
+- Redis 서버: 기본 `127.0.0.1:6379` (클라이언트 라이브러리만 빌드 스크립트가 준비)
+- 최초 빌드는 Protobuf·hiredis 다운로드를 위한 인터넷 연결 필요
 
 ```powershell
 git clone https://github.com/fnghd2012-git-project/StarCraft.git
 cd StarCraft
-powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Debug -RunChecks
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Configuration Release -RunChecks
 ```
 
-개발 시작 전에 `git pull --ff-only`, 변경 확인은 `git status`와 `git diff`를 사용합니다.
-저장할 변경만 `git add`로 선택한 뒤 `git commit`과 `git push`로 기록합니다.
-`.deps`, `Protocol/Generated`, `build` 폴더의 파일은 올리지 않으며 `.proto` 원본과 의존성 준비 스크립트를 함께 관리합니다.
+결과물은 `Run64/Release/`입니다. `-Configuration Debug`도 지원합니다.
+의존성·Protobuf 생성 코드는 `.deps`, `Protocol/Generated`에 자동 준비하고, 실행 설정·CSV·시작 스크립트·이미지는 출력 폴더로 복사합니다.
+솔루션은 `MultiThreadServer/MultiThreadServer/MultiThreadServer.sln`입니다.
+
+### 2. 개인 DB 준비
+
+SQL Server에서 개인 테스트용 `project_db`를 먼저 생성합니다. TCP 1433 접근과 현재 Windows 계정의 DB 권한이 필요합니다.
+
+```powershell
+.\init-database.ps1
+.\Run64\Release\MultiThreadServer.exe --db-check
+```
+
+기본 연결은 `tcp:127.0.0.1,1433`, `project_db`, Windows 인증입니다.
+다른 로컬 환경에서는 실행할 PowerShell의 환경 변수로 변경합니다.
+
+```powershell
+$env:MTS_DB_DRIVER = 'ODBC Driver 17 for SQL Server'
+$env:MTS_DB_SERVER = 'tcp:127.0.0.1,1433'
+$env:MTS_DB_NAME = 'project_db'
+```
+
+`init-database.ps1`은 안전하게 로컬 주소·Windows 인증으로 제한되어 있습니다.
+입장권 서명키는 빌드 시 `Cluster.local.ini`로 로컬 생성하며 Git에 포함하지 않습니다.
+DB 테이블은 [Database](Database), 연결 처리는 [Database.cpp](MultiThreadServer/MultiThreadServer/src/Database.cpp)를 참고하세요.
+
+### 3. 서버와 더미 실행
+
+`Run64/Release/StartServers.cmd`를 실행하면 Game A/B/C와 World **총 4개 서버**가 켜집니다.
+서버를 켜 둔 상태에서 `StartDummy.cmd`를 실행하고 서버·계정 ID·비밀번호를 입력합니다.
+
+| 위치 | 입력 예 | 동작 |
+|---|---|---|
+| Game | `status` | 배정 유닛과 계정 상태 |
+| Game | `chat 일반 안녕하세요` | 같은 Game 서버에 채팅 |
+| Game | `chat 월드 안녕하세요` | 다른 Game 서버에도 채팅 |
+| Game | `world` | Game 로그아웃 후 World 로그인, 자동 전투 시작 |
+| World | `auto off` | 자동 전투 중지 후 수동 조작 |
+| World | `move 60 60` | 서버 판정 이동 |
+| World | `skills` / `skill 1` | 스킬 목록 / 1번 슬롯 사용 (대상형은 ID·좌표 필요) |
+| World | `rank kills` | Redis 킬 상위 10명과 내 순위 |
+| World | `back` | 원래 Game 서버 복귀, 재입장 100초 대기 |
+| 공통 | `quit` | 종료 |
+
+리플레이는 기록을 마무리할 수 있도록 서버를 **Ctrl+C로 정상 종료**합니다.
+네트워크 왕복만 확인하려면 서버 A를 켠 뒤 아래를 실행합니다. 이 검사는 완료 후 종료되는 것이 정상입니다.
+
+```powershell
+cd Run64\Release
+.\DummyClient.exe --server A --clients 8 --rounds 20
+```
+
+### 4. 자동 경기와 리플레이
+
+| 출력 폴더 실행 파일 | 확인할 내용 |
+|---|---|
+| `StartMatch10.cmd` | 서버당 10명, 건물 공략으로 한 경기 종료·복귀 검증 후 리플레이 |
+| `StartBattle1500.cmd` | 서버당 500명, 유닛 전투·스킬·사망·재입장, 240초 시연 후 리플레이 |
+| `StartReplay.cmd` | 저장된 `.replay` 선택, Play·Pause·배속·탐색 |
+
+짧은 동작 점검은 출력 폴더에서 아래처럼 실행합니다. 이 경우에만 시연 사본의 재입장 대기를 3초로 줄입니다.
+
+```powershell
+cd Run64\Release
+powershell -NoProfile -ExecutionPolicy Bypass -File .\StartBattle.ps1 -PerServer 10 -Seconds 30 -TestCooldownSeconds 3 -NoReplay
+```
+
+자동 시연은 별도 포트·DB Realm·설정 사본을 만들고 자신이 시작한 프로세스만 정리합니다.
+반복 전투를 보기 위해 시연 사본의 본진 HP를 늘립니다. 수동 실행의 원본 데이터와 조건이 다릅니다.
+리플레이 원본 파일은 용량 때문에 Git에 포함하지 않으며 위 실행기로 생성할 수 있습니다.
+
+## Server.ini 주요 설정
+
+설정을 바꾼 뒤 빌드하면 출력 폴더로 복사됩니다. 출력 폴더 파일을 직접 바꾸면 재빌드 시 덮어씁니다.
+서버가 읽는 설정을 바꾼 뒤에는 재시작합니다.
+
+| 항목 | 기본값 | 의미 |
+|---|---|---|
+| `[Network] Mode` | `IOCP` | `WSAPoll`로 비교 가능 |
+| `[Network] WorkerCount` | `2` | 서버 프로세스별 네트워크 쓰레드(워커) 수 |
+| `[Database] WorkerCount` | `2` | 서버 프로세스별 DB 쓰레드(워커) 수 |
+| `[Battle] WorkerCount` | `4` | World 전투 계산 쓰레드(워커). `1`은 메인에서 계산 |
+| `[Battle] TickRate` | `20` | 초당 20틱, 목표 간격 50ms |
+| `[Battle] MaxWorldPlayers` | `1500` | World 동시 인원 상한 |
+| `[Server.A/B/C] MaxPlayers` | `500` | 각 Game 서버 로그인 인원 상한 (각각 별도 섹션) |
+| `[Memory] UsePool` | `1` | IOCP I/O 작업 객체·4096바이트 버퍼 재사용 |
+| `[Memory] PoolCapacity` | `8192` | 풀 블록 상한 |
+| `[Battle] SpatialSearch` | `Grid` | `Linear`와 같은 게임 규칙으로 검색 비교 |
+| `[Replay] FrameTicks` | `1` | 매 틱 기록. `4`면 20Hz 기준 초당 5회 |
+| `[Replay] SnapshotSeconds` | `1` | 전체 상태 스냅샷 간격 |
+| `[Redis] Enabled` | `1` | World 랭킹 사용 여부 |
+
+`VerifyParallel=1`, `VerifySpatialSearch=1`은 같은 입력의 결과 대조용입니다. 성능 측정 때는 `0`으로 둡니다.
+메모리 풀은 Player나 모든 Protobuf 객체를 풀링하는 기능이 아닙니다.
+
+## 테스트
+
+프로젝트 루트에서 실행합니다. DB가 필요한 검사는 별도 Realm을 사용하지만 테스트 계정·결과가 개인 DB에 남습니다.
+
+```powershell
+.\test-network.ps1 -Configuration Release
+.\test-network.ps1 -Configuration Release -NetworkMode WSAPoll
+.\test-replay.ps1 -Configuration Release
+.\test-parallel.ps1 -Configuration Release
+.\test-ranking.ps1 -Configuration Release
+```
+
+| 테스트 | 검사 범위 |
+|---|---|
+| `test-network.ps1` | 동시 접속, TCP 분할·병합 수신, 최대 크기, 잘못된 패킷 |
+| `test-gameplay.ps1` / `test-account-skills.ps1` | 로그인·이동·공격·스킬·사망·복귀·승패·재시작 |
+| `test-parallel.ps1` | 전투 쓰레드 1·2·4와 직렬 계산 결과 대조 |
+| `test-iocp.ps1` | 연결 중단·취소 완료 회수·풀 고갈·종료 수명 |
+| `test-ranking.ps1` | 랭킹 일치, Redis 장애·복구, SQL 결과 재적재 중복 방지 |
+| `test-replay.ps1` | 실제 상태 대조, 체크섬, 손상·잘림 검출 |
+| `test-all.ps1` | 기본 기능 회귀를 순서대로 실행 |
+
+IOCP·부하 비교 일부 실행기는 Python을 사용합니다. 현재 스크립트의 Python 경로와 로컬 Redis 실행 경로는 PC에 맞게 확인해야 합니다.
+**이번 게시 점검(2026-10-26)**의 결과는 [검증 기록](docs/results/2026-10-26/readme/validation.md)에 정리합니다.
+
+## 측정 결과
+
+아래 수치는 **2026-10-19 측정 빌드의 기록**입니다. 이후 명명·구조 정리를 한 현재 코드의 새 성능 측정값이 아닙니다.
+
+### 동일 부하에서 네트워크·전투 계산·풀 비교
+
+96명, 네트워크/DB 쓰레드 2/2 고정, 5개 조건 × 3회입니다. 각 실행 지표 3개의 중앙값입니다.
+
+| 조건 | 전투 응답 p95 (ms) | Snapshot 구간 p95 최대 (ms) |
+|---|---:|---:|
+| WSAPoll / 전투 1 | 32.208 | 4.093 |
+| IOCP / 전투 1 / 풀 OFF | 16.485 | 4.259 |
+| IOCP / 전투 1 / 풀 ON | 16.413 | 3.895 |
+| IOCP / 전투 2 / 풀 ON | 16.576 | 2.981 |
+| IOCP / 전투 4 / 풀 ON | 16.520 | 1.867 |
+
+Snapshot 열은 실행 안의 **1초 구간별 p95 중 최대값**을 구하고, 이를 3회 중앙값으로 요약한 값입니다.
+전체 표본 p95나 전체 서버 성능 개선 배수가 아닙니다. [요약 CSV](docs/results/2026-10-19/iocp/comparison.csv) · [실행별 CSV](docs/results/2026-10-19/iocp/comparison-raw.csv)
+
+### 1,500명 전투 시연
+
+| 항목 | 관측값 |
+|---|---:|
+| 준비 / 최대 동시 World | 1,500 / 1,500 |
+| 사망 / 사망 후 재입장 | 2,668 / 2,138 |
+| 연결·응답 오류 / 거부 응답 | 0 / 162,752 |
+| 개별 Tick 최대 / 생략 틱 | 39.143ms / 0 |
+| Redis·XML·MSSQL 점수 대조 | 1,500명 전 항목 일치 |
+
+서버당 500명, 전원 준비 후 240초, 네트워크/DB 4/6, 전투 4, 20Hz, 기록 5Hz, 본진 HP 750,000 조건입니다.
+시간 제한 후 `server_shutdown`으로 정상 종료한 **단일 PC 단회 시연**이며 승패 완료 경기·장시간 안정성·인터넷 수용량을 의미하지 않습니다.
+거부 응답은 오류와 별도이며 상세 사유별 수량은 분류하지 않았습니다. [원본 검증 요약](docs/results/2026-10-19/iocp/stress-validation.json)
+
+## 코드 읽기
+
+서버 소스의 기준 경로는 `MultiThreadServer/MultiThreadServer/src/`입니다.
+
+| 순서 | 파일·함수 | 읽을 내용 |
+|---|---|---|
+| 1 | `TcpServer.cpp`: `RunTcpServer` | 게임 로직·네트워크 객체 생성과 수명 |
+| 2 | `IocpServer.cpp`: `Run`, `HandleSessionCompletion` | GQCS 완료 처리와 세션 잠금 |
+| 3 | `PacketDispatch.cpp`: `HandleClientPackets` | TCP 버퍼에서 패킷 분리·명령 등록 |
+| 4 | `GameLogic.cpp`: `Submit`, `Update`, `HandlePacket` | 명령 큐와 게임 상태 소유권 |
+| 5 | `GameBattle.cpp`: `MovePlayers` / `BattleWorkers.cpp`: `Run`, `Work` | 계산 분배·완료 대기·메인 반영 |
+| 6 | `GameLogic.cpp`: `SendPacket` / `IocpServer.cpp`: `PostSend` | 응답 큐·버퍼 수명·부분 송신 |
+| 7 | `GamePersistence.cpp`, `DatabaseWorker.cpp`, `RedisWorker.cpp` | 비동기 저장과 결과 반영 |
+| 8 | `GameReplay.cpp`, `Replay.cpp`, `DummyClient/src/ReplayWindow.cpp` | 상태 수집·기록·복원·화면 표시 |
+
+| 폴더 | 내용 |
+|---|---|
+| `MultiThreadServer/` | 서버 솔루션과 소스 |
+| `DummyClient/` | 수동 클라이언트, 자동 전투·부하·리플레이 뷰어 |
+| `Protocol/` | Protobuf 원본과 패킷 계약 |
+| `Data/` / `Database/` | 게임 데이터와 SQL 스키마 |
+| `Launch/` | 서버·더미·시연 시작 스크립트 |
+| `docs/` | 설계, 컨벤션, 검증 기록, 학습 문서 생성 소스 |
+
+[게임 설계](docs/Design.md) · [코드 컨벤션](docs/CodeConventions.md) · [개발 과정·과거 측정](docs/DevelopmentHistory.md)
+
+## 현재 범위와 한계
+
+언리얼 클라이언트, 유닛 간 물리 충돌·일반 길찾기, 맵별 동적 쓰레드 배정, TLS, 진행 중 World 전체의 강제 종료 복구는 구현하지 않았습니다.
+현재 랭킹은 단일 World·단일 Redis 기준입니다. 저장 큐·디스크 오류 시 결과 유실 가능성을 로그로 알리며, Redis 복구는 살아 있는 World 메모리의 경기 총계를 다시 반영하는 방식입니다.
+
+빌드 결과·의존성·로컬 키·리플레이 원본·생성 PDF·임시 편집 사본은 Git에서 제외합니다.
+게임 이미지 출처는 [Assets/Replay/SOURCES.txt](Assets/Replay/SOURCES.txt), hiredis 고지는 [ThirdPartyNotices.txt](ThirdPartyNotices.txt)를 참고하세요.

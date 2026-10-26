@@ -1,0 +1,467 @@
+[LISTEN] A 127.0.0.1:53716 workers=2 units=3 skills=10 max_players=500 spatial=Grid cell=25 spatial_verify=0 (Ctrl+C to stop)
+[CHAT RELAY] A connected to World
+[GAME LOGIN] A WorkerSession_9 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_22 saved unit=Hydralisk
+[METRICS] server=A active=2 commands=34 rejected=0 queue_peak=32 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=32 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_6 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_8 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_29 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_1 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_11 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_21 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_16 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_5 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_17 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_25 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_20 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_18 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_12 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_7 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_24 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_10 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_14 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_27 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_13 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_4 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_3 saved unit=Hydralisk
+[METRICS] server=A active=23 commands=21 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=32 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_0 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_26 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_31 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_15 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_19 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_2 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_28 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_30 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_23 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_59 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_57 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_54 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_56 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_53 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_46 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_50 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_49 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_47 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_55 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_43 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_48 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_42 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_51 saved unit=Hydralisk
+[METRICS] server=A active=15 commands=53 rejected=0 queue_peak=29 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=31 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_39 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_44 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_58 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_45 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_60 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_33 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_38 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_52 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_41 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_34 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_40 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_37 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_32 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_36 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_35 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_61 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_62 saved unit=Hydralisk
+[METRICS] server=A active=1 commands=49 rejected=0 queue_peak=30 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=32 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_78 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_92 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_90 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_77 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_67 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_63 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_82 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_89 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_85 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_76 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_72 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_69 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_74 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_68 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_71 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_86 saved unit=Hydralisk
+[METRICS] server=A active=17 commands=16 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=32 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_88 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_84 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_91 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_87 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_83 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_79 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_81 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_80 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_75 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_73 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_65 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_70 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_64 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_66 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_93 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_94 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_95 saved unit=Hydralisk
+[METRICS] server=A active=2 commands=18 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WarmSession_0 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_1 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_3 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_2 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_4 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_5 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_7 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_6 saved unit=Hydralisk
+[METRICS] server=A active=0 commands=21 rejected=0 queue_peak=4 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=4 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WarmSession_8 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_9 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_11 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_10 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_2 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_0 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_1 saved unit=Hydralisk
+[GAME LOGOUT] A WarmSession_0 -> World
+[GAME LOGOUT] A WarmSession_2 -> World
+[GAME LOGIN] A WarmSession_3 saved unit=Hydralisk
+[GAME LOGOUT] A WarmSession_3 -> World
+[GAME LOGOUT] A WarmSession_1 -> World
+[METRICS] server=A active=0 commands=16 rejected=0 queue_peak=4 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=4 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WarmSession_7 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_6 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_5 saved unit=Hydralisk
+[GAME LOGOUT] A WarmSession_7 -> World
+[GAME LOGOUT] A WarmSession_6 -> World
+[GAME LOGIN] A WarmSession_4 saved unit=Hydralisk
+[GAME LOGOUT] A WarmSession_5 -> World
+[GAME LOGOUT] A WarmSession_4 -> World
+[GAME LOGIN] A WarmSession_8 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_9 saved unit=Hydralisk
+[GAME LOGIN] A WarmSession_10 saved unit=Hydralisk
+[GAME LOGOUT] A WarmSession_8 -> World
+[GAME LOGOUT] A WarmSession_9 -> World
+[GAME LOGOUT] A WarmSession_10 -> World
+[GAME LOGIN] A WarmSession_11 saved unit=Hydralisk
+[GAME LOGOUT] A WarmSession_11 -> World
+[GAME LOGIN] A WorkerSession_16 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_19 saved unit=Hydralisk
+[METRICS] server=A active=2 commands=44 rejected=0 queue_peak=32 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=30 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_3 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_31 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_18 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_22 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_13 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_24 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_27 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_12 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_1 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_25 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_7 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_10 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_4 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_28 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_20 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_9 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_5 saved unit=Hydralisk
+[METRICS] server=A active=19 commands=19 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=32 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_23 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_26 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_15 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_30 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_2 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_29 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_17 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_14 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_11 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_21 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_0 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_6 saved unit=Hydralisk
+[GAME LOGOUT] A WorkerSession_16 -> World
+[GAME LOGOUT] A WorkerSession_19 -> World
+[GAME LOGOUT] A WorkerSession_3 -> World
+[GAME LOGOUT] A WorkerSession_31 -> World
+[GAME LOGOUT] A WorkerSession_18 -> World
+[GAME LOGOUT] A WorkerSession_22 -> World
+[GAME LOGOUT] A WorkerSession_13 -> World
+[GAME LOGOUT] A WorkerSession_24 -> World
+[GAME LOGOUT] A WorkerSession_27 -> World
+[GAME LOGOUT] A WorkerSession_12 -> World
+[GAME LOGOUT] A WorkerSession_1 -> World
+[GAME LOGOUT] A WorkerSession_25 -> World
+[GAME LOGOUT] A WorkerSession_7 -> World
+[GAME LOGOUT] A WorkerSession_10 -> World
+[GAME LOGOUT] A WorkerSession_4 -> World
+[GAME LOGOUT] A WorkerSession_28 -> World
+[GAME LOGOUT] A WorkerSession_20 -> World
+[GAME LOGOUT] A WorkerSession_9 -> World
+[GAME LOGOUT] A WorkerSession_5 -> World
+[GAME LOGOUT] A WorkerSession_23 -> World
+[GAME LOGOUT] A WorkerSession_26 -> World
+[GAME LOGOUT] A WorkerSession_15 -> World
+[GAME LOGOUT] A WorkerSession_30 -> World
+[GAME LOGOUT] A WorkerSession_2 -> World
+[GAME LOGOUT] A WorkerSession_29 -> World
+[GAME LOGOUT] A WorkerSession_17 -> World
+[GAME LOGOUT] A WorkerSession_14 -> World
+[GAME LOGOUT] A WorkerSession_11 -> World
+[GAME LOGOUT] A WorkerSession_21 -> World
+[GAME LOGOUT] A WorkerSession_0 -> World
+[GAME LOGOUT] A WorkerSession_6 -> World
+[GAME LOGIN] A WorkerSession_8 saved unit=Hydralisk
+[GAME LOGOUT] A WorkerSession_8 -> World
+[GAME LOGIN] A WorkerSession_59 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_60 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_53 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_58 saved unit=Hydralisk
+[METRICS] server=A active=4 commands=47 rejected=0 queue_peak=31 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=30 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_54 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_52 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_49 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_45 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_62 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_46 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_61 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_43 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_55 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_42 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_56 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_40 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_57 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_51 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_50 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_48 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_47 saved unit=Hydralisk
+[METRICS] server=A active=21 commands=18 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=31 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_37 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_44 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_39 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_41 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_38 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_33 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_32 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_36 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_35 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_34 saved unit=Hydralisk
+[GAME LOGOUT] A WorkerSession_60 -> World
+[GAME LOGOUT] A WorkerSession_59 -> World
+[GAME LOGOUT] A WorkerSession_53 -> World
+[GAME LOGOUT] A WorkerSession_58 -> World
+[GAME LOGOUT] A WorkerSession_54 -> World
+[GAME LOGOUT] A WorkerSession_52 -> World
+[GAME LOGOUT] A WorkerSession_49 -> World
+[GAME LOGOUT] A WorkerSession_45 -> World
+[GAME LOGOUT] A WorkerSession_62 -> World
+[GAME LOGOUT] A WorkerSession_46 -> World
+[GAME LOGOUT] A WorkerSession_61 -> World
+[GAME LOGOUT] A WorkerSession_43 -> World
+[GAME LOGOUT] A WorkerSession_55 -> World
+[GAME LOGOUT] A WorkerSession_42 -> World
+[GAME LOGOUT] A WorkerSession_56 -> World
+[GAME LOGOUT] A WorkerSession_40 -> World
+[GAME LOGOUT] A WorkerSession_57 -> World
+[GAME LOGOUT] A WorkerSession_51 -> World
+[GAME LOGOUT] A WorkerSession_50 -> World
+[GAME LOGOUT] A WorkerSession_48 -> World
+[GAME LOGOUT] A WorkerSession_47 -> World
+[GAME LOGOUT] A WorkerSession_37 -> World
+[GAME LOGOUT] A WorkerSession_44 -> World
+[GAME LOGOUT] A WorkerSession_39 -> World
+[GAME LOGOUT] A WorkerSession_41 -> World
+[GAME LOGOUT] A WorkerSession_38 -> World
+[GAME LOGOUT] A WorkerSession_33 -> World
+[GAME LOGOUT] A WorkerSession_32 -> World
+[GAME LOGOUT] A WorkerSession_36 -> World
+[GAME LOGOUT] A WorkerSession_35 -> World
+[GAME LOGOUT] A WorkerSession_34 -> World
+[GAME LOGIN] A WorkerSession_63 saved unit=Hydralisk
+[GAME LOGOUT] A WorkerSession_63 -> World
+[GAME LOGIN] A WorkerSession_75 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_76 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_72 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_73 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_69 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_78 saved unit=Hydralisk
+[METRICS] server=A active=6 commands=49 rejected=0 queue_peak=20 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=31 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_77 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_74 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_71 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_70 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_68 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_67 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_66 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_64 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_65 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_82 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_84 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_85 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_79 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_88 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_90 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_91 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_94 saved unit=Hydralisk
+[METRICS] server=A active=23 commands=18 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=32 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A WorkerSession_93 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_92 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_89 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_87 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_83 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_86 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_81 saved unit=Hydralisk
+[GAME LOGIN] A WorkerSession_80 saved unit=Hydralisk
+[GAME LOGOUT] A WorkerSession_75 -> World
+[GAME LOGOUT] A WorkerSession_76 -> World
+[GAME LOGOUT] A WorkerSession_72 -> World
+[GAME LOGOUT] A WorkerSession_73 -> World
+[GAME LOGOUT] A WorkerSession_69 -> World
+[GAME LOGOUT] A WorkerSession_78 -> World
+[GAME LOGOUT] A WorkerSession_77 -> World
+[GAME LOGOUT] A WorkerSession_74 -> World
+[GAME LOGOUT] A WorkerSession_71 -> World
+[GAME LOGOUT] A WorkerSession_70 -> World
+[GAME LOGOUT] A WorkerSession_68 -> World
+[GAME LOGOUT] A WorkerSession_67 -> World
+[GAME LOGOUT] A WorkerSession_66 -> World
+[GAME LOGOUT] A WorkerSession_64 -> World
+[GAME LOGOUT] A WorkerSession_65 -> World
+[GAME LOGOUT] A WorkerSession_82 -> World
+[GAME LOGOUT] A WorkerSession_84 -> World
+[GAME LOGOUT] A WorkerSession_85 -> World
+[GAME LOGOUT] A WorkerSession_79 -> World
+[GAME LOGOUT] A WorkerSession_88 -> World
+[GAME LOGOUT] A WorkerSession_90 -> World
+[GAME LOGOUT] A WorkerSession_91 -> World
+[GAME LOGOUT] A WorkerSession_94 -> World
+[GAME LOGOUT] A WorkerSession_93 -> World
+[GAME LOGOUT] A WorkerSession_92 -> World
+[GAME LOGOUT] A WorkerSession_89 -> World
+[GAME LOGOUT] A WorkerSession_87 -> World
+[GAME LOGOUT] A WorkerSession_83 -> World
+[GAME LOGOUT] A WorkerSession_86 -> World
+[GAME LOGOUT] A WorkerSession_81 -> World
+[GAME LOGOUT] A WorkerSession_80 -> World
+[GAME LOGIN] A WorkerSession_95 saved unit=Hydralisk
+[GAME LOGOUT] A WorkerSession_95 -> World
+[METRICS] server=A active=0 commands=9 rejected=0 queue_peak=1 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A Bench_1792379432960_6 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_3 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_6 -> World
+[GAME LOGOUT] A Bench_1792379432960_3 -> World
+[GAME LOGIN] A Bench_1792379432960_0 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_0 -> World
+[GAME LOGIN] A Bench_1792379432960_12 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_15 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_12 -> World
+[GAME LOGOUT] A Bench_1792379432960_15 -> World
+[GAME LOGIN] A Bench_1792379432960_9 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_9 -> World
+[METRICS] server=A active=0 commands=12 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A Bench_1792379432960_18 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_21 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_21 -> World
+[GAME LOGOUT] A Bench_1792379432960_18 -> World
+[GAME LOGIN] A Bench_1792379432960_24 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_27 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_24 -> World
+[GAME LOGOUT] A Bench_1792379432960_27 -> World
+[GAME LOGIN] A Bench_1792379432960_30 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_30 -> World
+[METRICS] server=A active=0 commands=13 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=3 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A Bench_1792379432960_33 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_39 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_33 -> World
+[GAME LOGOUT] A Bench_1792379432960_39 -> World
+[GAME LOGIN] A Bench_1792379432960_36 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_36 -> World
+[GAME LOGIN] A Bench_1792379432960_45 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_42 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_45 -> World
+[GAME LOGOUT] A Bench_1792379432960_42 -> World
+[GAME LOGIN] A Bench_1792379432960_51 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_48 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_48 -> World
+[GAME LOGOUT] A Bench_1792379432960_51 -> World
+[METRICS] server=A active=0 commands=12 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A Bench_1792379432960_54 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_54 -> World
+[GAME LOGIN] A Bench_1792379432960_57 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_63 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_57 -> World
+[GAME LOGOUT] A Bench_1792379432960_63 -> World
+[GAME LOGIN] A Bench_1792379432960_60 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_60 -> World
+[GAME LOGIN] A Bench_1792379432960_69 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_66 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_69 -> World
+[GAME LOGOUT] A Bench_1792379432960_66 -> World
+[METRICS] server=A active=0 commands=11 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A Bench_1792379432960_78 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_72 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_78 -> World
+[GAME LOGOUT] A Bench_1792379432960_72 -> World
+[GAME LOGIN] A Bench_1792379432960_75 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_75 -> World
+[GAME LOGIN] A Bench_1792379432960_87 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_84 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_87 -> World
+[GAME LOGOUT] A Bench_1792379432960_84 -> World
+[GAME LOGIN] A Bench_1792379432960_81 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_81 -> World
+[METRICS] server=A active=0 commands=14 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=2 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[GAME LOGIN] A Bench_1792379432960_93 saved unit=Hydralisk
+[GAME LOGIN] A Bench_1792379432960_90 saved unit=Hydralisk
+[GAME LOGOUT] A Bench_1792379432960_93 -> World
+[GAME LOGOUT] A Bench_1792379432960_90 -> World
+[METRICS] server=A active=0 commands=2 rejected=0 queue_peak=1 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[METRICS] server=A active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 replay_failed=0
+[STOP] Network workers joined; sockets closed.

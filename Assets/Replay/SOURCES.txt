@@ -1,0 +1,44 @@
+스타크래프트 리플레이 표시용 유닛 이미지
+확인 및 다운로드: 2026-10-16
+
+이미지/캐릭터 저작권: Blizzard Entertainment.
+원본 출처: Blizzard StarCraft Compendium (https://classic.battle.net/scc/)
+이 프로젝트가 제작한 그림이 아니며 오픈 소스 코드의 라이선스로 재허가하지 않는다.
+개인 서버 포트폴리오의 유닛 식별용 이미지로 사용한다.
+JPG/GIF 원본을 유지하며, 표시 크기만 뷰어에서 조절한다. 걷기/공격 애니메이션은 구현하지 않는다.
+
+Marine.jpg
+https://classic.battle.net/scc/terran/um.shtml
+https://classic.battle.net/images/battle/scc/terran/pix/Marine1.jpg
+
+Ghost.jpg
+https://classic.battle.net/scc/terran/ug.shtml
+https://classic.battle.net/images/battle/scc/terran/pix/Ghost1.jpg
+
+Medic.jpg
+https://classic.battle.net/scc/terran/umedic.shtml
+https://classic.battle.net/images/battle/scc/terran/pix/Medic1.jpg
+
+Goliath.jpg
+https://classic.battle.net/scc/terran/ugl.shtml
+https://classic.battle.net/images/battle/scc/terran/pix/Goliath1.jpg
+
+Zealot.gif
+https://classic.battle.net/scc/protoss/units/zealot.shtml
+https://classic.battle.net/images/battle/scc/protoss/pix/units/zealot2.gif
+
+HighTemplar.gif
+https://classic.battle.net/scc/protoss/units/templar.shtml
+https://classic.battle.net/images/battle/scc/protoss/pix/units/templar2.gif
+
+Zergling.gif
+https://classic.battle.net/scc/zerg/units/zergling.shtml
+https://classic.battle.net/images/battle/scc/zerg/pix/units/Zergling2.gif
+
+Hydralisk.gif
+https://classic.battle.net/scc/zerg/units/hydralisk.shtml
+https://classic.battle.net/images/battle/scc/zerg/pix/units/Hydralisk2.gif
+
+Defiler.gif
+https://classic.battle.net/scc/zerg/units/defiler.shtml
+https://classic.battle.net/images/battle/scc/zerg/pix/units/Defiler2.gif

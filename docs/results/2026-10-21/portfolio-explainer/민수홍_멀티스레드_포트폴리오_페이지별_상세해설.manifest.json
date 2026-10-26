@@ -1,0 +1,1113 @@
+{
+  "date": "2026-10-21",
+  "output": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_멀티스레드_포트폴리오_페이지별_상세해설.pdf",
+  "pages": 86,
+  "original_pages": 36,
+  "original_sha256": "2d225a375ea5037e7c67aab0d8b148d92ad3a06d837b489cbd69f17d124cd59e",
+  "original_working_path": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오.pdf",
+  "original_content_sha256": "495631c6b0dca84ad0924f06953334947fe9c50cd568506dcc5031e5bce06032",
+  "sources_sha256": {
+    "MultiThreadServer/MultiThreadServer/src/Main.cpp": "f735e6e7dffe819a039afae9d655cde0aacdb45175500f5a95cc573c13b0c1d2",
+    "Server.ini": "d9a6a99b5c7ac91786c791ef09a3f7c184a5e603e157ce3b4439c5e9e0df0fb1",
+    "Data/GameServer.csv": "162317c800de790e399e6a9a9839bb1cf9655b116466ee314052eab60e53eba0",
+    "MultiThreadServer/MultiThreadServer/src/GamePersistence.cpp": "ce3728333443b513df3d008f80114420a72f35857bdde04c62c396c788457385",
+    "DummyClient/src/ReplayWindow.cpp": "6e9d9846fb658fe9bb83eabb5e260251dd38a379737eb5183232dec395178419",
+    "MultiThreadServer/MultiThreadServer/src/TcpServer.cpp": "332d25ed23346f15ecaff2133862a2c428f01455087fb71de520a1a541b665c5",
+    "MultiThreadServer/MultiThreadServer/src/ChatRelay.cpp": "fe85b04a734463f988c60c99f4dcd253ff1b35200ccc4a5afc044dfea8910a36",
+    "MultiThreadServer/MultiThreadServer/src/IocpSession.h": "4faa86786867944bd72f513786a23626e3b568c0f36e0c7d01b11da839fea34f",
+    "MultiThreadServer/MultiThreadServer/src/GameLogic.h": "516eda9a6cc29ba31ef8b8f62e329b90b43021aea8f0a50074d0c87a57800614",
+    "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp": "d1ba4511033c2d8406b16f6ba6ef55b38166a04e2bc5e4fa3e46e9beee022ea6",
+    "MultiThreadServer/MultiThreadServer/src/BattleWorkers.cpp": "2a5909f3a4826aab9d1f35c8a05c084e0f3192625ef60d37c27319293fdf9720",
+    "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.cpp": "ac3641053461ae7ddb47d34676e7023fea038938d69a81b0dcbec2a3e6a3a61e",
+    "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp": "2d36595d83d59f9c7373e20b3ad149c2fa57dce2ddbc7dd42b19056479134731",
+    "DummyClient/src/ClientConnection.cpp": "23e859d4edef0e199f3dcc5ccf92427ce4fbec69b6bc2c8e350afdf6808878dd",
+    "MultiThreadServer/MultiThreadServer/src/PacketDispatch.cpp": "aecb5cc81066e73334d7eb79290b1cd9db126eac9396ed5f1f56ef03dcdf89d7",
+    "MultiThreadServer/MultiThreadServer/src/Packet.h": "f83cbe9c849a253bb61434b9c01fa59b78ff797a4d8be9ecbf99abdd0d97ecd1",
+    "Protocol/Game.proto": "5eb81fe61803e6d70c9c524fea983d26bd9f513a0ff97cfdba4ba91e1e009738",
+    "MultiThreadServer/MultiThreadServer/src/BattleCalculation.cpp": "7a243b5a0042445c0a2bdfa62b3faa82daea044c35b11b1937b90a4e1fbc9e47",
+    "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp": "f4f5f65f02d04d05fa8e949cf1ba0b21721635713601c4c7fcc6ae58a826bf98",
+    "MultiThreadServer/MultiThreadServer/src/EntryTicket.cpp": "51f29d5450379d091e0b847277147f10c4d520be80a8bc191957815722fa042e",
+    "MultiThreadServer/MultiThreadServer/src/GameBattle.cpp": "7846d56a4399cb2f6f41284b938af46267ffdcfbd4604a14b8b0c68719af56b7",
+    "MultiThreadServer/MultiThreadServer/src/GameSkills.cpp": "cb0ca334276711adec9a237c0dbc4f44c402c39c41691d19a1ced6869bf7e996",
+    "MultiThreadServer/MultiThreadServer/src/GameSnapshot.cpp": "a9829c1a5d8456c75b3e874fbd5d96015371ce6d88ce5b1018c89e08236b37f6",
+    "MultiThreadServer/MultiThreadServer/src/SpatialIndex.cpp": "6bd99bbd204bf46d20b6defbce38724c54bdf8e5ade8637e8dfb979a81454f9e",
+    "MultiThreadServer/MultiThreadServer/src/GameRanking.cpp": "9e9e312ed74f774a3da501a7399a776aac40582214d6e1386ce23478da4e0cc6",
+    "MultiThreadServer/MultiThreadServer/src/RedisWorker.cpp": "2570caa38ab5212a681939d211c304048753bec750048f95dddcd859f495f909",
+    "MultiThreadServer/MultiThreadServer/src/GameReplay.cpp": "f655b2f36b65d24d8b1289ba6b351ea10277f0e1b25daa4d0ba4360b55d02012",
+    "MultiThreadServer/MultiThreadServer/src/Replay.cpp": "7f2a3ef2672feae47f07f565d32c0c530d56a54697b76c39e75a3f6fceeb8d1f",
+    "docs/results/2026-10-19/iocp/stress-validation.json": "1a519f52de5d61067b470141486d03475e6e6fe21564056df44dbc9016a00338",
+    "docs/results/2026-10-19/iocp/matrix/plan.json": "bcd88f1a0ee69abc1a0e62cbd7518e245d44e77cb4153e985a5b24ff12799374",
+    "test-iocp.ps1": "0fe3d54283f3542702bf7cebc3346efe1a5ab77c06c47d657c36fad35728b3ae",
+    "test-parallel.ps1": "52af317239ce46edf697ade84c0fab1791b2a2b5ce8e96f2bee86eedf658b381",
+    "docs/results/2026-10-21/mutex-roles/regression.json": "aa6db1c9cefc96e9ad4a6d69a0f6b8eaf026b4fb4a9a6fc7e58608d18288f2db",
+    "docs/results/2026-10-19/iocp/summary.json": "06957c9f3b6c810fdf8d6c4895cfe7d5741cba1c09851c389d7701ad94f178af",
+    "DummyClient/src/LoadClient.cpp": "3734ebfe80235ebfcc5ee0f308160e14a1748b26a461d6fec62a56eb92c89613",
+    "README.md": "cc0442494a5a804f848073c2724b8d2b37cf2132b5f534ab0b67c9061ec72ba2",
+    "docs/CodeConventions.md": "93eff8cc3cd44e0aa409daade954295ad73febee0d484bca7a996f50070425f6",
+    "docs/results/2026-10-21/mutex-roles/validation.md": "6a07fa6a6b18c81c2c8fbb2aca3eaa75ceef2e265318722d2bf5152709b11c97",
+    "docs/results/2026-10-21/mutex-roles/rename-audit.json": "eef5f6c60f925e2d5f83782d10a97d6758072afbe6ba98074663ba24569a3cc7"
+  },
+  "excerpts": [
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpSession.h",
+      "scope": "struct stIocpSession",
+      "start": 9,
+      "end": 15,
+      "sha256": "4faa86786867944bd72f513786a23626e3b568c0f36e0c7d01b11da839fea34f"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "scope": "void CIocpServer::HandleAccept(",
+      "start": 291,
+      "end": 298,
+      "sha256": "2d36595d83d59f9c7373e20b3ad149c2fa57dce2ddbc7dd42b19056479134731"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "scope": "void CIocpServer::PostRecv(",
+      "start": 164,
+      "end": 172,
+      "sha256": "2d36595d83d59f9c7373e20b3ad149c2fa57dce2ddbc7dd42b19056479134731"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.cpp",
+      "scope": "void HandleClientPackets(",
+      "start": 36,
+      "end": 41,
+      "sha256": "aecb5cc81066e73334d7eb79290b1cd9db126eac9396ed5f1f56ef03dcdf89d7"
+    },
+    {
+      "file": "Protocol/Game.proto",
+      "scope": "message MoveRequest",
+      "start": 160,
+      "end": 160,
+      "sha256": "5eb81fe61803e6d70c9c524fea983d26bd9f513a0ff97cfdba4ba91e1e009738"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.cpp",
+      "scope": "void HandleClientPackets(",
+      "start": 53,
+      "end": 58,
+      "sha256": "aecb5cc81066e73334d7eb79290b1cd9db126eac9396ed5f1f56ef03dcdf89d7"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "scope": "void CGameLogic::Update()",
+      "start": 912,
+      "end": 916,
+      "sha256": "d1ba4511033c2d8406b16f6ba6ef55b38166a04e2bc5e4fa3e46e9beee022ea6"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "scope": "void CGameLogic::HandleMove(",
+      "start": 310,
+      "end": 315,
+      "sha256": "d1ba4511033c2d8406b16f6ba6ef55b38166a04e2bc5e4fa3e46e9beee022ea6"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "scope": "void CGameLogic::SendPacket(",
+      "start": 127,
+      "end": 133,
+      "sha256": "d1ba4511033c2d8406b16f6ba6ef55b38166a04e2bc5e4fa3e46e9beee022ea6"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "scope": "void CIocpServer::PostSend(",
+      "start": 234,
+      "end": 237,
+      "sha256": "2d36595d83d59f9c7373e20b3ad149c2fa57dce2ddbc7dd42b19056479134731"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp",
+      "scope": "void CIoBufferPool::Release(",
+      "start": 54,
+      "end": 58,
+      "sha256": "f4f5f65f02d04d05fa8e949cf1ba0b21721635713601c4c7fcc6ae58a826bf98"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.cpp",
+      "scope": "vector<stDatabaseResult> CDatabaseWorker::TakeResults()",
+      "start": 128,
+      "end": 133,
+      "sha256": "ac3641053461ae7ddb47d34676e7023fea038938d69a81b0dcbec2a3e6a3a61e"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/EntryTicket.cpp",
+      "scope": "wire::EntryClaims CEntryTicket::Verify(",
+      "start": 140,
+      "end": 146,
+      "sha256": "51f29d5450379d091e0b847277147f10c4d520be80a8bc191957815722fa042e"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "scope": "void CGameLogic::Update()",
+      "start": 984,
+      "end": 992,
+      "sha256": "d1ba4511033c2d8406b16f6ba6ef55b38166a04e2bc5e4fa3e46e9beee022ea6"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameBattle.cpp",
+      "scope": "void CGameLogic::MovePlayers()",
+      "start": 104,
+      "end": 109,
+      "sha256": "7846d56a4399cb2f6f41284b938af46267ffdcfbd4604a14b8b0c68719af56b7"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleWorkers.cpp",
+      "scope": "void CBattleWorkers::Work(",
+      "start": 105,
+      "end": 109,
+      "sha256": "2a5909f3a4826aab9d1f35c8a05c084e0f3192625ef60d37c27319293fdf9720"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameSnapshot.cpp",
+      "scope": "void CGameLogic::BroadcastWorldState()",
+      "start": 114,
+      "end": 119,
+      "sha256": "a9829c1a5d8456c75b3e874fbd5d96015371ce6d88ce5b1018c89e08236b37f6"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp",
+      "scope": "stIoOperation* CIoBufferPool::Acquire(",
+      "start": 26,
+      "end": 31,
+      "sha256": "f4f5f65f02d04d05fa8e949cf1ba0b21721635713601c4c7fcc6ae58a826bf98"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.cpp",
+      "scope": "void Save(",
+      "start": 72,
+      "end": 75,
+      "sha256": "2570caa38ab5212a681939d211c304048753bec750048f95dddcd859f495f909"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Replay.cpp",
+      "scope": "stArchive::StateAt(",
+      "start": 127,
+      "end": 135,
+      "sha256": "7f2a3ef2672feae47f07f565d32c0c530d56a54697b76c39e75a3f6fceeb8d1f"
+    },
+    {
+      "file": "DummyClient/src/ReplayWindow.cpp",
+      "scope": "void CReplayWindow::",
+      "start": 550,
+      "end": 554,
+      "sha256": "6e9d9846fb658fe9bb83eabb5e260251dd38a379737eb5183232dec395178419"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpSession.h",
+      "scope": "struct stIocpSession",
+      "start": 11,
+      "end": 16,
+      "sha256": "4faa86786867944bd72f513786a23626e3b568c0f36e0c7d01b11da839fea34f"
+    }
+  ],
+  "guide_sources_sha256": {
+    "appendices.py": "f153ed24906a0b03259713e7aa7ebbb0d900cbbbba897e4c7db4ad27db6a1d9e",
+    "build.py": "1c95b357f6bdbdc9a6fdb697f4794e428f9f78c612b02a6145adf03a92938d74",
+    "content.py": "0d873b15734726a12966a04db4a18fdbf63a380c6defb5461d91fdbfd718bb9d"
+  },
+  "page_map": [
+    {
+      "original": 1,
+      "title": "C++ 멀티스레드 서버 / 세 서버가 만나는 하나의 전장",
+      "start": 0,
+      "end": 1,
+      "dest": "original-1",
+      "first": 6,
+      "last": 7
+    },
+    {
+      "original": 2,
+      "title": "게임 규칙이 실제 서버 흐름으로 이어지는 전장",
+      "start": 2,
+      "end": 3,
+      "dest": "original-2",
+      "first": 8,
+      "last": 9
+    },
+    {
+      "original": 3,
+      "title": "클라이언트·네 개의 서버·저장소의 연결",
+      "start": 4,
+      "end": 5,
+      "dest": "original-3",
+      "first": 10,
+      "last": 11
+    },
+    {
+      "original": 4,
+      "title": "객체가 가진 상태와 연결 관계",
+      "start": 6,
+      "end": 7,
+      "dest": "original-4",
+      "first": 12,
+      "last": 13
+    },
+    {
+      "original": 5,
+      "title": "입력·계산·외부 I/O를 나누는 실행 문맥",
+      "start": 8,
+      "end": 9,
+      "dest": "original-5",
+      "first": 14,
+      "last": 15
+    },
+    {
+      "original": 6,
+      "title": "서버 기동부터 첫 WSARecv 등록까지",
+      "start": 10,
+      "end": 11,
+      "dest": "original-6",
+      "first": 16,
+      "last": 17
+    },
+    {
+      "original": 7,
+      "title": "수신을 먼저 등록하고, 완료 후 다음 수신을 등록",
+      "start": 12,
+      "end": 13,
+      "dest": "original-7",
+      "first": 18,
+      "last": 19
+    },
+    {
+      "original": 8,
+      "title": "이동 패킷 한 개가 왕복하는 전체 경로",
+      "start": 14,
+      "end": 15,
+      "dest": "original-8",
+      "first": 20,
+      "last": 21
+    },
+    {
+      "original": 9,
+      "title": "recv 한 번과 패킷 한 개는 일치하지 않습니다",
+      "start": 16,
+      "end": 17,
+      "dest": "original-9",
+      "first": 22,
+      "last": 23
+    },
+    {
+      "original": 10,
+      "title": "새 패킷을 추가하면 어디를 고쳐야 하는가",
+      "start": 18,
+      "end": 19,
+      "dest": "original-10",
+      "first": 24,
+      "last": 25
+    },
+    {
+      "original": 11,
+      "title": "통신 검사와 게임 명령의 경계",
+      "start": 20,
+      "end": 21,
+      "dest": "original-11",
+      "first": 26,
+      "last": 27
+    },
+    {
+      "original": 12,
+      "title": "네트워크 쓰레드(워커)가 게임 상태를 직접 바꾸지 않도록",
+      "start": 22,
+      "end": 23,
+      "dest": "original-12",
+      "first": 28,
+      "last": 29
+    },
+    {
+      "original": 13,
+      "title": "CM_Move를 처리할 때 바뀌는 것은 목표 좌표",
+      "start": 24,
+      "end": 25,
+      "dest": "original-13",
+      "first": 30,
+      "last": 31
+    },
+    {
+      "original": 14,
+      "title": "응답을 넣은 뒤 IOCP 쓰레드(워커)를 어떻게 깨우는가",
+      "start": 26,
+      "end": 27,
+      "dest": "original-14",
+      "first": 32,
+      "last": 33
+    },
+    {
+      "original": 15,
+      "title": "한 번의 WSASend로 모두 보냈다고 가정하지 않기",
+      "start": 28,
+      "end": 29,
+      "dest": "original-15",
+      "first": 34,
+      "last": 35
+    },
+    {
+      "original": 16,
+      "title": "Close는 완료 대기와 같은 동작이 아닙니다",
+      "start": 30,
+      "end": 31,
+      "dest": "original-16",
+      "first": 36,
+      "last": 37
+    },
+    {
+      "original": 17,
+      "title": "로그인은 DB 왕복을 거쳐 다시 메인으로 돌아옵니다",
+      "start": 32,
+      "end": 33,
+      "dest": "original-17",
+      "first": 38,
+      "last": 39
+    },
+    {
+      "original": 18,
+      "title": "Game Logout → World Login의 순서",
+      "start": 34,
+      "end": 35,
+      "dest": "original-18",
+      "first": 40,
+      "last": 41
+    },
+    {
+      "original": 19,
+      "title": "패킷 처리 루프와 20Hz 전장 Tick의 관계",
+      "start": 36,
+      "end": 37,
+      "dest": "original-19",
+      "first": 42,
+      "last": 43
+    },
+    {
+      "original": 20,
+      "title": "전장 입력을 고정하고 결과 배열만 나누어 씁니다",
+      "start": 38,
+      "end": 39,
+      "dest": "original-20",
+      "first": 44,
+      "last": 45
+    },
+    {
+      "original": 21,
+      "title": "워커를 재사용하면서 계산 완료를 기다리는 방법",
+      "start": 40,
+      "end": 41,
+      "dest": "original-21",
+      "first": 46,
+      "last": 47
+    },
+    {
+      "original": 22,
+      "title": "수신자별로 보여줄 유닛과 패킷을 만듭니다",
+      "start": 42,
+      "end": 43,
+      "dest": "original-22",
+      "first": 48,
+      "last": 49
+    },
+    {
+      "original": 23,
+      "title": "완료된 I/O 객체만 다시 빌려주는 고정 크기 풀",
+      "start": 44,
+      "end": 45,
+      "dest": "original-23",
+      "first": 50,
+      "last": 51
+    },
+    {
+      "original": 24,
+      "title": "점수 생성·순위 조회·최종 저장의 세 경로",
+      "start": 46,
+      "end": 47,
+      "dest": "original-24",
+      "first": 52,
+      "last": 53
+    },
+    {
+      "original": 25,
+      "title": "서버 상태가 리플레이 파일이 되기까지",
+      "start": 48,
+      "end": 49,
+      "dest": "original-25",
+      "first": 54,
+      "last": 55
+    },
+    {
+      "original": 26,
+      "title": "120초로 이동하면 어떤 데이터를 읽는가",
+      "start": 50,
+      "end": 51,
+      "dest": "original-26",
+      "first": 56,
+      "last": 57
+    },
+    {
+      "original": 27,
+      "title": "실제 전투 기록을 화면으로 확인하기",
+      "start": 52,
+      "end": 53,
+      "dest": "original-27",
+      "first": 58,
+      "last": 59
+    },
+    {
+      "original": 28,
+      "title": "리플레이 재생 영상을 PDF에서 바로 이어 보기",
+      "start": 54,
+      "end": 55,
+      "dest": "original-28",
+      "first": 60,
+      "last": 61
+    },
+    {
+      "original": 29,
+      "title": "Server.ini로 같은 게임 로직을 비교",
+      "start": 56,
+      "end": 57,
+      "dest": "original-29",
+      "first": 62,
+      "last": 63
+    },
+    {
+      "original": 30,
+      "title": "정상 동작과 실패 경로를 먼저 확인",
+      "start": 58,
+      "end": 59,
+      "dest": "original-30",
+      "first": 64,
+      "last": 65
+    },
+    {
+      "original": 31,
+      "title": "같은 실행 파일, 같은 부하, 다섯 조건을 세 번",
+      "start": 60,
+      "end": 61,
+      "dest": "original-31",
+      "first": 66,
+      "last": 67
+    },
+    {
+      "original": 32,
+      "title": "전투 응답 지연과 계산 비용을 분리해 읽기",
+      "start": 62,
+      "end": 63,
+      "dest": "original-32",
+      "first": 68,
+      "last": 69
+    },
+    {
+      "original": 33,
+      "title": "할당은 줄었고, 메모리와 CPU 비용은 남았습니다",
+      "start": 64,
+      "end": 65,
+      "dest": "original-33",
+      "first": 70,
+      "last": 71
+    },
+    {
+      "original": 34,
+      "title": "세 서버에 500명씩, 최대 1,500명 전투",
+      "start": 66,
+      "end": 67,
+      "dest": "original-34",
+      "first": 72,
+      "last": 73
+    },
+    {
+      "original": 35,
+      "title": "설명한 흐름을 코드에서 다시 찾는 순서",
+      "start": 68,
+      "end": 69,
+      "dest": "original-35",
+      "first": 74,
+      "last": 75
+    },
+    {
+      "original": 36,
+      "title": "이름과 함수 역할로 코드의 흐름을 읽기",
+      "start": 70,
+      "end": 71,
+      "dest": "original-36",
+      "first": 76,
+      "last": 77
+    },
+    {
+      "original": "보충 01",
+      "title": "객체 관계도: 화살표 하나씩 풀어 읽기",
+      "start": 72,
+      "end": 72,
+      "dest": "appendix-1",
+      "first": 78,
+      "last": 78
+    },
+    {
+      "original": "보충 02",
+      "title": "계정 ID·연결 ID·객체 수명 구분하기",
+      "start": 73,
+      "end": 73,
+      "dest": "appendix-2",
+      "first": 79,
+      "last": 79
+    },
+    {
+      "original": "보충 03",
+      "title": "mutex·atomic·shared_ptr를 바꿔 읽지 않기",
+      "start": 74,
+      "end": 74,
+      "dest": "appendix-3",
+      "first": 80,
+      "last": 80
+    },
+    {
+      "original": "보충 04",
+      "title": "어느 큐에 무엇이 쌓이고 누가 기다리는가",
+      "start": 75,
+      "end": 75,
+      "dest": "appendix-4",
+      "first": 81,
+      "last": 81
+    },
+    {
+      "original": "보충 05",
+      "title": "전투 쓰레드·스톰·보이는 유닛 수의 관계",
+      "start": 76,
+      "end": 76,
+      "dest": "appendix-5",
+      "first": 82,
+      "last": 82
+    },
+    {
+      "original": "보충 06",
+      "title": "성능 수치: 정의부터 말하는 연습",
+      "start": 77,
+      "end": 77,
+      "dest": "appendix-6",
+      "first": 83,
+      "last": 83
+    },
+    {
+      "original": "보충 07",
+      "title": "10분 발표를 구성하는 실제 동선",
+      "start": 78,
+      "end": 78,
+      "dest": "appendix-7",
+      "first": 84,
+      "last": 84
+    },
+    {
+      "original": "보충 08",
+      "title": "학습 용어를 현재 코드와 연결하기",
+      "start": 79,
+      "end": 79,
+      "dest": "appendix-8",
+      "first": 85,
+      "last": 85
+    },
+    {
+      "original": "보충 09",
+      "title": "이 해설의 근거와 사용 범위",
+      "start": 80,
+      "end": 80,
+      "dest": "appendix-9",
+      "first": 86,
+      "last": 86
+    }
+  ],
+  "layout": [
+    {
+      "page": 2,
+      "original": 0,
+      "title": "이 해설을 읽는 방법",
+      "remaining_pt": 188.23
+    },
+    {
+      "page": 6,
+      "original": 1,
+      "title": "C++ 멀티스레드 서버 / 세 서버가 만나는 하나의 전장",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 7,
+      "original": 1,
+      "title": "C++ 멀티스레드 서버 / 세 서버가 만나는 하나의 전장",
+      "remaining_pt": 229.6
+    },
+    {
+      "page": 8,
+      "original": 2,
+      "title": "게임 규칙이 실제 서버 흐름으로 이어지는 전장",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 9,
+      "original": 2,
+      "title": "게임 규칙이 실제 서버 흐름으로 이어지는 전장",
+      "remaining_pt": 229.75
+    },
+    {
+      "page": 10,
+      "original": 3,
+      "title": "클라이언트·네 개의 서버·저장소의 연결",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 11,
+      "original": 3,
+      "title": "클라이언트·네 개의 서버·저장소의 연결",
+      "remaining_pt": 198.44
+    },
+    {
+      "page": 12,
+      "original": 4,
+      "title": "객체가 가진 상태와 연결 관계",
+      "remaining_pt": 93.43
+    },
+    {
+      "page": 13,
+      "original": 4,
+      "title": "객체가 가진 상태와 연결 관계",
+      "remaining_pt": 35.01
+    },
+    {
+      "page": 14,
+      "original": 5,
+      "title": "입력·계산·외부 I/O를 나누는 실행 문맥",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 15,
+      "original": 5,
+      "title": "입력·계산·외부 I/O를 나누는 실행 문맥",
+      "remaining_pt": 213.95
+    },
+    {
+      "page": 16,
+      "original": 6,
+      "title": "서버 기동부터 첫 WSARecv 등록까지",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 17,
+      "original": 6,
+      "title": "서버 기동부터 첫 WSARecv 등록까지",
+      "remaining_pt": 112.84
+    },
+    {
+      "page": 18,
+      "original": 7,
+      "title": "수신을 먼저 등록하고, 완료 후 다음 수신을 등록",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 19,
+      "original": 7,
+      "title": "수신을 먼저 등록하고, 완료 후 다음 수신을 등록",
+      "remaining_pt": 97.18
+    },
+    {
+      "page": 20,
+      "original": 8,
+      "title": "이동 패킷 한 개가 왕복하는 전체 경로",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 21,
+      "original": 8,
+      "title": "이동 패킷 한 개가 왕복하는 전체 경로",
+      "remaining_pt": 198.44
+    },
+    {
+      "page": 22,
+      "original": 9,
+      "title": "recv 한 번과 패킷 한 개는 일치하지 않습니다",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 23,
+      "original": 9,
+      "title": "recv 한 번과 패킷 한 개는 일치하지 않습니다",
+      "remaining_pt": 137.84
+    },
+    {
+      "page": 24,
+      "original": 10,
+      "title": "새 패킷을 추가하면 어디를 고쳐야 하는가",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 25,
+      "original": 10,
+      "title": "새 패킷을 추가하면 어디를 고쳐야 하는가",
+      "remaining_pt": 141.02
+    },
+    {
+      "page": 26,
+      "original": 11,
+      "title": "통신 검사와 게임 명령의 경계",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 27,
+      "original": 11,
+      "title": "통신 검사와 게임 명령의 경계",
+      "remaining_pt": 137.84
+    },
+    {
+      "page": 28,
+      "original": 12,
+      "title": "네트워크 쓰레드(워커)가 게임 상태를 직접 바꾸지 않도록",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 29,
+      "original": 12,
+      "title": "네트워크 쓰레드(워커)가 게임 상태를 직접 바꾸지 않도록",
+      "remaining_pt": 106.83
+    },
+    {
+      "page": 30,
+      "original": 13,
+      "title": "CM_Move를 처리할 때 바뀌는 것은 목표 좌표",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 31,
+      "original": 13,
+      "title": "CM_Move를 처리할 때 바뀌는 것은 목표 좌표",
+      "remaining_pt": 125.34
+    },
+    {
+      "page": 32,
+      "original": 14,
+      "title": "응답을 넣은 뒤 IOCP 쓰레드(워커)를 어떻게 깨우는가",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 33,
+      "original": 14,
+      "title": "응답을 넣은 뒤 IOCP 쓰레드(워커)를 어떻게 깨우는가",
+      "remaining_pt": 109.68
+    },
+    {
+      "page": 34,
+      "original": 15,
+      "title": "한 번의 WSASend로 모두 보냈다고 가정하지 않기",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 35,
+      "original": 15,
+      "title": "한 번의 WSASend로 모두 보냈다고 가정하지 않기",
+      "remaining_pt": 119.18
+    },
+    {
+      "page": 36,
+      "original": 16,
+      "title": "Close는 완료 대기와 같은 동작이 아닙니다",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 37,
+      "original": 16,
+      "title": "Close는 완료 대기와 같은 동작이 아닙니다",
+      "remaining_pt": 106.68
+    },
+    {
+      "page": 38,
+      "original": 17,
+      "title": "로그인은 DB 왕복을 거쳐 다시 메인으로 돌아옵니다",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 39,
+      "original": 17,
+      "title": "로그인은 DB 왕복을 거쳐 다시 메인으로 돌아옵니다",
+      "remaining_pt": 94.18
+    },
+    {
+      "page": 40,
+      "original": 18,
+      "title": "Game Logout → World Login의 순서",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 41,
+      "original": 18,
+      "title": "Game Logout → World Login의 순서",
+      "remaining_pt": 81.68
+    },
+    {
+      "page": 42,
+      "original": 19,
+      "title": "패킷 처리 루프와 20Hz 전장 Tick의 관계",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 43,
+      "original": 19,
+      "title": "패킷 처리 루프와 20Hz 전장 Tick의 관계",
+      "remaining_pt": 72.18
+    },
+    {
+      "page": 44,
+      "original": 20,
+      "title": "전장 입력을 고정하고 결과 배열만 나누어 씁니다",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 45,
+      "original": 20,
+      "title": "전장 입력을 고정하고 결과 배열만 나누어 씁니다",
+      "remaining_pt": 63.17
+    },
+    {
+      "page": 46,
+      "original": 21,
+      "title": "워커를 재사용하면서 계산 완료를 기다리는 방법",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 47,
+      "original": 21,
+      "title": "워커를 재사용하면서 계산 완료를 기다리는 방법",
+      "remaining_pt": 122.18
+    },
+    {
+      "page": 48,
+      "original": 22,
+      "title": "수신자별로 보여줄 유닛과 패킷을 만듭니다",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 49,
+      "original": 22,
+      "title": "수신자별로 보여줄 유닛과 패킷을 만듭니다",
+      "remaining_pt": 78.52
+    },
+    {
+      "page": 50,
+      "original": 23,
+      "title": "완료된 I/O 객체만 다시 빌려주는 고정 크기 풀",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 51,
+      "original": 23,
+      "title": "완료된 I/O 객체만 다시 빌려주는 고정 크기 풀",
+      "remaining_pt": 109.83
+    },
+    {
+      "page": 52,
+      "original": 24,
+      "title": "점수 생성·순위 조회·최종 저장의 세 경로",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 53,
+      "original": 24,
+      "title": "점수 생성·순위 조회·최종 저장의 세 경로",
+      "remaining_pt": 88.02
+    },
+    {
+      "page": 54,
+      "original": 25,
+      "title": "서버 상태가 리플레이 파일이 되기까지",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 55,
+      "original": 25,
+      "title": "서버 상태가 리플레이 파일이 되기까지",
+      "remaining_pt": 214.25
+    },
+    {
+      "page": 56,
+      "original": 26,
+      "title": "120초로 이동하면 어떤 데이터를 읽는가",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 57,
+      "original": 26,
+      "title": "120초로 이동하면 어떤 데이터를 읽는가",
+      "remaining_pt": 87.84
+    },
+    {
+      "page": 58,
+      "original": 27,
+      "title": "실제 전투 기록을 화면으로 확인하기",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 59,
+      "original": 27,
+      "title": "실제 전투 기록을 화면으로 확인하기",
+      "remaining_pt": 137.84
+    },
+    {
+      "page": 60,
+      "original": 28,
+      "title": "리플레이 재생 영상을 PDF에서 바로 이어 보기",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 61,
+      "original": 28,
+      "title": "리플레이 재생 영상을 PDF에서 바로 이어 보기",
+      "remaining_pt": 260.76
+    },
+    {
+      "page": 62,
+      "original": 29,
+      "title": "Server.ini로 같은 게임 로직을 비교",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 63,
+      "original": 29,
+      "title": "Server.ini로 같은 게임 로직을 비교",
+      "remaining_pt": 229.75
+    },
+    {
+      "page": 64,
+      "original": 30,
+      "title": "정상 동작과 실패 경로를 먼저 확인",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 65,
+      "original": 30,
+      "title": "정상 동작과 실패 경로를 먼저 확인",
+      "remaining_pt": 201.03
+    },
+    {
+      "page": 66,
+      "original": 31,
+      "title": "같은 실행 파일, 같은 부하, 다섯 조건을 세 번",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 67,
+      "original": 31,
+      "title": "같은 실행 파일, 같은 부하, 다섯 조건을 세 번",
+      "remaining_pt": 201.03
+    },
+    {
+      "page": 68,
+      "original": 32,
+      "title": "전투 응답 지연과 계산 비용을 분리해 읽기",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 69,
+      "original": 32,
+      "title": "전투 응답 지연과 계산 비용을 분리해 읽기",
+      "remaining_pt": 214.1
+    },
+    {
+      "page": 70,
+      "original": 33,
+      "title": "할당은 줄었고, 메모리와 CPU 비용은 남았습니다",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 71,
+      "original": 33,
+      "title": "할당은 줄었고, 메모리와 CPU 비용은 남았습니다",
+      "remaining_pt": 229.75
+    },
+    {
+      "page": 72,
+      "original": 34,
+      "title": "세 서버에 500명씩, 최대 1,500명 전투",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 73,
+      "original": 34,
+      "title": "세 서버에 500명씩, 최대 1,500명 전투",
+      "remaining_pt": 214.1
+    },
+    {
+      "page": 74,
+      "original": 35,
+      "title": "설명한 흐름을 코드에서 다시 찾는 순서",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 75,
+      "original": 35,
+      "title": "설명한 흐름을 코드에서 다시 찾는 순서",
+      "remaining_pt": 182.94
+    },
+    {
+      "page": 76,
+      "original": 36,
+      "title": "이름과 함수 역할로 코드의 흐름을 읽기",
+      "remaining_pt": 139.22
+    },
+    {
+      "page": 77,
+      "original": 36,
+      "title": "이름과 함수 역할로 코드의 흐름을 읽기",
+      "remaining_pt": 109.83
+    },
+    {
+      "page": 78,
+      "original": 0,
+      "title": "객체 관계도: 화살표 하나씩 풀어 읽기",
+      "remaining_pt": 299.59
+    },
+    {
+      "page": 79,
+      "original": 0,
+      "title": "계정 ID·연결 ID·객체 수명 구분하기",
+      "remaining_pt": 238.14
+    },
+    {
+      "page": 80,
+      "original": 0,
+      "title": "mutex·atomic·shared_ptr를 바꿔 읽지 않기",
+      "remaining_pt": 253.64
+    },
+    {
+      "page": 81,
+      "original": 0,
+      "title": "어느 큐에 무엇이 쌓이고 누가 기다리는가",
+      "remaining_pt": 207.24
+    },
+    {
+      "page": 82,
+      "original": 0,
+      "title": "전투 쓰레드·스톰·보이는 유닛 수의 관계",
+      "remaining_pt": 238.14
+    },
+    {
+      "page": 83,
+      "original": 0,
+      "title": "성능 수치: 정의부터 말하는 연습",
+      "remaining_pt": 192.35
+    },
+    {
+      "page": 84,
+      "original": 0,
+      "title": "10분 발표를 구성하는 실제 동선",
+      "remaining_pt": 297.38
+    },
+    {
+      "page": 85,
+      "original": 0,
+      "title": "학습 용어를 현재 코드와 연결하기",
+      "remaining_pt": 251.59
+    },
+    {
+      "page": 86,
+      "original": 0,
+      "title": "이 해설의 근거와 사용 범위",
+      "remaining_pt": 253.79
+    }
+  ],
+  "sha256": "ae2dc642d30d731922ad695ba9a67d69008884565bfba65a4a363db8412d1d73"
+}

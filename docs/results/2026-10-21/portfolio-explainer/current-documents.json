@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "files": [
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오.pdf",
+      "pages": 36,
+      "sha256": "2d225a375ea5037e7c67aab0d8b148d92ad3a06d837b489cbd69f17d124cd59e",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered": 36
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서.pdf",
+      "pages": 21,
+      "sha256": "8278cff51c9ba84c560c5934c65df7cddc3273a5f498d342f12e8aab249a346a",
+      "content_comparison": "Only theme label removal and name/page footer replacement",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 21
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_멀티스레드_포트폴리오_페이지별_상세해설.pdf",
+      "pages": 86,
+      "sha256": "ae2dc642d30d731922ad695ba9a67d69008884565bfba65a4a363db8412d1d73",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered": 86
+    }
+  ],
+  "visual_review": "passed: all 86 guide pages and 36 portfolio pages rendered and reviewed in contact sheets; portfolio pages 3/5/18 and guide page 13 inspected at full size; no text/arrow overlap or page overflow found"
+}

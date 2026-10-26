@@ -1,0 +1,47 @@
+[
+  {
+    "label": "poll-1",
+    "ping_p95": "0.753",
+    "combat_p95": "32.208",
+    "snapshot_p95": "4.093",
+    "cpu": "5.991",
+    "memory": "22.809",
+    "allocations": "-"
+  },
+  {
+    "label": "iocp-1-heap",
+    "ping_p95": "0.776",
+    "combat_p95": "16.485",
+    "snapshot_p95": "4.259",
+    "cpu": "8.977",
+    "memory": "23.023",
+    "allocations": "79,096 / 0"
+  },
+  {
+    "label": "iocp-1-pool",
+    "ping_p95": "0.752",
+    "combat_p95": "16.413",
+    "snapshot_p95": "3.895",
+    "cpu": "9.373",
+    "memory": "23.559",
+    "allocations": "205 / 78,822"
+  },
+  {
+    "label": "iocp-2-pool",
+    "ping_p95": "0.765",
+    "combat_p95": "16.576",
+    "snapshot_p95": "2.981",
+    "cpu": "8.593",
+    "memory": "23.961",
+    "allocations": "205 / 78,760"
+  },
+  {
+    "label": "iocp-4-pool",
+    "ping_p95": "0.749",
+    "combat_p95": "16.520",
+    "snapshot_p95": "1.867",
+    "cpu": "10.685",
+    "memory": "24.141",
+    "allocations": "205 / 78,943"
+  }
+]

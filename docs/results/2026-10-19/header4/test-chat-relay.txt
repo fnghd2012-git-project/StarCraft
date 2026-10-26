@@ -1,0 +1,1 @@
+[OK] Release relay outage/restart: local chat stays available, global fails offline, reconnect restores delivery. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\chat-relay-check-16e3e8e4ceaa4397b5ad9ee8b187d00f

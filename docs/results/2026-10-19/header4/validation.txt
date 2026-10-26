@@ -1,0 +1,49 @@
+2026-10-19 / TCP 패킷 헤더 4바이트 변경 검증
+
+변경 범위
+- 전체 길이 uint16 (오프셋 0~1) + 패킷 종류 uint16 (오프셋 2~3) + Protobuf 본문 (오프셋 4부터).
+- 두 헤더 값은 big-endian. 전체 크기는 기존 제한인 최대 4096바이트를 유지한다.
+- 최소 전체 길이 4바이트, 최대 본문 길이 4092바이트. 헤더에는 패딩과 버전 필드가 없다.
+- 첫 접속 패킷은 ServerVersionCheck(1), 응답은 ServerVersionCheckReply(2)로 명명했다.
+- 요청의 client_name(필드 1)과 protocol_version(필드 2)을 검사한다. 응답에도 protocol_version(필드 9)을 보낸다.
+- Protocol::Version=4와 같은 버전만 다음 요청을 허용한다. 버전 누락·불일치·중복 확인은 연결 종료한다.
+- 버전은 첫 요청/응답의 Protobuf 본문에서 한 번 확인하며 매 패킷 헤더에는 전송하지 않는다.
+- 계정 로그인은 기존 JoinGameRequest를 사용한다. 리플레이 메타데이터에도 당시 버전을 기록한다.
+- 중계 인증 시작 패킷은 RelayConnect(40)로 명명했다. 기존 인증 절차와 본문은 유지했다.
+- 서버·더미·채팅 중계의 수신 위치와 테스트용 원시 패킷을 함께 수정했다.
+- 이전 8바이트 서버/더미와 혼용할 수 없으므로 양쪽 실행 파일을 함께 교체한다.
+
+빌드와 통신 검사: x64 Debug / Release 모두 통과
+- build.ps1, test-network.ps1 결과: debug-build-network.txt, release-build-network.txt.
+- A/B/C/World 접속, Ping/Pong, 헤더·본문 분할 수신, 병합 수신, 최대 크기 패킷.
+- 길이 0, 헤더보다 짧은 길이, 4096 초과, 잘못된 패킷 종류와 Protobuf 거부.
+- 기존 8바이트 프레임, 버전 누락/3/5, 버전 확인 전 Ping, 중복 확인 요청 거부.
+- Release의 MSSQL ODBC 점검 통과 (127.0.0.1 project_db).
+
+기존 기능 회귀 검사: Release 모두 통과
+- test-gameplay.ps1: 로그인, 서버별 종족, 채팅, Game Logout -> World Login -> 원래 Game 복귀.
+- test-auto-battle.ps1: 각 종족의 건물 파괴·승리·원래 서버 복귀, 공격 불가 유닛 처리.
+- test-chat-relay.ps1: 중계 장애 중 일반 채팅, 재시작 후 월드 채팅 복구.
+- test-recovery.ps1: Game/World 중단, 계정 복구, 이동 티켓, DB 쓰기 실패 후 재시도.
+- test-replay.ps1: 실제 상태와 재생 상태 일치, 승패, 손상/잘림 거부, 오프라인 재생 제어.
+- test-ranking.ps1: Redis 조회와 장애 복구, 최종 MSSQL 트랜잭션과 중복 저장 방지.
+- 각 검사 출력은 같은 폴더의 test-*.txt에 저장했다.
+- 리플레이 손상 검사 로그의 [FAIL]은 의도적으로 잘못된 파일을 거부한 출력이다.
+
+BattleClient 경로 추가 확인
+- StartBattle.ps1 -PerServer 3 -Seconds 20 -TestCooldownSeconds 1 -NoReplay.
+- A/B/C 각 3명, 총 9명 접속. PeakWorld=9, Deaths=3, DeathReentries=3.
+- UnitAttacks=23, Skills=2, Errors=0. 전투 명령 Rejected=42는 게임 규칙상 거부 응답이다.
+- 100초 재입장 대기 대신 이 시험의 임시 설정에서만 1초를 사용했다.
+- 로그: battle-client.txt. 새 리플레이 검증 통과, 시간 제한에 따른 server_shutdown 종료.
+- 기존 1,500명 리플레이도 새 더미 실행 파일에서 검증 통과: old-replay.txt.
+
+문서
+- README, Design, 학습 PDF 3개의 현재 패킷 구조 설명과 바이트 예제를 수정했다.
+- ServerVersionCheck(client_name="test", protocol_version=4)
+  = 00 0C 00 01 0A 04 74 65 73 74 10 04 (전체 12바이트).
+- 예전 1,500명 시연과 워커 18회 비교 표는 8바이트 헤더 때의 측정값이다.
+- 이번에는 대규모 성능 시험을 다시 실행하지 않았으며 헤더 축소의 성능 개선을 주장하지 않는다.
+- 최종 PDF: output/pdf/01_Code_Study_Guide.pdf, 02_Interview_Questions_Answers.pdf,
+  03_Practice_and_Portfolio_Workbook.pdf. 문서 해시와 91쪽 검수는 같은 폴더의 JSON 참고.
+- 변경 전 코드/테스트 파일과의 비교는 source.diff, 현재 소스/실행 파일 해시는 manifest.json 참고.

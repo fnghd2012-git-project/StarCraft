@@ -1,0 +1,6 @@
+[OK] A concurrent login accepted=1 rejected=7
+[OK] B concurrent login accepted=2 rejected=6
+[OK] DB queue rejection releases capacity reservation
+[OK] C concurrent login accepted=16 rejected=16
+[OK] World capacity=1, second entry rejected, original game login restored
+[OK] Debug capacity checks: override A=1, fallback B=2, World=1, zero rejected. Logs: D:\work\Josun_Server\git_ProJect\.deps\capacity-46e4903fb6f242f6a10979bfd5d56fab

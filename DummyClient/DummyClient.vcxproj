@@ -45,8 +45,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Label="ProjectDefaults">
-    <LocalDebuggerWorkingDirectory>$(ProjectDir)..\</LocalDebuggerWorkingDirectory>
-    <OutDir>$(ProjectDir)..\MultiThreadServer\MultiThreadServer\build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <OutDir>$(ProjectDir)..\Run64\$(Configuration)\</OutDir>
+    <LocalDebuggerWorkingDirectory>$(OutDir)</LocalDebuggerWorkingDirectory>
     <IntDir>$(ProjectDir)..\MultiThreadServer\MultiThreadServer\build\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -72,7 +72,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;Gdiplus.lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -96,7 +96,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;Gdiplus.lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>
@@ -106,10 +106,37 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\ClientConnection.cpp" />
+    <ClCompile Include="src\PlayClient.cpp" />
+    <ClCompile Include="src\AutoBattle.cpp" />
+    <ClCompile Include="src\BattleDecision.cpp" />
+    <ClCompile Include="src\BattleClient.cpp" />
+    <ClCompile Include="src\FlowCheck.cpp" />
+    <ClCompile Include="src\AccountSkillCheck.cpp" />
+    <ClCompile Include="src\RankingCheck.cpp" />
+    <ClCompile Include="src\ReplayClient.cpp" />
+    <ClCompile Include="src\ReplayWindow.cpp" />
+    <ClCompile Include="src\LoadClient.cpp" />
+    <ClCompile Include="src\SessionLoad.cpp" />
+    <ClCompile Include="..\MultiThreadServer\MultiThreadServer\src\Replay.cpp" />
     <ClCompile Include="..\MultiThreadServer\MultiThreadServer\src\Config.cpp" />
     <ClCompile Include="..\MultiThreadServer\MultiThreadServer\src\CsvTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ClientConnection.h" />
+    <ClInclude Include="src\PlayClient.h" />
+    <ClInclude Include="src\AutoBattle.h" />
+    <ClInclude Include="src\BattleDecision.h" />
+    <ClInclude Include="src\BattleClient.h" />
+    <ClInclude Include="src\ReplayClient.h" />
+    <ClInclude Include="src\ReplayWindow.h" />
+    <ClInclude Include="src\LoadClient.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BattleWorker.h" />
+    <ClCompile Include="src\BattleWorker.cpp" />
+  </ItemGroup>
 </Project>

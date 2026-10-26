@@ -1,0 +1,74 @@
+[OK] Protobuf 33.6 / Debug ready.
+  DummyClient.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\DummyClient.exe
+  TcpServer.cpp
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(599,66): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(600,65): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(601,46): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\base\prefetch.h(183,17): warning C4100: 'addr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(84,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(87,38): warning C4458: 'size' 선언은 클래스 멤버를 숨깁니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(72,14): message : 'google::protobuf::internal::MicroString::LargeRep::size' 선언을 참조하십시오. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(89,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(97,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(109,39): warning C4458: 'size' 선언은 클래스 멤버를 숨깁니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(102,13): message : 'google::protobuf::internal::MicroString::MicroRep::size' 선언을 참조하십시오. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1759,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1764,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1768,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(306,28): warning C4100: 'p': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(307,35): warning C4100: 'view': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(308,28): warning C4100: 'p': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(352,62): warning C4127: 조건식이 상수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(353,1): message : 'if constexpr' 문을 대신 사용해 보세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(343): message : 클래스 템플릿 멤버 함수 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>::~Storage(void)'을(를) 컴파일하는 중입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\inlined_vector.h(299): message : 컴파일되는 함수 템플릿 인스턴스화 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>::~Storage(void)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\inlined_vector.h(101): message : 컴파일되는 클래스 템플릿 인스턴스화 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\bind.h(194): message : 컴파일되는 클래스 템플릿 인스턴스화 'absl::lts_20250512::InlinedVector<absl::lts_20250512::str_format_internal::FormatArgImpl,4,std::allocator<T>>'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(257,1): warning C4127: 조건식이 상수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(257,1): message : 'if constexpr' 문을 대신 사용해 보세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(349): message : 컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20250512::str_format_internal::ConsumeConversion<true>(const char *,const char *const ,absl::lts_20250512::str_format_internal::UnboundConversion *,int *)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\log\internal\check_op.h(428,1): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(78): message : 컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20250512::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  MultiThreadServer.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\MultiThreadServer.exe
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Debug
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[ODBC INFO] SQLDriverConnectW
+SQLSTATE=01000 NativeError=5701 [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]데이터베이스 컨텍스트가 'project_db'(으)로 변경되었습니다.
+SQLSTATE=01000 NativeError=5703 [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]언어 설정이 한국어(으)로 변경되었습니다.
+[OK] MSSQL ODBC 연결 및 조회
+서버: gnidev0051 / 버전: 16.0.1210.3
+DB: project_db / 전송: TCP / 인증: NTLM
+[OK] DB 이름, 정수 1, 한글 조회 결과 확인
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Spatial INI validation and legacy defaults. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\spatial-check-5041ffb18a3a479590240e80fe0264e3

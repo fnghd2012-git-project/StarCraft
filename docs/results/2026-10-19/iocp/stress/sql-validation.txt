@@ -1,0 +1,8 @@
+[OK] SQL/XML exact match: 1500 participant rows. Realm=battle_eedeb395e3d84fdcb15a1af84d47804b
+
+Name Count
+---- -----
+A      500
+B      500
+C      500
+

@@ -1,0 +1,10 @@
+{
+  "configuration": "Release",
+  "match": "9ba10eefffe7a90ab44728e4740840b2",
+  "at_seconds": 8,
+  "units": 3,
+  "exit_code": 0,
+  "visual_review": "Units, building locations, Korean text and portrait rendered after ReplayWindow header split.",
+  "image": "replay-window.png",
+  "sha256": "8bc63a2dde61830b7c80b017ea49673de015fbf8f7fc7ecf71ae4744f2badae4"
+}

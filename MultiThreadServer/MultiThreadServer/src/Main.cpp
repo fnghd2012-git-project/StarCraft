@@ -1,69 +1,94 @@
 #include "Network.h"
 #include "Database.h"
 #include "TcpServer.h"
+#include "SpatialCheck.h"
+#include "BattleCalculation.h"
 
 static_assert(sizeof(void*) == 8, "Build this project for x64.");
 static_assert(__cplusplus >= 202002L, "Enable C++20 and /Zc:__cplusplus.");
 
 namespace
 {
-    void RunStartupChecks()
-    {
-        cout << "MultiThreadServer 기본 환경 점검\n"
-                  << "플랫폼: x64 / __cplusplus: " << __cplusplus << '\n';
+void RunStartupChecks()
+{
+    cout << "MultiThreadServer 기본 환경 점검\n"
+         << "플랫폼: x64 / __cplusplus: " << __cplusplus << '\n';
 #ifdef _DEBUG
-        cout << "빌드: Debug\n";
+    cout << "빌드: Debug\n";
 #else
-        cout << "빌드: Release\n";
+    cout << "빌드: Release\n";
 #endif
 
-        const WinsockSession winsock;
-        cout << "[OK] Winsock 초기화\n";
+    const CWinsockSession winsock;
+    cout << "[OK] Winsock 초기화\n";
 
-        const OdbcEnvironment odbc;
-        cout << "[OK] ODBC 환경 핸들 생성 (DB 접속 전)\n";
+    const COdbcEnvironment odbc;
+    cout << "[OK] ODBC 환경 핸들 생성 (DB 접속 전)\n";
 
-        int workerResult = 0;
-        {
-            // jthread 소멸 시 합류한다. 합류 후에만 결과를 읽는다.
-            jthread worker([&workerResult] { workerResult = 1; });
-        }
-        if (workerResult != 1)
-        {
-            throw runtime_error("Worker result check failed.");
-        }
-        cout << "[OK] C++20 jthread 생성 및 합류\n"
-                  << "하드웨어 스레드 힌트: " << thread::hardware_concurrency()
-                  << " (0이면 확인 불가)\n"
-                  << "기본 환경 점검 완료.\n";
-    }
-
-    void RunDatabaseChecks()
+    int workerResult = 0;
     {
-        const DatabaseConfig config = LoadDatabaseConfig();
-        DatabaseConnection connection(config);
-        const DatabaseCheckResult result = connection.CheckConnection();
-
-        cout << "[OK] MSSQL ODBC 연결 및 조회\n"
-                  << "서버: " << result.serverName << " / 버전: " << result.productVersion << '\n'
-                  << "DB: " << result.databaseName << " / 전송: " << result.transport
-                  << " / 인증: " << result.authentication << '\n'
-                  << "[OK] DB 이름, 정수 1, 한글 조회 결과 확인\n";
+        // jthread 소멸 시 합류한다. 합류 후에만 결과를 읽는다.
+        jthread worker(
+            [&workerResult]
+            {
+                workerResult = 1;
+            });
     }
+    if (workerResult != 1)
+    {
+        throw runtime_error("Worker result check failed.");
+    }
+    cout << "[OK] C++20 jthread 생성 및 합류\n"
+         << "하드웨어 스레드 힌트: " << thread::hardware_concurrency() << " (0이면 확인 불가)\n"
+         << "기본 환경 점검 완료.\n";
 }
+
+void RunDatabaseChecks()
+{
+    const stDatabaseConfig config = LoadDatabaseConfig();
+    CDatabaseConnection connection(config);
+    const stDatabaseCheckResult result = connection.CheckConnection();
+
+    cout << "[OK] MSSQL ODBC 연결 및 조회\n"
+         << "서버: " << result.serverName << " / 버전: " << result.productVersion << '\n'
+         << "DB: " << result.databaseName << " / 전송: " << result.transport
+         << " / 인증: " << result.authentication << '\n'
+         << "[OK] DB 이름, 정수 1, 한글 조회 결과 확인\n";
+}
+} // namespace
 
 int main(int argc, char* argv[])
 {
     SetConsoleOutputCP(CP_UTF8);
+    if (argc == 2 && string_view(argv[1]) == "--battle-check")
+    {
+        return RunBattleChecks();
+    }
+    if (argc >= 2 && string_view(argv[1]) == "--spatial-check")
+    {
+        if (argc == 2)
+        {
+            return RunSpatialChecks({});
+        }
+        if (argc == 4 && string_view(argv[2]) == "--csv")
+        {
+            return RunSpatialChecks(fs::path(argv[3]));
+        }
+        cerr << "Usage: --spatial-check [--csv output.csv]\n";
+        return 2;
+    }
 
     if (argc == 2 && string_view(argv[1]) == "--help")
     {
         cout << "Usage: MultiThreadServer.exe [--self-check | --db-check | --help]\n"
-                  << "       MultiThreadServer.exe --server A|B|C|World [--config Server.ini] [--run-seconds N]\n"
-                  << "       MultiThreadServer.exe --config-check A|B|C|World [--config Server.ini]\n"
-                  << "인수 없음: 기본 환경과 DB 연결을 점검하고 Enter를 기다립니다.\n"
-                  << "--self-check: DB 접속 없이 기본 환경만 점검합니다.\n"
-                  << "--db-check: 기본 환경과 DB 연결을 점검하고 대기 없이 종료합니다.\n";
+             << "       MultiThreadServer.exe --server CSV_Index|World [--config Server.ini] [--run-seconds "
+                "N]\n"
+             << "       MultiThreadServer.exe --config-check CSV_Index|World [--config Server.ini]\n"
+             << "       MultiThreadServer.exe --spatial-check [--csv output.csv]\n"
+             << "       MultiThreadServer.exe --battle-check\n"
+             << "인수 없음: 기본 환경과 DB 연결을 점검하고 Enter를 기다립니다.\n"
+             << "--self-check: DB 접속 없이 기본 환경만 점검합니다.\n"
+             << "--db-check: 기본 환경과 DB 연결을 점검하고 대기 없이 종료합니다.\n";
         return 0;
     }
 

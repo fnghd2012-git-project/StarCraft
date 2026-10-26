@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "original_binaries_and_sources_unchanged": true,
+  "same_server_binary_as_1500_simulation": true,
+  "raw_files": 36,
+  "raw_bytes": 124944943,
+  "compressed_bytes": 41281356,
+  "support_sources_sha256": {
+    "test-workers.ps1": "22712fe464e402b31644aa96df5088b6247a8137b905f914844cf3f286688b8b",
+    "docs/results/2026-10-19/workers/run_benchmark.py": "c3fdbb74b9817a5d1c044efc606dda7bac0826d06f5d67f45127c78a7bc42b90",
+    "docs/results/2026-10-19/workers/analyze.py": "19dec94d3b1c0f10af4350cffaa254f12a955a35851354bc06e0e5e1f10a30d0",
+    "docs/results/2026-10-19/workers/validate_sql.ps1": "18022b3d2330557946cbb562c16f052d5613142910e73352971bc14268c23068",
+    "docs/results/2026-10-19/workers/validate_artifacts.py": "f553b20f2a15369a6235be3c59d16f2be0a51bffa0234e60110edb86c0aa9f4d"
+  }
+}

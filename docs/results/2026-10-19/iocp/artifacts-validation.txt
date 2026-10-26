@@ -1,0 +1,1 @@
+[OK] Redis/XML 1440 participants: all three scores and hash IDs match. 15 replays verified.

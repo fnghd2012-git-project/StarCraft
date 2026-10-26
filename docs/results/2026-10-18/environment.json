@@ -1,0 +1,17 @@
+{
+  "MeasuredPairs": 20,
+  "Seed": 20261018,
+  "Configuration": "Release x64",
+  "CPU": {
+    "Name": "AMD Ryzen 7 7700X 8-Core Processor             ",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "Database": "127.0.0.1/project_db",
+  "WarmupPairs": 2,
+  "OS": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "BuildNumber": "26200"
+  },
+  "Notes": "Benchmark run after builds/regressions/live validation; general OS/apps not fully controlled"
+}

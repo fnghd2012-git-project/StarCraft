@@ -1,0 +1,118 @@
+[LISTEN] C 127.0.0.1:64287 mode=IOCP workers=2 units=3 skills=10 max_players=500 spatial=Grid cell=25 spatial_verify=0 (Ctrl+C to stop)
+[GAME LOGIN] C Bench_1792401899404_5 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_2 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_2 -> World
+[GAME LOGOUT] C Bench_1792401899404_5 -> World
+[CHAT RELAY] C connected to World
+[GAME LOGIN] C Bench_1792401899404_8 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_11 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_8 -> World
+[GAME LOGOUT] C Bench_1792401899404_11 -> World
+[GAME LOGIN] C Bench_1792401899404_14 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_14 -> World
+[IOCP] server=C pending_io=9 recv_bytes=382 send_bytes=3449 dropped=0 pool=1 pool_requests=50 pool_allocations=14 pool_reused=36 pool_exhausted=0 pool_in_use=9 pool_peak=14 pool_cached=5 pool_block_bytes=4168 worker0=21 worker1=35
+[METRICS] server=C active=0 commands=10 rejected=0 queue_peak=2 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[GAME LOGIN] C Bench_1792401899404_17 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_23 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_17 -> World
+[GAME LOGOUT] C Bench_1792401899404_23 -> World
+[GAME LOGIN] C Bench_1792401899404_20 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_20 -> World
+[GAME LOGIN] C Bench_1792401899404_26 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_29 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_26 -> World
+[GAME LOGOUT] C Bench_1792401899404_29 -> World
+[GAME LOGIN] C Bench_1792401899404_32 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_38 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_32 -> World
+[GAME LOGOUT] C Bench_1792401899404_38 -> World
+[GAME LOGIN] C Bench_1792401899404_35 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_35 -> World
+[IOCP] server=C pending_io=11 recv_bytes=1217 send_bytes=10240 dropped=0 pool=1 pool_requests=129 pool_allocations=15 pool_reused=114 pool_exhausted=0 pool_in_use=11 pool_peak=15 pool_cached=4 pool_block_bytes=4168 worker0=76 worker1=84
+[METRICS] server=C active=0 commands=19 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=3 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[GAME LOGIN] C Bench_1792401899404_47 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_41 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_47 -> World
+[GAME LOGOUT] C Bench_1792401899404_41 -> World
+[GAME LOGIN] C Bench_1792401899404_44 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_44 -> World
+[GAME LOGIN] C Bench_1792401899404_53 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_50 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_50 -> World
+[GAME LOGOUT] C Bench_1792401899404_53 -> World
+[GAME LOGIN] C Bench_1792401899404_59 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_56 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_59 -> World
+[GAME LOGOUT] C Bench_1792401899404_56 -> World
+[GAME LOGIN] C Bench_1792401899404_62 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_62 -> World
+[GAME LOGIN] C Bench_1792401899404_71 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_68 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_71 -> World
+[GAME LOGOUT] C Bench_1792401899404_68 -> World
+[IOCP] server=C pending_io=11 recv_bytes=1841 send_bytes=16308 dropped=0 pool=1 pool_requests=199 pool_allocations=16 pool_reused=183 pool_exhausted=0 pool_in_use=11 pool_peak=16 pool_cached=5 pool_block_bytes=4168 worker0=130 worker1=128
+[METRICS] server=C active=0 commands=18 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[GAME LOGIN] C Bench_1792401899404_65 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_65 -> World
+[GAME LOGIN] C Bench_1792401899404_74 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_77 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_74 -> World
+[GAME LOGOUT] C Bench_1792401899404_77 -> World
+[GAME LOGIN] C Bench_1792401899404_83 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_80 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_83 -> World
+[GAME LOGOUT] C Bench_1792401899404_80 -> World
+[GAME LOGIN] C Bench_1792401899404_86 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_86 -> World
+[GAME LOGIN] C Bench_1792401899404_92 saved unit=Marine
+[GAME LOGIN] C Bench_1792401899404_95 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_92 -> World
+[GAME LOGOUT] C Bench_1792401899404_95 -> World
+[GAME LOGIN] C Bench_1792401899404_89 saved unit=Marine
+[GAME LOGOUT] C Bench_1792401899404_89 -> World
+[IOCP] server=C pending_io=9 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=9 pool_peak=16 pool_cached=7 pool_block_bytes=4168 worker0=178 worker1=175
+[METRICS] server=C active=0 commands=17 rejected=0 queue_peak=3 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=C pending_io=8 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=8 pool_peak=16 pool_cached=8 pool_block_bytes=4168 worker0=178 worker1=176
+[METRICS] server=C active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=0 tick_max_us=0 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=1 battle_items=0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP STOP] server=C pending_io=0 recv_bytes=2461 send_bytes=22106 dropped=0 pool=1 pool_requests=266 pool_allocations=16 pool_reused=250 pool_exhausted=0 pool_in_use=0 pool_peak=16 pool_cached=16 pool_block_bytes=4168 worker0=182 worker1=180
+[STOP] Network workers joined; sockets closed.

@@ -1,0 +1,3 @@
+[LOAD PHASE] measure_begin
+[LOAD PHASE] measure_end
+[SESSION] phase=measure clients=12 concurrency=4 errors=0 seconds=1.624189 cycles_per_second=7.388305

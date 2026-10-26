@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-19",
+  "build": "x64 Release",
+  "per_server": 500,
+  "participants": 1500,
+  "battle_seconds": 240,
+  "death_cooldown_seconds": 100,
+  "network_workers": 4,
+  "db_workers": 6,
+  "redis_workers": 1,
+  "replay_workers": 1,
+  "tick_hz": 20,
+  "replay_hz": 5,
+  "building_hp": 750000,
+  "spatial": "Grid",
+  "cell_size": 25,
+  "redis_flush_ms": 1000,
+  "result": {
+    "Requested": 1500,
+    "Ready": 1500,
+    "PeakWorld": 1500,
+    "Entered": 3192,
+    "Deaths": 3075,
+    "DeathReentries": 1692,
+    "ResumedGame": 3200,
+    "UnitAttacks": 8226,
+    "BuildingAttacks": 340,
+    "Skills": 2054,
+    "Rejected": 104301,
+    "Errors": 0,
+    "LoggedOut": 1500
+  },
+  "match": [
+    {
+      "realm": "battle_57761a86e07b4d7fabe1f0799e8656f6",
+      "id": "8002d6d1d6db6c3a9c0b9a6e2bc013c9",
+      "winner": "0",
+      "complete": "0",
+      "reason": "server_shutdown",
+      "participants": 1500,
+      "kills": 2677,
+      "kills_top10": [
+        [
+          "9a2d874debf041f59e5e0b7d923c6ba1",
+          164
+        ],
+        [
+          "f97903becac847198f9f40048fc49625",
+          157
+        ],
+        [
+          "92eedadef2714c8c8b5a8837de864351",
+          154
+        ],
+        [
+          "f31c4c7cbd814604b46dc95c6f82314d",
+          151
+        ],
+        [
+          "47d37270174641269a74044de2572b98",
+          115
+        ],
+        [
+          "8eb2577369e14bf4bcc59a260f9b5bc9",
+          112
+        ],
+        [
+          "f76580ffaee143ef824886eae8aaa1cf",
+          109
+        ],
+        [
+          "8aed4ea6c9c5469c9295e93be47965d9",
+          107
+        ],
+        [
+          "fdb751d764744f1d9d8b2f804599c601",
+          100
+        ],
+        [
+          "ebff6cf817de47e6b2027a6a2da5a56b",
+          92
+        ]
+      ],
+      "deaths": 3075,
+      "deaths_top10": [
+        [
+          "fe74b00645f84888ba3ab9466dc5c72e",
+          3
+        ],
+        [
+          "fd81896ea5544eb5837934f6fcaea594",
+          3
+        ],
+        [
+          "fb221f52cc7a455e8386a34708b58158",
+          3
+        ],
+        [
+          "fb1b2b4f22e847af8efd9a39fe679a29",
+          3
+        ],
+        [
+          "fab86b89ed64448e901c06be714f20fc",
+          3
+        ],
+        [
+          "fa567ebb03da4704a87b2522aab5ad64",
+          3
+        ],
+        [
+          "fa24f271a36f4d45a1c1db8a21287c82",
+          3
+        ],
+        [
+          "f85a303625194ceab4ce9d4f0594123e",
+          3
+        ],
+        [
+          "f78864343c7d4d84a4ee430a9b3928ce",
+          3
+        ],
+        [
+          "f5470b6e9b32498a877d8b80365c9018",
+          3
+        ]
+      ],
+      "entries": 3192,
+      "entries_top10": [
+        [
+          "fe74b00645f84888ba3ab9466dc5c72e",
+          3
+        ],
+        [
+          "fd963625f3ca419dbec085112af7cd83",
+          3
+        ],
+        [
+          "fd81896ea5544eb5837934f6fcaea594",
+          3
+        ],
+        [
+          "fb221f52cc7a455e8386a34708b58158",
+          3
+        ],
+        [
+          "fb1b2b4f22e847af8efd9a39fe679a29",
+          3
+        ],
+        [
+          "fab86b89ed64448e901c06be714f20fc",
+          3
+        ],
+        [
+          "fa567ebb03da4704a87b2522aab5ad64",
+          3
+        ],
+        [
+          "fa24f271a36f4d45a1c1db8a21287c82",
+          3
+        ],
+        [
+          "f85a303625194ceab4ce9d4f0594123e",
+          3
+        ],
+        [
+          "f78864343c7d4d84a4ee430a9b3928ce",
+          3
+        ]
+      ],
+      "redis_xml_all_players_equal": true
+    }
+  ],
+  "sql_rows": 1500,
+  "redis_xml_sql_equal": true,
+  "server_failure_lines": [],
+  "metrics": {
+    "samples": 58,
+    "max_interval_tick_p95_us": 81509,
+    "max_tick_us": 86731,
+    "skipped_ticks": 15,
+    "intervals_over_50ms": 4,
+    "max_snapshot_us": 82176,
+    "max_interval_snapshot_p95_us": 79401,
+    "max_queue_peak": 1500,
+    "max_replay_queue_bytes": 0,
+    "max_db_outstanding": 162,
+    "replay_failed": 0
+  },
+  "redis_queries": {
+    "kills": {
+      "samples": 49,
+      "p50_ms": 0.1608,
+      "p95_ms": 0.206,
+      "max_ms": 0.2455
+    },
+    "deaths": {
+      "samples": 49,
+      "p50_ms": 0.0486,
+      "p95_ms": 0.1016,
+      "max_ms": 0.169
+    },
+    "entries": {
+      "samples": 49,
+      "p50_ms": 0.0389,
+      "p95_ms": 0.0622,
+      "max_ms": 0.0688
+    }
+  },
+  "replay": {
+    "frames": 1457,
+    "snapshots": 292,
+    "duration_seconds": 291.3,
+    "min_reentry_tick_ms": 99600,
+    "bytes": 67265914,
+    "sha256": "FD96CB68765A25B1003241B5CDD67A21846A6A3E1766254EC5A61372E1F3138F"
+  },
+  "ranking_regression": "passed",
+  "limits": [
+    "One local run, not sustained 1500 alive players or Internet capacity",
+    "Top-10 ZREVRANGE direct RESP round-trip sampled every 5s; not game Rank packet RTT",
+    "World metrics include setup and cleanup; p95 values are per 5-second bucket",
+    "Time-limited demonstration ends by server_shutdown, not a round victory",
+    "No Redis OFF baseline; cannot attribute differences from old run to Redis or Grid alone",
+    "Replay time is tick-based with 200ms frame batching; reentry 99600ms is not wall-clock cooldown measurement"
+  ]
+}

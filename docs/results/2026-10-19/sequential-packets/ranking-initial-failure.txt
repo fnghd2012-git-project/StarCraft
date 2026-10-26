@@ -1,0 +1,4 @@
+Initial ranking test failed before the fixture adjustment:
+[FAIL] Ranking check: cooldown rejects premature entry
+Logs: .deps/ranking-66e651f26a53458c953427e6e6738dec
+The test shortened DeathReentrySeconds to 1. GamePersistence computes retry_after_seconds and checks ticket admission in separate requests using integer seconds. The cooldown can expire between the response and the next request. Changed only the test fixture to 3 seconds; rejection assertion and production 100-second setting are unchanged.

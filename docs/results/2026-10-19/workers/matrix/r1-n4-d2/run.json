@@ -1,0 +1,192 @@
+{
+  "network": 4,
+  "db": 2,
+  "repeat": 1,
+  "realm": "workers_0e755312d349482aa80d907b2e2df017",
+  "runtime": "D:\\work\\Josun_Server\\git_ProJect\\.deps\\worker-benchmark\\workers_0e755312d349482aa80d907b2e2df017",
+  "measurements": {
+    "seed": {
+      "marker_seconds": 5.052498500000183,
+      "resources": {
+        "A": {
+          "cpu_one_core_percent": 189.26279740606856,
+          "sampled_peak_working_set_mb": 18.49609375
+        },
+        "B": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.13671875
+        },
+        "C": {
+          "cpu_one_core_percent": 0.30925293693802053,
+          "sampled_peak_working_set_mb": 11.109375
+        },
+        "World": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.40234375
+        },
+        "Dummy": {
+          "cpu_one_core_percent": 0.30925293693802053,
+          "sampled_peak_working_set_mb": 13.59375
+        }
+      }
+    },
+    "warm-seed": {
+      "marker_seconds": 0.871560500000669,
+      "resources": {
+        "A": {
+          "cpu_one_core_percent": 143.4209099654058,
+          "sampled_peak_working_set_mb": 18.51171875
+        },
+        "B": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.13671875
+        },
+        "C": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.109375
+        },
+        "World": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.40234375
+        },
+        "Dummy": {
+          "cpu_one_core_percent": 3.5855227491351447,
+          "sampled_peak_working_set_mb": 11.1171875
+        }
+      }
+    },
+    "warm-session": {
+      "marker_seconds": 1.1363074999999299,
+      "resources": {
+        "A": {
+          "cpu_one_core_percent": 112.75557012517115,
+          "sampled_peak_working_set_mb": 18.55078125
+        },
+        "B": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.13671875
+        },
+        "C": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.109375
+        },
+        "World": {
+          "cpu_one_core_percent": 2.7501358567114913,
+          "sampled_peak_working_set_mb": 18.69140625
+        },
+        "Dummy": {
+          "cpu_one_core_percent": 5.500271713422983,
+          "sampled_peak_working_set_mb": 11.33984375
+        }
+      }
+    },
+    "session": {
+      "marker_seconds": 5.894699400000718,
+      "resources": {
+        "A": {
+          "cpu_one_core_percent": 181.83709249022425,
+          "sampled_peak_working_set_mb": 18.60546875
+        },
+        "B": {
+          "cpu_one_core_percent": 0.5301372958898667,
+          "sampled_peak_working_set_mb": 11.13671875
+        },
+        "C": {
+          "cpu_one_core_percent": 0.0,
+          "sampled_peak_working_set_mb": 11.109375
+        },
+        "World": {
+          "cpu_one_core_percent": 0.26506864794493334,
+          "sampled_peak_working_set_mb": 19.1953125
+        },
+        "Dummy": {
+          "cpu_one_core_percent": 0.26506864794493334,
+          "sampled_peak_working_set_mb": 13.5546875
+        }
+      }
+    },
+    "ping": {
+      "marker_seconds": 19.99671649999982,
+      "resources": {
+        "A": {
+          "cpu_one_core_percent": 14.142946918310441,
+          "sampled_peak_working_set_mb": 18.75
+        },
+        "B": {
+          "cpu_one_core_percent": 0.15627565655591646,
+          "sampled_peak_working_set_mb": 11.13671875
+        },
+        "C": {
+          "cpu_one_core_percent": 0.15627565655591646,
+          "sampled_peak_working_set_mb": 11.109375
+        },
+        "World": {
+          "cpu_one_core_percent": 0.4688269696677494,
+          "sampled_peak_working_set_mb": 19.16015625
+        },
+        "Dummy": {
+          "cpu_one_core_percent": 29.926788230458005,
+          "sampled_peak_working_set_mb": 31.625
+        }
+      }
+    },
+    "fixed-combat": {
+      "marker_seconds": 20.03182259999994,
+      "resources": {
+        "A": {
+          "cpu_one_core_percent": 0.07800089044318936,
+          "sampled_peak_working_set_mb": 18.75390625
+        },
+        "B": {
+          "cpu_one_core_percent": 0.07800089044318936,
+          "sampled_peak_working_set_mb": 18.3203125
+        },
+        "C": {
+          "cpu_one_core_percent": 0.31200356177275745,
+          "sampled_peak_working_set_mb": 18.36328125
+        },
+        "World": {
+          "cpu_one_core_percent": 9.516108634069102,
+          "sampled_peak_working_set_mb": 22.6953125
+        },
+        "Dummy": {
+          "cpu_one_core_percent": 28.470325011764114,
+          "sampled_peak_working_set_mb": 29.6953125
+        }
+      }
+    }
+  },
+  "intervals": [
+    [
+      "seed",
+      7586.9764244,
+      7592.0289229
+    ],
+    [
+      "warm-seed",
+      7592.2334366,
+      7593.1049971
+    ],
+    [
+      "warm-session",
+      7593.3162695,
+      7594.452577
+    ],
+    [
+      "session",
+      7594.630278,
+      7600.5249774
+    ],
+    [
+      "ping",
+      7607.1297372,
+      7627.1264537
+    ],
+    [
+      "fixed-combat",
+      7638.8277046,
+      7658.8595272
+    ]
+  ],
+  "healthy_exit": true
+}

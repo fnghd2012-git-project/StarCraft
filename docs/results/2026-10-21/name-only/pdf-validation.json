@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-21",
+  "visual_review": "passed: all 57 pages rendered and reviewed in contact sheets; both covers and portfolio footer inspected at full page size; only requested labels changed",
+  "files": [
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오.pdf",
+      "pages": 36,
+      "sha256": "e2bc6de23b0ac0c8c16cd9e3758763e793fa8d015430c0af4f938fefd22c4248",
+      "content_comparison": "Only theme label removal and name/page footer replacement",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 36
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서.pdf",
+      "pages": 21,
+      "sha256": "8278cff51c9ba84c560c5934c65df7cddc3273a5f498d342f12e8aab249a346a",
+      "content_comparison": "Only theme label removal and name/page footer replacement",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 21
+    }
+  ]
+}

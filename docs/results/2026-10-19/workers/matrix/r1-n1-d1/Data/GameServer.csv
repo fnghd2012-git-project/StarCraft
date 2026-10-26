@@ -1,0 +1,4 @@
+Index,Name,Race,Address,Port
+A,Game A,Zerg,127.0.0.1,52622
+B,Game B,Protoss,127.0.0.1,52623
+C,Game C,Terran,127.0.0.1,52624

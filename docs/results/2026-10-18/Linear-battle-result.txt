@@ -1,0 +1,13 @@
+Requested=120
+Ready=120
+PeakWorld=120
+Entered=203
+Deaths=99
+DeathReentries=83
+ResumedGame=105
+UnitAttacks=715
+BuildingAttacks=0
+Skills=50
+Rejected=2615
+Errors=0
+LoggedOut=120

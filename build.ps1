@@ -3,7 +3,8 @@
     [string]$Configuration = 'Debug',
     [switch]$RunChecks,
     [switch]$RunDbCheck,
-    [switch]$RunNetworkChecks
+    [switch]$RunNetworkChecks,
+    [switch]$RunGameplayChecks
 )
 
 $ErrorActionPreference = 'Stop'
@@ -20,6 +21,7 @@ if ($LASTEXITCODE -ne 0 -or $msbuildPaths.Count -eq 0) {
 }
 
 & (Join-Path $PSScriptRoot 'setup-protobuf.ps1') -Configuration $Configuration
+& (Join-Path $PSScriptRoot 'setup-redis.ps1') -Configuration $Configuration
 
 & $msbuildPaths[0] $solutionPath /m /nologo /v:minimal "/p:Configuration=$Configuration" /p:Platform=x64
 if ($LASTEXITCODE -ne 0) {
@@ -27,7 +29,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 if ($RunChecks -or $RunDbCheck) {
-    $binaryPath = Join-Path $projectDirectory "build\x64\$Configuration\bin\MultiThreadServer.exe"
+    $binaryPath = Join-Path $PSScriptRoot "Run64\$Configuration\MultiThreadServer.exe"
     $checkArgument = if ($RunDbCheck) { '--db-check' } else { '--self-check' }
     & $binaryPath $checkArgument
     if ($LASTEXITCODE -ne 0) {
@@ -37,4 +39,12 @@ if ($RunChecks -or $RunDbCheck) {
 
 if ($RunNetworkChecks) {
     & (Join-Path $PSScriptRoot 'test-network.ps1') -Configuration $Configuration
+}
+if ($RunChecks) {
+    & $binaryPath --battle-check
+    if ($LASTEXITCODE -ne 0) { throw '전투 직렬/병렬 계산 검증 실패' }
+    & (Join-Path $PSScriptRoot 'test-spatial.ps1') -Configuration $Configuration
+}
+if ($RunGameplayChecks) {
+    & (Join-Path $PSScriptRoot 'test-gameplay.ps1') -Configuration $Configuration
 }

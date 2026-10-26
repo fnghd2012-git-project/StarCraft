@@ -1,0 +1,18 @@
+[OK] Protobuf 33.6 / Debug ready.
+[OK] hiredis 1.3.0 / Debug ready
+  DummyClient.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\DummyClient.exe
+  BattleWorkers.cpp
+  MultiThreadServer.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\MultiThreadServer.exe
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Debug
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[OK] Parallel calculations: workers=1 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Parallel calculations: workers=2 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Parallel calculations: workers=4 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Spatial INI validation and legacy defaults. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\spatial-check-675f9879ae97454ea9b0a7496b25fcea

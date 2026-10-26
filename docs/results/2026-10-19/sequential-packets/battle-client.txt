@@ -1,0 +1,71 @@
+[OK] Configuration / map / CSV
+ServerId=World
+ServerType=World
+Race=None
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+SpatialSearch=Grid
+SpatialCellSize=25
+VerifySpatialSearch=0
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[BATTLE] 3 per game server / 9 total / death cooldown=1 / 20 battle seconds
+[DIRECTORY] D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261019-163126-55aa98de72c44a4981c7c80a0b686dfc
+[BATTLE] ready=0/9 world=0 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE START] ready=9 world=9
+[BATTLE] ready=9/9 world=9 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=9/9 world=9 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=9/9 world=9 deaths=0 reentries=0 unit_hits=3 skills=0 errors=0
+[BATTLE] ready=9/9 world=9 deaths=2 reentries=2 unit_hits=20 skills=1 errors=0
+[BATTLE RESULT]
+Requested=9
+Ready=9
+PeakWorld=9
+Entered=11
+Deaths=2
+DeathReentries=2
+ResumedGame=2
+UnitAttacks=25
+BuildingAttacks=0
+Skills=2
+Rejected=53
+Errors=0
+LoggedOut=9
+
+Requested=9
+Ready=9
+PeakWorld=9
+Entered=11
+Deaths=2
+DeathReentries=2
+ResumedGame=2
+UnitAttacks=25
+BuildingAttacks=0
+Skills=2
+Rejected=53
+Errors=0
+LoggedOut=9
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=f21aa403d9e5f234a05b5e4b6ca93b9b frames=117 snapshots=24 duration=23.300 complete=1 reason=server_shutdown winner=0
+[ACTION] Attack=25
+[ACTION] Enter=11
+[ACTION] Move=602
+[ACTION] Return=2
+[ACTION] Skill=2
+[ACTION] Logout=9
+[PARTICIPANTS] server=A unique=3
+[PARTICIPANTS] server=C unique=3
+[PARTICIPANTS] server=B unique=3
+[BATTLE SUMMARY] peak_units=9 deaths=2 death_reentries=2 min_reentry_ms=1400
+[REPLAY] D:\work\Josun_Server\git_ProJect\Run64\Release\Replays\Battle-9-f21aa403d9e5f234a05b5e4b6ca93b9b.replay
+[RESULT] D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261019-163126-55aa98de72c44a4981c7c80a0b686dfc\result.txt

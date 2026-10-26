@@ -1,0 +1,34 @@
+[MATCH] Started e42cd676bac476bc2714a8dec7ef9f7f
+[REPLAY] Started match=e42cd676bac476bc2714a8dec7ef9f7f
+[LISTEN] World 127.0.0.1:63598 workers=2 units=3 skills=10 max_players=64 spatial=Grid cell=25 spatial_verify=0 (Ctrl+C to stop)
+[WORLD LOGIN] C RankMarine unit=Marine
+[WORLD LOGIN] A RankZerg unit=Zergling
+[WORLD LOGIN] B RankCaster unit=HighTemplar
+[WORLD LOGIN] B RankAlly unit=HighTemplar
+[WORLD LOGOUT] RankZerg -> A Unit died; returned to game server
+[METRICS] server=World active=3 commands=13 rejected=0 queue_peak=1 tick_p95_us=801 tick_max_us=1032 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=147 snapshot_send_us=5483 snapshot_p95_us=539 snapshot_max_us=571 replay_failed=0
+[WORLD LOGIN] A RankZerg unit=Zergling
+[WORLD LOGOUT] RankZerg -> A Returned to game server
+[WORLD LOGIN] A RankZerg unit=Zergling
+[WORLD LOGOUT] RankCaster -> B Returned to game server
+[WORLD LOGOUT] RankAlly -> B Unit died from skill; returned to game server
+[WORLD LOGOUT] RankZerg -> A Unit died from skill; returned to game server
+[METRICS] server=World active=1 commands=8 rejected=0 queue_peak=1 tick_p95_us=782 tick_max_us=1023 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=184 snapshot_send_us=6213 snapshot_p95_us=581 snapshot_max_us=618 replay_failed=0
+[WORLD LOGIN] A RankZerg unit=Zergling
+[METRICS] server=World active=2 commands=2 rejected=0 queue_peak=1 tick_p95_us=455 tick_max_us=693 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=63 snapshot_send_us=2017 snapshot_p95_us=147 snapshot_max_us=388 replay_failed=0
+[METRICS] server=World active=2 commands=0 rejected=0 queue_peak=0 tick_p95_us=505 tick_max_us=835 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=101 snapshot_send_us=3358 snapshot_p95_us=406 snapshot_max_us=461 replay_failed=0
+[WORLD LOGOUT] RankZerg -> A Unit died; returned to game server
+[REDIS] Reconnected; current match restored
+[REPLAY] Saved D:\work\Josun_Server\git_ProJect\.deps\ranking-1845eb84f49344d0b5a385f1a8a7cbaa\Replays\e42cd676bac476bc2714a8dec7ef9f7f.replay
+[MATCH DB] committed e42cd676bac476bc2714a8dec7ef9f7f.xml
+[WORLD LOGOUT] RankMarine -> C Round ended
+[MATCH DB] Saved e42cd676bac476bc2714a8dec7ef9f7f.xml
+[METRICS] server=World active=0 commands=6 rejected=0 queue_peak=1 tick_p95_us=381 tick_max_us=670 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=44 snapshot_send_us=1713 snapshot_p95_us=140 snapshot_max_us=359 replay_failed=0
+[MATCH] Started afa77451e36e6b87d65b6593c5df23f0
+[REPLAY] Started match=afa77451e36e6b87d65b6593c5df23f0
+[ROUND] New round started
+[METRICS] server=World active=0 commands=1 rejected=0 queue_peak=1 tick_p95_us=185 tick_max_us=4622 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=4 snapshot_max_us=6 replay_failed=0
+[WORLD LOGIN] C RankMarine unit=Marine
+[STOP] Network workers joined; sockets closed.
+[REPLAY] Saved D:\work\Josun_Server\git_ProJect\.deps\ranking-1845eb84f49344d0b5a385f1a8a7cbaa\Replays\afa77451e36e6b87d65b6593c5df23f0.replay
+[MATCH DB] committed afa77451e36e6b87d65b6593c5df23f0.xml

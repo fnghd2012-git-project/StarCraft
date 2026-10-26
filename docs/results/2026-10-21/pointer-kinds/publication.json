@@ -1,0 +1,31 @@
+{
+  "status": "verified",
+  "files": [
+    {
+      "sha256": "a1af9d84db85631e882b99f03842d948aa4e1aff36a60cadf67eb54aa9833831",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\content\\documents.json",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-pointer-kinds-141238\\documents.json"
+    },
+    {
+      "sha256": "010699608e1e6ff8f483da13c32a73cecf149c6e6a7d521e774c5dc8727baba1",
+      "file": "C:\\Users\\mycom\\.codex\\skills\\git-project\\SKILL.md",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-pointer-kinds-141238\\git-project-SKILL.md"
+    },
+    {
+      "sha256": "4655945f68be87f5b716e63155f2d1e160d9865880f03f994ac3427db3fca128",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-pointer-kinds-141238\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf"
+    },
+    {
+      "sha256": "207ea4ded428f425c5aac10bd95f853fc2216853dbd454b10bfaefab93dab08d",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서_A.pdf",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-pointer-kinds-141238\\민수홍_경력기술서_A.pdf"
+    },
+    {
+      "sha256": "40ba156d76a13b468172b9eb5c74ccc40d72db0b4a007270d4ce081672d9b089",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\layout-manifest.json",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-pointer-kinds-141238\\layout-manifest.json"
+    }
+  ],
+  "date": "2026-10-21"
+}

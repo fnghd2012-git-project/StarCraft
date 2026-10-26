@@ -1,0 +1,355 @@
+{
+  "files": 14,
+  "declarations": 39,
+  "code_tokens": "identical after removing p_ from renamed parameter identifiers",
+  "plan": [
+    {
+      "file": "DummyClient/src/FlowCheck.cpp",
+      "declarations": [
+        {
+          "function": "Resume",
+          "line": 72,
+          "parameters": [
+            "game",
+            "world"
+          ]
+        },
+        {
+          "function": "Transfer",
+          "line": 96,
+          "parameters": [
+            "game",
+            "world"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Database.cpp",
+      "declarations": [
+        {
+          "function": "ReadEnvironment",
+          "line": 30,
+          "parameters": [
+            "name"
+          ]
+        },
+        {
+          "function": "CheckOdbc",
+          "line": 96,
+          "parameters": [
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameBattle.cpp",
+      "declarations": [
+        {
+          "function": "lambda",
+          "line": 26,
+          "parameters": [
+            "a",
+            "b"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "declarations": [
+        {
+          "function": "Submit",
+          "line": 85,
+          "parameters": [
+            "channel"
+          ]
+        },
+        {
+          "function": "SendMessage",
+          "line": 100,
+          "parameters": [
+            "channel"
+          ]
+        },
+        {
+          "function": "SendPacket",
+          "line": 113,
+          "parameters": [
+            "channel"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.h",
+      "declarations": [
+        {
+          "function": "Submit",
+          "line": 32,
+          "parameters": [
+            "channel"
+          ]
+        },
+        {
+          "function": "SendMessage",
+          "line": 172,
+          "parameters": [
+            "channel"
+          ]
+        },
+        {
+          "function": "SendPacket",
+          "line": 175,
+          "parameters": [
+            "channel"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp",
+      "declarations": [
+        {
+          "function": "Release",
+          "line": 51,
+          "parameters": [
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.h",
+      "declarations": [
+        {
+          "function": "Release",
+          "line": 33,
+          "parameters": [
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "declarations": [
+        {
+          "function": "ReleaseOperation",
+          "line": 82,
+          "parameters": [
+            "operation"
+          ]
+        },
+        {
+          "function": "CloseSession",
+          "line": 129,
+          "parameters": [
+            "session"
+          ]
+        },
+        {
+          "function": "PostRecv",
+          "line": 151,
+          "parameters": [
+            "session"
+          ]
+        },
+        {
+          "function": "PostSend",
+          "line": 179,
+          "parameters": [
+            "session"
+          ]
+        },
+        {
+          "function": "HandleAccept",
+          "line": 249,
+          "parameters": [
+            "operation"
+          ]
+        },
+        {
+          "function": "HandleSessionCompletion",
+          "line": 300,
+          "parameters": [
+            "session",
+            "operation"
+          ]
+        },
+        {
+          "function": "LogMetrics",
+          "line": 430,
+          "parameters": [
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.h",
+      "declarations": [
+        {
+          "function": "HandleSessionCompletion",
+          "line": 26,
+          "parameters": [
+            "session",
+            "operation"
+          ]
+        },
+        {
+          "function": "HandleAccept",
+          "line": 33,
+          "parameters": [
+            "operation"
+          ]
+        },
+        {
+          "function": "PostRecv",
+          "line": 36,
+          "parameters": [
+            "session"
+          ]
+        },
+        {
+          "function": "PostSend",
+          "line": 37,
+          "parameters": [
+            "session"
+          ]
+        },
+        {
+          "function": "CloseSession",
+          "line": 38,
+          "parameters": [
+            "session"
+          ]
+        },
+        {
+          "function": "ReleaseOperation",
+          "line": 42,
+          "parameters": [
+            "operation"
+          ]
+        },
+        {
+          "function": "LogMetrics",
+          "line": 43,
+          "parameters": [
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Packet.h",
+      "declarations": [
+        {
+          "function": "Read16",
+          "line": 51,
+          "parameters": [
+            "data"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.cpp",
+      "declarations": [
+        {
+          "function": "QueueSendPacket",
+          "line": 5,
+          "parameters": [
+            "channel"
+          ]
+        },
+        {
+          "function": "HandleClientPackets",
+          "line": 24,
+          "parameters": [
+            "channel"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.h",
+      "declarations": [
+        {
+          "function": "HandleClientPackets",
+          "line": 5,
+          "parameters": [
+            "channel"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.cpp",
+      "declarations": [
+        {
+          "function": "CheckReply",
+          "line": 10,
+          "parameters": [
+            "reply"
+          ]
+        },
+        {
+          "function": "stCommand",
+          "line": 27,
+          "parameters": [
+            "connection"
+          ]
+        },
+        {
+          "function": "Append",
+          "line": 43,
+          "parameters": [
+            "connection"
+          ]
+        },
+        {
+          "function": "Save",
+          "line": 64,
+          "parameters": [
+            "connection"
+          ]
+        },
+        {
+          "function": "ReadPlayer",
+          "line": 101,
+          "parameters": [
+            "connection"
+          ]
+        },
+        {
+          "function": "Read",
+          "line": 113,
+          "parameters": [
+            "connection"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Replay.cpp",
+      "declarations": [
+        {
+          "function": "Number",
+          "line": 13,
+          "parameters": [
+            "bytes"
+          ]
+        },
+        {
+          "function": "Require",
+          "line": 22,
+          "parameters": [
+            "message"
+          ]
+        }
+      ]
+    }
+  ]
+}

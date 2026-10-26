@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-21",
+  "status": "verified",
+  "files": [
+    {
+      "sha256": "bc1724c034378ae7247049b1ab2495f1f4bf54eac71b34b261b8075c50c2b2a4",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\content\\documents.json",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-name-only-180218\\documents.json"
+    },
+    {
+      "sha256": "803a2f08ecb34cec346c0a1614e7ee3e14a4d69fe44c8baaeec52c830ca640f0",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\build_documents.py",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-name-only-180218\\build_documents.py"
+    },
+    {
+      "sha256": "c77b1fae3d6dfc199c11474c01cd2f8922192c3f3d9641c5042fecb85a34e648",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\source\\build_portfolio.py",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-name-only-180218\\build_portfolio.py"
+    },
+    {
+      "sha256": "021bdba827958eb3ac54a1669f965db2d63ea5bd72ea639926bd4664a5b5dd32",
+      "file": "C:\\Users\\mycom\\.codex\\skills\\git-project\\SKILL.md",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-name-only-180218\\git-project-SKILL.md"
+    },
+    {
+      "sha256": "e2bc6de23b0ac0c8c16cd9e3758763e793fa8d015430c0af4f938fefd22c4248",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오.pdf",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-name-only-180218\\민수홍_Cpp_멀티스레드_포트폴리오.pdf"
+    },
+    {
+      "sha256": "8278cff51c9ba84c560c5934c65df7cddc3273a5f498d342f12e8aab249a346a",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서.pdf",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-name-only-180218\\민수홍_경력기술서.pdf"
+    },
+    {
+      "sha256": "614558705f1cafc8c6614e291b2164d41221df74be2d2bd3cf7ca941a8de4972",
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\layout-manifest.json",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-name-only-180218\\layout-manifest.json"
+    },
+    {
+      "sha256": "ac6fd5434e48b6d587422dbf4ca2468cfaf61b21867754dea5767b6e0f4b96a8",
+      "file": "D:\\work\\Josun_Server\\Portfolio\\verification\\current-documents.json",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-name-only-180218\\current-documents.json"
+    }
+  ],
+  "archived": [
+    {
+      "sha256": "6c5ad5853e4023dea5261a6e17efd1a6501cf694705c950ee9700ca3194c284a",
+      "original": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf",
+      "archived": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-name-only-180218\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf"
+    },
+    {
+      "sha256": "7f316a630a73aa07285e7d2d446b590f1900b9f0efa978df813d1a672b029552",
+      "original": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서_A.pdf",
+      "archived": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-name-only-180218\\민수홍_경력기술서_A.pdf"
+    }
+  ]
+}

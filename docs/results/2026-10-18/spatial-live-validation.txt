@@ -1,0 +1,2 @@
+[OK] Live spatial Linear verified=20336; 120 bots, cooldown=3, battle=35s. Source: D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261018-143529-bc5ff52d50d3450cb9d1940dad9c1eca
+[OK] Live spatial Grid verified=20288; 120 bots, cooldown=3, battle=35s. Source: D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261018-143612-56cab8fb58c648cb8b809075a7a88a4b

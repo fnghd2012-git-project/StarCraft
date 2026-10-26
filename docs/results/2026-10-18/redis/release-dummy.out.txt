@@ -1,0 +1,3 @@
+[OK] ranking combat, friendly fire, voluntary return, reentry, ties; match=fa78ceb1e1853325c92cd56ef56e6bca
+[OK] Redis empty restart restored totals; combat continued during outage
+[OK] new match reset; previous=fa78ceb1e1853325c92cd56ef56e6bca current=aaf3363cac00f5e64806b859c7dc0128

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "build-debug",
+    "exit_code": 0,
+    "seconds": 17.42
+  },
+  {
+    "name": "build-release",
+    "exit_code": 0,
+    "seconds": 23.01
+  },
+  {
+    "name": "network-iocp",
+    "exit_code": 0,
+    "seconds": 18.69
+  },
+  {
+    "name": "network-wsapoll",
+    "exit_code": 0,
+    "seconds": 18.67
+  },
+  {
+    "name": "test-gameplay",
+    "exit_code": 0,
+    "seconds": 37.81
+  },
+  {
+    "name": "test-ranking",
+    "exit_code": 0,
+    "seconds": 42.22
+  },
+  {
+    "name": "test-replay",
+    "exit_code": 0,
+    "seconds": 38.62
+  },
+  {
+    "name": "test-parallel",
+    "exit_code": 0,
+    "seconds": 141.52
+  }
+]

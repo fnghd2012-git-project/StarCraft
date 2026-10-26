@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-19",
+  "wire_header": "uint16 total_length BE + uint16 packet_type BE",
+  "header_bytes": 4,
+  "max_packet_bytes": 4096,
+  "max_payload_bytes": 4092,
+  "network_version_field_in_header": false,
+  "initial_check": {
+    "request": 1,
+    "reply": 2,
+    "name": "ServerVersionCheck",
+    "version": 4,
+    "request_fields": "client_name=1, protocol_version=2",
+    "reply_version_field": 9,
+    "missing_mismatched_duplicate": "close connection"
+  },
+  "sources_sha256": {
+    "DummyClient/src/BattleClient.cpp": "af09c2ad9becd487f165092977af4894679e447a534db640884184fe2eac35af",
+    "DummyClient/src/ClientConnection.cpp": "185b61cc60b3e4da5506d0f526510ec4a04d92d88247be72278290613d913848",
+    "DummyClient/src/ClientConnection.h": "56e866fb76c14c94a3d6bc57f8074f63bf34ec91428fb5abfebe911cedef9413",
+    "DummyClient/src/FlowCheck.cpp": "e2730cce6f79c6360b34e17934b20f3ef53f2e9f48e69eba043bcf69d82f7abf",
+    "DummyClient/src/Main.cpp": "3584d265abff06120db7ed4900b46c5df67a12e654e3f8a2fe8c1fcc45fdaa91",
+    "MultiThreadServer/MultiThreadServer/src/ChatRelay.cpp": "8ef34a34f90c5872da7d8593826a4ead34eb92e81054db52c5278443e8725d13",
+    "MultiThreadServer/MultiThreadServer/src/ChatRelay.h": "e51bca0393e4e9af7b97f9f5cd5369fd6a0fdc062e66d9569d9dfb047054e7c1",
+    "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp": "75781c5e11041a813e4f398f88c6cb171c86977abbbf58e7be600b873056707c",
+    "MultiThreadServer/MultiThreadServer/src/GamePersistence.cpp": "d20527b556d088748648920fc408e0b1ee4016a1eb2c979ec6443d4ef8876149",
+    "MultiThreadServer/MultiThreadServer/src/Packet.h": "09978f5beee8b056480fcb85e5e5440c9c4a2239949d727902edb56b2b9b1659",
+    "MultiThreadServer/MultiThreadServer/src/TcpServer.cpp": "cc9673e5453964ae9d5583c650f4cb21d91b0f884272f7e772b770ebae9d6136",
+    "Protocol/Game.proto": "4ff0050ea9e835cd33a7e9e500ca890ff190f873a4878b708bb066faf4949b1c",
+    "test-chat-relay.ps1": "7c0bf2367d931a763365b9ac1a46e9ea8c663e583e6105272d361153e2ae561a",
+    "test-network.ps1": "974e3a9793f79fb28f094af2e03e00874dfd4298bd2600cb7bb01dd2fc39358e",
+    "test-recovery.ps1": "56ea98f4c1f34da67d434e5538ffa4c19a4fd31ea223524bd9a4ca25a08017c4"
+  },
+  "executables_sha256": {
+    "Run64/Debug/MultiThreadServer.exe": "73d4b6ed514315460189ef6dfb1c159fcc96fc1f43dbe2d4735bd19e07c51709",
+    "Run64/Debug/DummyClient.exe": "b04609cfc6c161dff43cfdb2079d284c4455ca935ebd1fe486c9304f89512a9c",
+    "Run64/Release/MultiThreadServer.exe": "e24a4820708c791389b4dfb383deb382283357c7aeeac04f0d8403668fca1dd0",
+    "Run64/Release/DummyClient.exe": "958c8f4ca2b36afcc3fe252f866fd66e43fd4345864e291b187f476696ba21ce"
+  },
+  "log_sha256": {
+    "battle-client.txt": "c9721134c195c5aef7be6b4dd0a6a96e5091590e34cddc20adf332c7ecb87a0a",
+    "debug-build-network.txt": "bf8bace312adabe87553b5d34cfdc2c66e078502101a9daa5265698b2831b601",
+    "old-replay.txt": "70b1a0a733813245ff1fe527e42c188048a160dd99b37c35413133fa23572237",
+    "release-build-network.txt": "0e8a19493e1af28354ee453e0269eabc72f0d7f03ca534ebf60d60f5ac4a47fb",
+    "test-auto-battle.txt": "f677d6e9aa18eca2135e12d1f310a36967108a5f3f468adbcc8a33d1c6cfe264",
+    "test-chat-relay.txt": "2b0dc33b178e77c4764758f0b9406917b47ed4f0738215540a7721b800193097",
+    "test-gameplay.txt": "cb18c6fc186686754e6101c82f84da01bd1312e4b821c1def62fa328d2244ded",
+    "test-ranking.txt": "a0d5ced91a3442436f1e66775fbecd684b606f596156fe75ba5f98b32e42f632",
+    "test-recovery.txt": "d89e7129beeeb253860f9f9914a8c6580372be174e4911d6a677e468614fcff4",
+    "test-replay.txt": "124b017a3c7175fca8889a942eac12ae7294cf74419c46b55d4a56ac99b00e8a",
+    "validation.txt": "217830f69c411fb27420a5e58821946e69dd9ee40292afb65a313c1fc51395d2"
+  },
+  "battle_9": {
+    "Requested": 9,
+    "Ready": 9,
+    "PeakWorld": 9,
+    "Entered": 12,
+    "Deaths": 3,
+    "DeathReentries": 3,
+    "UnitAttacks": 23,
+    "Skills": 2,
+    "Rejected": 42,
+    "Errors": 0
+  },
+  "checks": {
+    "Debug build/network": "passed",
+    "Release build/network/ODBC": "passed",
+    "Release gameplay/replay/auto-battle/chat-relay/recovery/ranking": "passed",
+    "BattleClient 9 bots 20 seconds": "passed; temporary death cooldown=1 second",
+    "Existing 1500-player replay": "passed",
+    "Large performance benchmarks": "not rerun; PDF tables explicitly retain prior 8-byte measurements"
+  }
+}

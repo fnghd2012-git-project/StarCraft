@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-21",
+  "changed_source_files": 71,
+  "packet_code_tokens": "unchanged",
+  "passing_checks": 14,
+  "iocp_fault_cases": 3,
+  "source_files": [
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleCalculation.cpp",
+      "sha256": "7a243b5a0042445c0a2bdfa62b3faa82daea044c35b11b1937b90a4e1fbc9e47"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleCalculation.h",
+      "sha256": "2c7ae03d8fbc7c6ba9b2fbc6d9627ad5f60cf822108883aa34f6a6c9123ed352"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleWorkers.cpp",
+      "sha256": "f7e38343199341435d40c0529cb6e1098b344eae10d09e85c6990c050de75706"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleWorkers.h",
+      "sha256": "3af5a40dc7c80db1b81726b73cf3b1ee961662677c8c30fe078434e169a76c15"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/ChatRelay.cpp",
+      "sha256": "fe85b04a734463f988c60c99f4dcd253ff1b35200ccc4a5afc044dfea8910a36"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/ChatRelay.h",
+      "sha256": "3933503069fcd5a94c2875695a4ef87d131f38aa9f8e8a0b4a5bc794db795193"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Common.h",
+      "sha256": "9b8d30c82a397a1fb9ddc1ad66f1ea0a5a5f14ed00d14739fd55a36641819783"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Config.cpp",
+      "sha256": "bd6d340c43cca5df9a3a360cfc4114e12662bbb5dc6edf434d261c4e2ce8bfa6"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Config.h",
+      "sha256": "02f1b53bd43445511dc86e85f63d64641b274b3088e1e8b2b4534557d265d898"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/CsvTable.cpp",
+      "sha256": "81605bd833eefb38845b97f71b97840a872c29e6ef5a5079c844bae0f61fc04b"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/CsvTable.h",
+      "sha256": "64666cf696ea2f318806da72eedc70d56fc1a3b07f1970f605b9462c8f8a525f"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Database.cpp",
+      "sha256": "0042f4f5ab82b65280816223aba188d75262f46d50518a610baa7c03f34b1f1b"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Database.h",
+      "sha256": "cfdfd313926d2345b1fa398e2b9e7643e7c26c863e84278af783a9c44b20b948"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.cpp",
+      "sha256": "91d9c5c51ae3d35596ae4bd90cee4db9bf4039c25322b6372711bbb1498d3eaa"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.h",
+      "sha256": "ae3937447812b23343ab96caf4278f476b845405a8124ac69b02309b497274b5"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/EntryTicket.cpp",
+      "sha256": "51f29d5450379d091e0b847277147f10c4d520be80a8bc191957815722fa042e"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/EntryTicket.h",
+      "sha256": "1369286332b19c60d82c95eada79681e001ae4c6d4708811530a269f14295faf"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameBattle.cpp",
+      "sha256": "deb4a2b481dc24bc91d85047c7966856d08e54a73d1d027c8e9b0acc7dcd067b"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameData.cpp",
+      "sha256": "acbea9c8f5ac10235072506e052350f76935dd80f4b0855f4a24b498d7a495c7"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameData.h",
+      "sha256": "8a95f8709d8418550f2243aefc582a32e7e306fca670e7fb60f719ed3e5f667f"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp",
+      "sha256": "0f026ccc9985fbf3ae5a63e6ec75cc070d5125faa482bc205e6a483627bc422b"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameLogic.h",
+      "sha256": "9e526aa5081814ddb0c4f3dccb1276b7757007c950a2126cfb9d62d97a763959"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GamePersistence.cpp",
+      "sha256": "1614e259b2d8009a4c610daa74dff9da88e3c48b66bf77a426a24de9b4f6ceee"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameRanking.cpp",
+      "sha256": "04ce0ff183fb00d12ec3c5dc2c19c1fe429cb61c90d3be9cbc86bc5727a9858a"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameReplay.cpp",
+      "sha256": "0753864086e575d699585fde5bdda7411fb0af9ba2ba866aea8f214225b0eaf3"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameSkills.cpp",
+      "sha256": "9e63d9756665ba7e9b977707fbbd0613a39b6933b6a84580a316e4a890fc2e7a"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/GameSnapshot.cpp",
+      "sha256": "3e5d284a349c0e6c7dfb131b2c3d76a58d7df656257ddecb3493e105f8dc2619"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp",
+      "sha256": "d66b4b7ec41bafef2d0b29fcebe4596ec1b3aae51850cee34cbe5f99872ece0c"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.h",
+      "sha256": "d20dfd9b5d07ef959cc12b8de1c3458bea684994806a02b1e3174fcaeaf086ec"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "sha256": "0eb2a0906b3fe3da8bc32a3bfc87562c403e56d197691dd67c00abace67edb0f"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.h",
+      "sha256": "5500a4666b084a4accb8baa823f6f62c3fcb66a029a48a11263acc6b095ef5d5"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpSession.h",
+      "sha256": "bc3c3ecfa20bf86649329434c18a9a97717da83d5a036f70fa8821b76bfaa343"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Main.cpp",
+      "sha256": "f735e6e7dffe819a039afae9d655cde0aacdb45175500f5a95cc573c13b0c1d2"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Network.h",
+      "sha256": "2293366857eca22ecd8ae77104733072f9b7feadedc7815131aa4716d5882cba"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/NetworkWorker.cpp",
+      "sha256": "c206102648fc641771afe8744b99f1e39f6d4be750ec64bc41fc0f67c2804513"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/NetworkWorker.h",
+      "sha256": "9cde76a060bdef5af4a24d7e775d1274340396c44c100ba89d21b82e59a04c27"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.cpp",
+      "sha256": "5de7882ea5a73caa4b51e71dcebf057e5bceb5e5bc1f8001cc8fe0a9c9261ce8"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/PacketDispatch.h",
+      "sha256": "e8fea729a2bc4bc8ab8594828cf66340a29c3fefb84a69a189a3440e94c8b641"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.cpp",
+      "sha256": "b1310b49fb29bbb062f804623c37a7b393c350d7c0b4ec051cd7f00c10440fef"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.h",
+      "sha256": "5df0b25043090dd083660d0329f9495f2f2e62bbb6030986d04e910c311b9b7e"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Replay.cpp",
+      "sha256": "7df740655ec3d154f303623d6f23d8de367ea8a9e6c886caa96de6effb32f7f4"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Replay.h",
+      "sha256": "b0af249dfe0c87d62555ac87d220835b68467c18c67e1fe182617ee25ad43603"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/SpatialCheck.cpp",
+      "sha256": "da5a398c5708f975a26c26f5aa72217517c867779ee736a63afd8814f38a0bbb"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/SpatialCheck.h",
+      "sha256": "327d65da31841adb2c7017b23fea6d1c0427b82c278dc6cfac73db4372d571fe"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/SpatialIndex.cpp",
+      "sha256": "6bd99bbd204bf46d20b6defbce38724c54bdf8e5ade8637e8dfb979a81454f9e"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/SpatialIndex.h",
+      "sha256": "dbdc9ef056b6936f4da2dbd998c5cfefa54010c77e949eac528b64ac8a360cdb"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/TcpServer.cpp",
+      "sha256": "7bcfa1e5e32031815e0a89ad793b18386053a4a73ef944c23f3ee43c183f195f"
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/TcpServer.h",
+      "sha256": "7244078c7da4581868b3c3346af77a2183b65749a40b0d21177511e3f8f51b57"
+    },
+    {
+      "file": "DummyClient/src/AccountSkillCheck.cpp",
+      "sha256": "d016647da275bd45695d9d396a8961951f35e0ce4a57ea8653ac6bb773055831"
+    },
+    {
+      "file": "DummyClient/src/AutoBattle.cpp",
+      "sha256": "0ab0e5f2374d633b7f4bfd5dbc313d426dff0c6bbf59ceecedf0a22668aff494"
+    },
+    {
+      "file": "DummyClient/src/AutoBattle.h",
+      "sha256": "d9dd4194fd29ae7f023b73fad89b8821a952d0f01382bcf122fd53899db75e35"
+    },
+    {
+      "file": "DummyClient/src/BattleClient.cpp",
+      "sha256": "c52b12e6f5fbf8bb162f54980b0d752ff8659fee4b2aaf1bfcd5ffbd960c0bb4"
+    },
+    {
+      "file": "DummyClient/src/BattleClient.h",
+      "sha256": "173121a4a8234d6c269497e891bf8ec5fe51233b4599e5afcad99a82e1382eca"
+    },
+    {
+      "file": "DummyClient/src/BattleDecision.cpp",
+      "sha256": "3325d3b6d75b8b55f8eb2fc108d7111f45f8ca6c0cd5633eb5e452a75f5568a6"
+    },
+    {
+      "file": "DummyClient/src/BattleDecision.h",
+      "sha256": "9c0a04c75f022e5b4c94fcd8cb87600468332565e7d8e49101c96e1a777b01fb"
+    },
+    {
+      "file": "DummyClient/src/BattleWorker.cpp",
+      "sha256": "43b7ce565d51d3fd6ef3d37fa382d80bbc0d18dffc5858f41caead169864f929"
+    },
+    {
+      "file": "DummyClient/src/BattleWorker.h",
+      "sha256": "eeabd9a7bb31361ca4e2011b2a9dc0fe1ec9a1082213189d30b9b029cec6c5fc"
+    },
+    {
+      "file": "DummyClient/src/ClientConnection.cpp",
+      "sha256": "4288fbfb5aa6f22478e5944a7b0ff6f4e6a09d533515ca62df88fb92efedcdde"
+    },
+    {
+      "file": "DummyClient/src/ClientConnection.h",
+      "sha256": "bbf0022cba199e2414fac3cccad0d27c8c6c57c6de8220ecb36cad27bb7d5e1c"
+    },
+    {
+      "file": "DummyClient/src/FlowCheck.cpp",
+      "sha256": "2d599e737df2511b8c4ab2054b3d52c8e21f52ebe39cf7f67bde49a1827e6e21"
+    },
+    {
+      "file": "DummyClient/src/LoadClient.cpp",
+      "sha256": "dfff27c95aeae7f5d478e0c7ec9b102613b47bd905057db8af406d97c391284b"
+    },
+    {
+      "file": "DummyClient/src/LoadClient.h",
+      "sha256": "3aabe84854e9ed4b7048b9b354dcefc956f033c140e90938d45cecf44c449527"
+    },
+    {
+      "file": "DummyClient/src/Main.cpp",
+      "sha256": "5a34941d1b6a6d8c6a2ce15cb662f247e055d7934c60088d14a822a92e79678c"
+    },
+    {
+      "file": "DummyClient/src/PlayClient.cpp",
+      "sha256": "98cda60cde20bdf65b3e6f2ceb3eb4a702afdbb34e9fac1da56316ce21a59843"
+    },
+    {
+      "file": "DummyClient/src/PlayClient.h",
+      "sha256": "cbf7568ef72026b15c094181f753034aaf18c82b5f02d4a04423c09e476fa903"
+    },
+    {
+      "file": "DummyClient/src/RankingCheck.cpp",
+      "sha256": "fc5c54e29ce895dfa261c3d3a6f543075681a44691e50d9e73f8e30ee5358cec"
+    },
+    {
+      "file": "DummyClient/src/ReplayClient.cpp",
+      "sha256": "752b68ee3bb689b82bfa89a700cc5fb49e79a41b99202dd4af98039a37c46d4e"
+    },
+    {
+      "file": "DummyClient/src/ReplayClient.h",
+      "sha256": "a335458cc23f5829f4f67dacb37c81520c7df117aa5f6a350e900ee5d4fea1f3"
+    },
+    {
+      "file": "DummyClient/src/ReplayWindow.cpp",
+      "sha256": "a904afb4639d98b3ec713c0eee2747a344768cbb0107e700f0014211574209f7"
+    },
+    {
+      "file": "DummyClient/src/ReplayWindow.h",
+      "sha256": "b36b857c60dfc361a781fc14153c18148dcd6b16757e1243e770a1c0f5443a40"
+    },
+    {
+      "file": "DummyClient/src/SessionLoad.cpp",
+      "sha256": "efb74fa5c1170726a746c57af999b3f0776c3362666ae8e112c794756deb57b2"
+    }
+  ],
+  "first_party_warning_locations": [],
+  "binaries": {
+    "Debug/MultiThreadServer.exe": "0c992ca0615a1f42243d61ef158075c5fd75558dece644d8fe08aa8672dfe851",
+    "Debug/DummyClient.exe": "7433d251406150b839b257293ddc644e95932610559b071ff1d356fa5c4ad84f",
+    "Release/MultiThreadServer.exe": "e6b37935c69cc37d7c7ebdb9b65ce8806374ab26d857b40ba4ba9751dcbc2f76",
+    "Release/DummyClient.exe": "3aadcb8fa4214a7762ff13a0a1af79228a6695435633c12020a055badf60a474"
+  }
+}

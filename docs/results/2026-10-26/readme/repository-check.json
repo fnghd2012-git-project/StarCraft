@@ -1,0 +1,8 @@
+{
+  "readme_links": "passed",
+  "cluster_key_absence": "passed",
+  "generated_files_excluded": "passed",
+  "code_whitespace": "passed",
+  "raw_evidence_whitespace": "preserved without normalization",
+  "staged_files_before_final_manifest": 1623
+}

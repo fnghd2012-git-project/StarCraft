@@ -1,0 +1,56 @@
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-1336c163dada4d579c22a7e063e0a60b
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=a80520e8cd2fa794cb0d4b9fbf2ace2c frames=302 snapshots=16 duration=15.100 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2350
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Live network snapshot matches replay tick=176
+[OK] Replay verified match=a80520e8cd2fa794cb0d4b9fbf2ace2c frames=302 snapshots=16 duration=15.100 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2350
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=c6ebc0eabe0b5038c9f1f5e0ac53eee8 frames=319 snapshots=16 duration=15.900 complete=1 reason=server_shutdown winner=0
+[ACTION] Enter=2
+[ACTION] Return=2
+[ACTION] Move=1
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=1
+[BATTLE SUMMARY] peak_units=1 deaths=0 death_reentries=0
+[OK] Rejected corrupt.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected corrupt-partial.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected magic.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: invalid file signature
+[OK] Rejected oversize.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record size exceeds limit
+[OK] Rejected truncated.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: truncated record body
+[OK] Truncated tail: normal load rejected; explicit partial mode recovered validated frames
+[OK] Rejected trailing.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: data after footer
+[OK] Release replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-1336c163dada4d579c22a7e063e0a60b\replay-validation

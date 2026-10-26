@@ -1,0 +1,22 @@
+2026-10-16 C++ 2D replay viewer validation
+
+Build: Debug x64 / Release x64 succeeded.
+Replay: Match-10x3-ed05580caca007ff02513c88b3e92180.replay (30 players; original data).
+UI checks: initial paused 1x; play advances continuously; pause freezes time;
+4x dropdown; selected speed retained on resume; manual 2x change while playing;
+midpoint/end seek; replay from start after end; PNG frame export.
+Debug and Release passed test-replay-window.ps1.
+Existing test-replay.ps1 passed on both configurations using the previously captured
+live-state/gameplay fixture. Checks include exact live state, winner, corruption,
+truncation, offline console controls. This turn did not rerun the full server suite.
+
+Assets: 9 original Blizzard Compendium JPG/GIF portraits. Sources in Assets/Replay/SOURCES.txt.
+Display: image icons move at recorded coordinates, with attack lines and skill areas.
+No walking/attack sprite animation. Overlapping units retain their true positions.
+The PNG is an exported replay frame, not a capture of the operating-system controls.
+
+Logs:
+.deps/replay-window-debug-build.log
+.deps/replay-window-release-build.log
+.deps/replay-window-regression-debug.log
+.deps/replay-window-regression-release.log

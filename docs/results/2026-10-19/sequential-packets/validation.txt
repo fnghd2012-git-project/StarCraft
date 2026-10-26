@@ -1,0 +1,18 @@
+2026-10-19 - Continuous packet IDs and SYS/CM/SM/SS prefixes
+Packet.h is the single packet ID definition. Only SYS_ServerVersionCheck=1 and CM_JoinGame=10 are explicit anchors.
+System uses 1-4; 5-9 remain reserved. Game/relay packets increment from 10 through 32.
+Protocol version is 5; header remains 4 bytes. Protobuf body definitions and tags are unchanged.
+Server and dummy executables in Run64/Debug and Run64/Release were rebuilt together.
+
+Debug build/network: passed
+Release build/network/ODBC: passed
+Release gameplay/replay/auto-battle/chat-relay/recovery/ranking: passed
+Reserved system packets 5-9 and versions 4/6 rejected: passed
+BattleClient 9 bots for 20 seconds: passed; temporary death cooldown 1 second
+Existing 1500-player replay: passed; verification only, no new 1500-player simulation
+PDF 43+29+19 pages: passed; all 91 pages visually reviewed
+Large performance benchmarks: not rerun; old 8-byte results retained and labeled
+
+9-bot actual counts: {"Requested": 9, "Ready": 9, "PeakWorld": 9, "Entered": 11, "Deaths": 2, "DeathReentries": 2, "ResumedGame": 2, "UnitAttacks": 25, "BuildingAttacks": 0, "Skills": 2, "Rejected": 53, "Errors": 0, "LoggedOut": 9}
+
+Initial ranking test hit an existing 1-second cooldown fixture timing race. The fixture now uses 3 seconds; all rejection assertions and production 100-second cooldown remain unchanged. Re-run passed. See ranking-initial-failure.txt.

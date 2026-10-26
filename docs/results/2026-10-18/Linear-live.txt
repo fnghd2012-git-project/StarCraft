@@ -1,0 +1,74 @@
+[OK] Configuration / map / CSV
+ServerId=World
+ServerType=World
+Race=None
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+SpatialSearch=Linear
+SpatialCellSize=25
+VerifySpatialSearch=1
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[BATTLE] 40 per game server / 120 total / death cooldown=3 / 35 battle seconds
+[DIRECTORY] D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261018-143529-bc5ff52d50d3450cb9d1940dad9c1eca
+[BATTLE] ready=0/120 world=0 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE START] ready=120 world=120
+[BATTLE] ready=120/120 world=120 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=120/120 world=120 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=120/120 world=120 deaths=0 reentries=0 unit_hits=0 skills=0 errors=0
+[BATTLE] ready=120/120 world=105 deaths=15 reentries=0 unit_hits=90 skills=22 errors=0
+[BATTLE] ready=120/120 world=99 deaths=40 reentries=19 unit_hits=292 skills=48 errors=0
+[BATTLE] ready=120/120 world=102 deaths=65 reentries=47 unit_hits=363 skills=48 errors=0
+[BATTLE] ready=120/120 world=96 deaths=88 reentries=64 unit_hits=550 skills=48 errors=0
+[BATTLE RESULT]
+Requested=120
+Ready=120
+PeakWorld=120
+Entered=203
+Deaths=99
+DeathReentries=83
+ResumedGame=105
+UnitAttacks=715
+BuildingAttacks=0
+Skills=50
+Rejected=2615
+Errors=0
+LoggedOut=120
+
+Requested=120
+Ready=120
+PeakWorld=120
+Entered=203
+Deaths=99
+DeathReentries=83
+ResumedGame=105
+UnitAttacks=715
+BuildingAttacks=0
+Skills=50
+Rejected=2615
+Errors=0
+LoggedOut=120
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=c7c758e3018f256d515064451667add6 frames=207 snapshots=42 duration=41.350 complete=1 reason=server_shutdown winner=0
+[ACTION] Attack=715
+[ACTION] Enter=203
+[ACTION] Move=10709
+[ACTION] Return=99
+[ACTION] Skill=50
+[ACTION] Logout=104
+[PARTICIPANTS] server=A unique=40
+[PARTICIPANTS] server=B unique=40
+[PARTICIPANTS] server=C unique=40
+[BATTLE SUMMARY] peak_units=120 deaths=99 death_reentries=83 min_reentry_ms=3200
+[REPLAY] D:\work\Josun_Server\git_ProJect\Run64\Release\Replays\Battle-120-c7c758e3018f256d515064451667add6.replay
+[RESULT] D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261018-143529-bc5ff52d50d3450cb9d1940dad9c1eca\result.txt

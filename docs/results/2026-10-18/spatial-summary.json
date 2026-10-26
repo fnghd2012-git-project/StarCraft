@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-18",
+  "scope": "coordinate build + radius search only; not server RTT",
+  "benchmark": {
+    "Uniform": {
+      "Linear": {
+        "runs": 20,
+        "total_median_us": 3795.25,
+        "total_p95_us": 3886.8,
+        "candidate_checks": 2250000,
+        "build_median_us": 4.5,
+        "query_median_us": 3790.85
+      },
+      "Grid": {
+        "runs": 20,
+        "total_median_us": 1872.85,
+        "total_p95_us": 1916.1,
+        "candidate_checks": 671262,
+        "build_median_us": 28.05,
+        "query_median_us": 1844.9499999999998
+      }
+    },
+    "Clustered": {
+      "Linear": {
+        "runs": 20,
+        "total_median_us": 2754.75,
+        "total_p95_us": 3014.1,
+        "candidate_checks": 2250000,
+        "build_median_us": 4.5,
+        "query_median_us": 2750.25
+      },
+      "Grid": {
+        "runs": 20,
+        "total_median_us": 2554.7,
+        "total_p95_us": 2608.7,
+        "candidate_checks": 2250000,
+        "build_median_us": 14.7,
+        "query_median_us": 2539.65
+      }
+    }
+  },
+  "live": {
+    "Linear": {
+      "verified": 20336,
+      "report": {
+        "Requested": "120",
+        "Ready": "120",
+        "PeakWorld": "120",
+        "Entered": "203",
+        "Deaths": "99",
+        "DeathReentries": "83",
+        "ResumedGame": "105",
+        "UnitAttacks": "715",
+        "BuildingAttacks": "0",
+        "Skills": "50",
+        "Rejected": "2615",
+        "Errors": "0",
+        "LoggedOut": "120"
+      }
+    },
+    "Grid": {
+      "verified": 20288,
+      "report": {
+        "Requested": "120",
+        "Ready": "120",
+        "PeakWorld": "120",
+        "Entered": "211",
+        "Deaths": "107",
+        "DeathReentries": "91",
+        "ResumedGame": "112",
+        "UnitAttacks": "628",
+        "BuildingAttacks": "0",
+        "Skills": "31",
+        "Rejected": "2674",
+        "Errors": "0",
+        "LoggedOut": "120"
+      }
+    }
+  },
+  "environment": {
+    "MeasuredPairs": 20,
+    "Seed": 20261018,
+    "Configuration": "Release x64",
+    "CPU": {
+      "Name": "AMD Ryzen 7 7700X 8-Core Processor             ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16
+    },
+    "Database": "127.0.0.1/project_db",
+    "WarmupPairs": 2,
+    "OS": {
+      "Caption": "Microsoft Windows 11 Pro",
+      "BuildNumber": "26200"
+    },
+    "Notes": "Benchmark run after builds/regressions/live validation; general OS/apps not fully controlled"
+  },
+  "sha256": {
+    "Server.ini": "967e4945febb31a8c6d21b4d22e333c5ceca276d4bd99106553d24e64e712944",
+    "MultiThreadServer/MultiThreadServer/src/SpatialIndex.h": "2e1f3e4aff782367abce42a01d6f58906dd175002b0b864c6db5dfc5eb5cd150",
+    "MultiThreadServer/MultiThreadServer/src/SpatialIndex.cpp": "ca207fdcf5441abe7f2222648741ca04967e5c971ede812a6450e375af157c48",
+    "MultiThreadServer/MultiThreadServer/src/SpatialCheck.cpp": "933f82b35aeea22f9ec17bdf34e747fc734c8bfb0c34610f0a6da8f0a61297a9",
+    "MultiThreadServer/MultiThreadServer/src/GameLogic.cpp": "da6ec2f6673aa9839a893a789d54f959894a0e8a231a872cd0f695cc7f1075ed",
+    "MultiThreadServer/MultiThreadServer/src/GameReplay.cpp": "f4d197a3576a29821b09d7d24639567a97d6457e0f9dd8f143a897de3024a8d0",
+    "MultiThreadServer/MultiThreadServer/src/Config.cpp": "8f1e8c469f4a11f083d60089d6dbd089c71b58a662845cdc8a692e70191224f3",
+    "Run64/Release/MultiThreadServer.exe": "8d299f11c16418a8655e6cf4a8475d4167ed70bd7f381e0749c3735dcbffeb69",
+    "Run64/Release/DummyClient.exe": "edcc9ba7ca7505df63beb95b0b01e2da60c9e26da4e2a81d7770c18a27e1e8eb"
+  }
+}

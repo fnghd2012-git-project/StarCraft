@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-21",
+  "visual_review": "passed: rendered all 192 pages; compared with previous reviewed images; inspected 51 changed pages and detailed code/convention pages",
+  "files": [
+    {
+      "file": "D:\\work\\Josun_Server\\git_ProJect\\output\\pdf\\01_Code_Study_Guide.pdf",
+      "pages": 52,
+      "sha256": "692ebd4312dadd7e3e9a03683d6422c8c8485b4cd4266cd03d32eeb8b6e6ec41",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 52,
+      "contact_prefix": "contact-01"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\git_ProJect\\output\\pdf\\02_Interview_Questions_Answers.pdf",
+      "pages": 32,
+      "sha256": "a3118d17b4f1538839e74f31011aa6c058d1035b3c293082c5cd5997b784be04",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 32,
+      "contact_prefix": "contact-02"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\git_ProJect\\output\\pdf\\03_Practice_and_Portfolio_Workbook.pdf",
+      "pages": 21,
+      "sha256": "a486a714ffc5266f3acd8367cca506be82ad0218ee5f2b291705d84986629b9b",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 21,
+      "contact_prefix": "contact-03"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\git_ProJect\\output\\pdf\\04_Server_Ini_Manual.pdf",
+      "pages": 12,
+      "sha256": "9271f92c3f73860d3d3b8fd135ed1af387f1994b81a4b36bc0fa6c31f05be2d9",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 12,
+      "contact_prefix": "contact-04"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\git_ProJect\\output\\pdf\\05_Network_Thread_Core_Guide.pdf",
+      "pages": 18,
+      "sha256": "7fb9c6c19f017bffe28ece2e668e60ab7780d2ed06e18ca199e6768b6eb6861d",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 18,
+      "contact_prefix": "contact-05"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf",
+      "pages": 36,
+      "sha256": "4655945f68be87f5b716e63155f2d1e160d9865880f03f994ac3427db3fca128",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 36,
+      "contact_prefix": "contact-06"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서_A.pdf",
+      "pages": 21,
+      "sha256": "207ea4ded428f425c5aac10bd95f853fc2216853dbd454b10bfaefab93dab08d",
+      "text": "passed",
+      "bounds": "passed",
+      "rendered_pages": 21,
+      "contact_prefix": "contact-07"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+[OK] Parallel calculations: workers=1 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Parallel calculations: workers=2 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Parallel calculations: workers=4 units=1500 rounds=200 position/mp/hp/shield exact; exception recovery
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-15d05811f3a745f398858ded4c801616
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-b07bcb8578924e6a85045dd0083d2c15
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-e4c43096c3ca4339902c4716960c19f4
+[OK] Password authentication, duplicate login rejection, stable ID, per-server unit persistence, reconnect cooldown
+[OK] Insufficient MP/friendly-fire rejection, armor reduction and shield-first damage
+[OK] Slot/range validation, Stim HP cost/cooldown/expiry, channeled Heal
+[OK] Cloak cost/drain/detection, hidden-target rejection, Lockdown, OpticalFlare
+[OK] Burrow transition, visibility and action restrictions
+[OK] Storm periodic ally/enemy damage, DarkSwarm ranged/melee rules, damage type/size ratios
+[OK] Different cast times share one Storm damage interval per target
+[OK] Plague shield bypass/minimum HP, Restoration, channel stop, skill death and persisted return
+[OK] Release account/skill checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\account-skills-2b89ab6d19524176aa0bd9a7e57b35d4
+[OK] Worker 1/2/4 gameplay; serial comparisons of movement/MP/Storm/snapshot bytes; skills regression

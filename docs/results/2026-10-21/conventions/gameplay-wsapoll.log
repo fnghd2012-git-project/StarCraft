@@ -1,0 +1,9 @@
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-c2147ebad4af4133885b70baf1d74855

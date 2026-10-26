@@ -1,0 +1,2 @@
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Spatial benchmark CSV: .\docs\results\2026-10-18\spatial-benchmark.csv (search only; not server RTT)

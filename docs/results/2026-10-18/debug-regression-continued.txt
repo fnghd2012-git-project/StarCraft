@@ -1,0 +1,26 @@
+[OK] A concurrent login accepted=1 rejected=7
+[OK] B concurrent login accepted=2 rejected=6
+[OK] DB queue rejection releases capacity reservation
+[OK] C concurrent login accepted=16 rejected=16
+[OK] World capacity=1, second entry rejected, original game login restored
+[OK] Debug capacity checks: override A=1, fallback B=2, World=1, zero rejected. Logs: D:\work\Josun_Server\git_ProJect\.deps\capacity-59250ec24b564cc898e4f24bb16c018d
+[OK] Password authentication, duplicate login rejection, stable ID, per-server unit persistence, reconnect cooldown
+[OK] Insufficient MP/friendly-fire rejection, armor reduction and shield-first damage
+[OK] Slot/range validation, Stim HP cost/cooldown/expiry, channeled Heal
+[OK] Cloak cost/drain/detection, hidden-target rejection, Lockdown, OpticalFlare
+[OK] Burrow transition, visibility and action restrictions
+[OK] Storm periodic ally/enemy damage, DarkSwarm ranged/melee rules, damage type/size ratios
+[OK] Different cast times share one Storm damage interval per target
+[OK] Plague shield bypass/minimum HP, Restoration, channel stop, skill death and persisted return
+[OK] Debug account/skill checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\account-skills-fcc8e9fd71aa43aa985441841d567eda
+[OK] A: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] B: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] C: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] Non-attacking unit approaches safely and waits; back remains available
+[OK] Debug automatic building battle checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\auto-battle-check-147dfebfc23c4cf7aa95f7f51c03ed16
+[OK] Debug relay outage/restart: local chat stays available, global fails offline, reconnect restores delivery. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\chat-relay-check-3f2128f715a646b9b8f98c8a84336c85
+[OK] Game crash/restart: active lease rejected, same account/unit restored after expiry
+[OK] World crash/restart: account survives and persisted reentry cooldown remains
+[OK] Lost transfer: pending duplicate rejected, recovery after expiry, old ticket rejected
+[OK] DB lock/write failure: game chat responsive, no false login success, fresh retry succeeds
+[OK] Debug recovery checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\recovery-983f4f2b272c47d7b84a7244e407bce0

@@ -1,0 +1,4 @@
+Race,UnitIndex,Name,AttackRange,HP,MP,InitialMP,Shield,Armor,AttackDamage,AttackCount,AttackIntervalMs,MoveSpeed,AttackType,DamageType,UnitSize,IsBiological,IsMechanical,SightRange,DetectionRange,Skill1,Skill2,Skill3,Skill4,Skill5
+Terran,101,Marine,8,100000,0,0,0,0,6,1,600,100,Ranged,Normal,Small,1,0,7,0,0,0,0,0,0
+Protoss,201,Zealot,8,100000,0,0,0,1,8,2,1000,100,Melee,Normal,Small,1,0,7,0,0,0,0,0,0
+Zerg,302,Hydralisk,8,100000,0,0,0,0,10,1,800,100,Ranged,Explosive,Medium,1,0,6,0,0,0,0,0,0

@@ -1,0 +1,77 @@
+[
+  {
+    "pool": 0,
+    "capacity": 8192,
+    "runtime": "D:\\work\\Josun_Server\\git_ProJect\\.deps\\iocp-fault-967a3f89ac3f4faca6e7d22d5f48ca0f",
+    "metrics": {
+      "pending_io": 0,
+      "recv_bytes": 274380,
+      "send_bytes": 338382,
+      "dropped": 3,
+      "pool": 0,
+      "pool_requests": 2164,
+      "pool_allocations": 2164,
+      "pool_reused": 0,
+      "pool_exhausted": 0,
+      "pool_in_use": 0,
+      "pool_peak": 74,
+      "pool_cached": 0,
+      "pool_block_bytes": 4168,
+      "worker0": 613,
+      "worker1": 652,
+      "worker2": 641,
+      "worker3": 676
+    },
+    "passed": true
+  },
+  {
+    "pool": 1,
+    "capacity": 8192,
+    "runtime": "D:\\work\\Josun_Server\\git_ProJect\\.deps\\iocp-fault-8cbdbd039c624b4487e7292062e74a29",
+    "metrics": {
+      "pending_io": 0,
+      "recv_bytes": 274188,
+      "send_bytes": 336573,
+      "dropped": 3,
+      "pool": 1,
+      "pool_requests": 2171,
+      "pool_allocations": 74,
+      "pool_reused": 2097,
+      "pool_exhausted": 0,
+      "pool_in_use": 0,
+      "pool_peak": 74,
+      "pool_cached": 74,
+      "pool_block_bytes": 4168,
+      "worker0": 589,
+      "worker1": 715,
+      "worker2": 534,
+      "worker3": 748
+    },
+    "passed": true
+  },
+  {
+    "pool": 1,
+    "capacity": 16,
+    "runtime": "D:\\work\\Josun_Server\\git_ProJect\\.deps\\iocp-fault-dc75c080a11743e7ae4e2256d62ea424",
+    "metrics": {
+      "pending_io": 0,
+      "recv_bytes": 192,
+      "send_bytes": 603,
+      "dropped": 16,
+      "pool": 1,
+      "pool_requests": 63,
+      "pool_allocations": 16,
+      "pool_reused": 31,
+      "pool_exhausted": 16,
+      "pool_in_use": 0,
+      "pool_peak": 16,
+      "pool_cached": 16,
+      "pool_block_bytes": 4168,
+      "worker0": 6,
+      "worker1": 30,
+      "worker2": 9,
+      "worker3": 3
+    },
+    "passed": true
+  }
+]

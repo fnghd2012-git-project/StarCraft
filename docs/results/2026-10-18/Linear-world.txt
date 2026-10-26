@@ -1,0 +1,320 @@
+[REPLAY] Started match=c7c758e3018f256d515064451667add6
+[LISTEN] World 127.0.0.1:50156 workers=4 units=9 skills=10 max_players=1500 spatial=Linear cell=25 spatial_verify=1 (Ctrl+C to stop)
+[WORLD LOGIN] A Battle_1_5 unit=Zergling
+[WORLD LOGIN] C Battle_3_2 unit=Marine
+[WORLD LOGIN] A Battle_1_1 unit=Hydralisk
+[WORLD LOGIN] A Battle_1_6 unit=Zergling
+[WORLD LOGIN] A Battle_1_4 unit=Zergling
+[WORLD LOGIN] B Battle_2_3 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_1 unit=Marine
+[WORLD LOGIN] B Battle_2_5 unit=Zealot
+[WORLD LOGIN] C Battle_3_5 unit=Marine
+[WORLD LOGIN] B Battle_2_1 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_4 unit=Marine
+[WORLD LOGIN] B Battle_2_2 unit=Zealot
+[WORLD LOGIN] B Battle_2_4 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_3 unit=Marine
+[WORLD LOGIN] A Battle_1_3 unit=Hydralisk
+[WORLD LOGIN] A Battle_1_2 unit=Zergling
+[WORLD LOGIN] C Battle_3_7 unit=Marine
+[WORLD LOGIN] B Battle_2_6 unit=Zealot
+[WORLD LOGIN] C Battle_3_6 unit=Marine
+[WORLD LOGIN] A Battle_1_11 unit=Hydralisk
+[WORLD LOGIN] C Battle_3_10 unit=Ghost
+[WORLD LOGIN] C Battle_3_13 unit=Medic
+[WORLD LOGIN] B Battle_2_11 unit=HighTemplar
+[WORLD LOGIN] A Battle_1_7 unit=Hydralisk
+[WORLD LOGIN] A Battle_1_8 unit=Zergling
+[WORLD LOGIN] B Battle_2_10 unit=Zealot
+[WORLD LOGIN] C Battle_3_8 unit=Goliath
+[WORLD LOGIN] B Battle_2_7 unit=Zealot
+[WORLD LOGIN] B Battle_2_8 unit=HighTemplar
+[WORLD LOGIN] A Battle_1_10 unit=Zergling
+[WORLD LOGIN] A Battle_1_9 unit=Zergling
+[WORLD LOGIN] C Battle_3_12 unit=Marine
+[WORLD LOGIN] C Battle_3_21 unit=Medic
+[WORLD LOGIN] B Battle_2_15 unit=Zealot
+[WORLD LOGIN] A Battle_1_19 unit=Zergling
+[WORLD LOGIN] C Battle_3_11 unit=Marine
+[WORLD LOGIN] C Battle_3_9 unit=Marine
+[WORLD LOGIN] B Battle_2_9 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_15 unit=Marine
+[WORLD LOGIN] A Battle_1_13 unit=Defiler
+[WORLD LOGIN] A Battle_1_22 unit=Zergling
+[WORLD LOGIN] C Battle_3_16 unit=Marine
+[WORLD LOGIN] A Battle_1_14 unit=Defiler
+[WORLD LOGIN] B Battle_2_16 unit=Zealot
+[WORLD LOGIN] B Battle_2_14 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_19 unit=Zealot
+[WORLD LOGIN] B Battle_2_13 unit=Zealot
+[WORLD LOGIN] B Battle_2_27 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_12 unit=Zealot
+[WORLD LOGIN] A Battle_1_17 unit=Defiler
+[WORLD LOGIN] B Battle_2_24 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_18 unit=Zealot
+[WORLD LOGIN] A Battle_1_16 unit=Defiler
+[WORLD LOGIN] A Battle_1_12 unit=Hydralisk
+[WORLD LOGIN] C Battle_3_19 unit=Ghost
+[WORLD LOGIN] A Battle_1_30 unit=Hydralisk
+[WORLD LOGIN] C Battle_3_14 unit=Medic
+[WORLD LOGIN] C Battle_3_29 unit=Ghost
+[WORLD LOGIN] A Battle_1_18 unit=Hydralisk
+[WORLD LOGIN] C Battle_3_24 unit=Marine
+[WORLD LOGIN] A Battle_1_27 unit=Defiler
+[WORLD LOGIN] B Battle_2_32 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_32 unit=Medic
+[WORLD LOGIN] A Battle_1_15 unit=Defiler
+[WORLD LOGIN] A Battle_1_35 unit=Defiler
+[WORLD LOGIN] B Battle_2_22 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_17 unit=Ghost
+[WORLD LOGIN] A Battle_1_38 unit=Defiler
+[WORLD LOGIN] A Battle_1_21 unit=Hydralisk
+[WORLD LOGIN] B Battle_2_17 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_37 unit=Medic
+[WORLD LOGIN] B Battle_2_35 unit=Zealot
+[WORLD LOGIN] B Battle_2_20 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_18 unit=Medic
+[WORLD LOGIN] B Battle_2_40 unit=HighTemplar
+[WORLD LOGIN] A Battle_1_25 unit=Defiler
+[WORLD LOGIN] A Battle_1_20 unit=Defiler
+[WORLD LOGIN] C Battle_3_40 unit=Medic
+[WORLD LOGIN] C Battle_3_25 unit=Ghost
+[WORLD LOGIN] A Battle_1_23 unit=Zergling
+[WORLD LOGIN] C Battle_3_33 unit=Medic
+[WORLD LOGIN] C Battle_3_27 unit=Medic
+[WORLD LOGIN] A Battle_1_31 unit=Zergling
+[WORLD LOGIN] B Battle_2_28 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_23 unit=Medic
+[WORLD LOGIN] B Battle_2_25 unit=Zealot
+[WORLD LOGIN] B Battle_2_36 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_22 unit=Marine
+[WORLD LOGIN] B Battle_2_26 unit=HighTemplar
+[WORLD LOGIN] A Battle_1_24 unit=Defiler
+[WORLD LOGIN] B Battle_2_30 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_21 unit=Zealot
+[WORLD LOGIN] A Battle_1_28 unit=Hydralisk
+[WORLD LOGIN] A Battle_1_39 unit=Hydralisk
+[WORLD LOGIN] A Battle_1_33 unit=Defiler
+[WORLD LOGIN] C Battle_3_35 unit=Marine
+[WORLD LOGIN] A Battle_1_29 unit=Zergling
+[WORLD LOGIN] B Battle_2_38 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_30 unit=Ghost
+[WORLD LOGIN] C Battle_3_31 unit=Ghost
+[WORLD LOGIN] B Battle_2_33 unit=Zealot
+[WORLD LOGIN] C Battle_3_20 unit=Goliath
+[WORLD LOGIN] A Battle_1_36 unit=Hydralisk
+[WORLD LOGIN] B Battle_2_34 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_29 unit=Zealot
+[WORLD LOGIN] C Battle_3_26 unit=Medic
+[WORLD LOGIN] C Battle_3_39 unit=Goliath
+[WORLD LOGIN] A Battle_1_32 unit=Zergling
+[WORLD LOGIN] A Battle_1_37 unit=Defiler
+[WORLD LOGIN] C Battle_3_38 unit=Marine
+[WORLD LOGIN] A Battle_1_26 unit=Hydralisk
+[WORLD LOGIN] B Battle_2_23 unit=Zealot
+[WORLD LOGIN] B Battle_2_37 unit=Zealot
+[WORLD LOGIN] B Battle_2_31 unit=HighTemplar
+[WORLD LOGIN] A Battle_1_40 unit=Defiler
+[WORLD LOGIN] C Battle_3_34 unit=Ghost
+[WORLD LOGIN] C Battle_3_28 unit=Marine
+[WORLD LOGIN] A Battle_1_34 unit=Defiler
+[WORLD LOGIN] B Battle_2_39 unit=HighTemplar
+[WORLD LOGIN] C Battle_3_36 unit=Goliath
+[METRICS] server=World active=120 commands=245 rejected=0 queue_peak=103 tick_p95_us=2555 tick_max_us=3252 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=1316 spatial_candidates=110156 spatial_verified=1316 spatial_build_us=298 spatial_select_us=2378 snapshot_send_us=15972 snapshot_p95_us=2332 snapshot_max_us=2747 replay_failed=0
+[METRICS] server=World active=120 commands=2281 rejected=0 queue_peak=113 tick_p95_us=3373 tick_max_us=3591 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=3000 spatial_candidates=360000 spatial_verified=3000 spatial_build_us=503 spatial_select_us=7060 snapshot_send_us=38196 snapshot_p95_us=2830 snapshot_max_us=3104 replay_failed=0
+[METRICS] server=World active=120 commands=2400 rejected=0 queue_peak=113 tick_p95_us=3743 tick_max_us=4724 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=3000 spatial_candidates=360000 spatial_verified=3000 spatial_build_us=431 spatial_select_us=8296 snapshot_send_us=42194 snapshot_p95_us=3815 snapshot_max_us=4111 replay_failed=0
+[WORLD LOGOUT] Battle_1_10 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_2 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_5 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_4 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_8 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_32 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_22 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_15 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_31 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_29 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_23 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_19 -> A Unit died; returned to game server
+[METRICS] server=World active=108 commands=2220 rejected=232 queue_peak=113 tick_p95_us=5197 tick_max_us=5516 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=2909 spatial_candidates=338927 spatial_verified=2909 spatial_build_us=442 spatial_select_us=13757 snapshot_send_us=64744 snapshot_p95_us=4874 snapshot_max_us=4921 replay_failed=0
+[WORLD LOGOUT] Battle_1_6 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_9 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_23 -> B Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_10 unit=Zergling
+[WORLD LOGIN] A Battle_1_2 unit=Zergling
+[WORLD LOGIN] A Battle_1_5 unit=Zergling
+[WORLD LOGOUT] Battle_3_26 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_4 unit=Zergling
+[WORLD LOGOUT] Battle_3_27 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_7 -> B Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_8 unit=Zergling
+[WORLD LOGOUT] Battle_3_18 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_32 unit=Zergling
+[WORLD LOGOUT] Battle_2_10 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_3_13 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_22 unit=Zergling
+[WORLD LOGIN] B Battle_2_15 unit=Zealot
+[WORLD LOGOUT] Battle_3_21 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_31 unit=Zergling
+[WORLD LOGOUT] Battle_2_16 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_3_33 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_29 unit=Zergling
+[WORLD LOGOUT] Battle_3_37 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_2 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_37 -> B Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_23 unit=Zergling
+[WORLD LOGOUT] Battle_3_40 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_19 unit=Zergling
+[WORLD LOGOUT] Battle_3_14 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_19 -> B Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_6 unit=Zergling
+[WORLD LOGOUT] Battle_3_32 -> C Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_9 unit=Zergling
+[WORLD LOGOUT] Battle_2_35 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_23 unit=Zealot
+[WORLD LOGOUT] Battle_2_7 -> B Reentry cooldown is active
+[WORLD LOGOUT] Battle_3_27 -> C Reentry cooldown is active
+[WORLD LOGOUT] Battle_3_23 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_6 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_13 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_12 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_26 unit=Medic
+[METRICS] server=World active=100 commands=1904 rejected=658 queue_peak=101 tick_p95_us=4460 tick_max_us=5134 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=2617 spatial_candidates=274113 spatial_verified=2617 spatial_build_us=547 spatial_select_us=10727 snapshot_send_us=53920 snapshot_p95_us=4060 snapshot_max_us=4575 replay_failed=0
+[WORLD LOGOUT] Battle_2_18 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_29 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_18 unit=Medic
+[WORLD LOGOUT] Battle_3_28 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_25 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_10 unit=Zealot
+[WORLD LOGIN] C Battle_3_13 unit=Medic
+[WORLD LOGOUT] Battle_2_33 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_21 unit=Medic
+[WORLD LOGOUT] Battle_2_31 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_21 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_33 unit=Medic
+[WORLD LOGIN] B Battle_2_16 unit=Zealot
+[WORLD LOGOUT] Battle_2_5 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_37 unit=Zealot
+[WORLD LOGIN] C Battle_3_37 unit=Medic
+[WORLD LOGIN] B Battle_2_2 unit=Zealot
+[WORLD LOGOUT] Battle_2_39 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_34 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_40 unit=Medic
+[WORLD LOGOUT] Battle_2_4 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_14 unit=Medic
+[WORLD LOGIN] B Battle_2_19 unit=Zealot
+[WORLD LOGOUT] Battle_2_1 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_9 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_32 unit=Medic
+[WORLD LOGOUT] Battle_2_11 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_35 unit=Zealot
+[WORLD LOGOUT] Battle_2_30 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_6 unit=Zealot
+[WORLD LOGIN] C Battle_3_23 unit=Medic
+[WORLD LOGOUT] Battle_2_20 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_13 unit=Zealot
+[WORLD LOGOUT] Battle_2_40 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_12 unit=Zealot
+[WORLD LOGOUT] Battle_2_26 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_38 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_29 unit=Zealot
+[WORLD LOGOUT] Battle_2_8 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_18 unit=Zealot
+[WORLD LOGOUT] Battle_2_28 -> B Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_28 unit=Marine
+[WORLD LOGIN] B Battle_2_25 unit=Zealot
+[WORLD LOGOUT] Battle_2_3 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_33 unit=Zealot
+[WORLD LOGOUT] Battle_2_36 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_31 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_21 unit=Zealot
+[WORLD LOGOUT] Battle_2_24 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_5 unit=Zealot
+[WORLD LOGOUT] Battle_2_32 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_39 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_34 unit=HighTemplar
+[METRICS] server=World active=103 commands=1591 rejected=662 queue_peak=81 tick_p95_us=3815 tick_max_us=4154 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=2500 spatial_candidates=250040 spatial_verified=2500 spatial_build_us=476 spatial_select_us=8243 snapshot_send_us=46028 snapshot_p95_us=3410 snapshot_max_us=3637 replay_failed=0
+[WORLD LOGOUT] Battle_2_22 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_4 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_1 unit=HighTemplar
+[WORLD LOGOUT] Battle_2_14 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_9 unit=HighTemplar
+[WORLD LOGOUT] Battle_2_17 -> B Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_27 -> B Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_11 unit=HighTemplar
+[WORLD LOGOUT] Battle_1_13 -> A Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_30 unit=HighTemplar
+[WORLD LOGOUT] Battle_2_8 -> B Reentry cooldown is active
+[WORLD LOGIN] B Battle_2_20 unit=HighTemplar
+[WORLD LOGOUT] Battle_3_4 -> C Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_40 unit=HighTemplar
+[WORLD LOGOUT] Battle_1_16 -> A Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_26 unit=HighTemplar
+[WORLD LOGOUT] Battle_1_37 -> A Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_38 unit=HighTemplar
+[WORLD LOGOUT] Battle_2_24 -> B Reentry cooldown is active
+[WORLD LOGOUT] Battle_1_10 -> A Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_28 unit=HighTemplar
+[WORLD LOGOUT] Battle_3_12 -> C Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_3 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_36 unit=HighTemplar
+[WORLD LOGOUT] Battle_1_24 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_2 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_27 -> B Reentry cooldown is active
+[WORLD LOGOUT] Battle_1_4 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_3_9 -> C Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_32 unit=HighTemplar
+[WORLD LOGOUT] Battle_1_8 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_5 -> A Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_22 unit=HighTemplar
+[WORLD LOGOUT] Battle_3_2 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_32 -> A Unit died; returned to game server
+[WORLD LOGIN] B Battle_2_14 unit=HighTemplar
+[WORLD LOGIN] B Battle_2_17 unit=HighTemplar
+[WORLD LOGOUT] Battle_1_22 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_16 -> A Reentry cooldown is active
+[WORLD LOGOUT] Battle_1_29 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_31 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_13 unit=Defiler
+[WORLD LOGOUT] Battle_3_7 -> C Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_23 -> A Unit died; returned to game server
+[WORLD LOGIN] C Battle_3_4 unit=Marine
+[WORLD LOGOUT] Battle_1_35 -> A Unit died; returned to game server
+[METRICS] server=World active=97 commands=1833 rejected=544 queue_peak=65 tick_p95_us=3623 tick_max_us=3726 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=2548 spatial_candidates=259824 spatial_verified=2548 spatial_build_us=463 spatial_select_us=7597 snapshot_send_us=47010 snapshot_p95_us=3222 snapshot_max_us=3324 replay_failed=0
+[WORLD LOGOUT] Battle_1_6 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_19 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_37 unit=Defiler
+[WORLD LOGOUT] Battle_1_9 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_10 unit=Zergling
+[WORLD LOGIN] C Battle_3_12 unit=Marine
+[WORLD LOGOUT] Battle_1_27 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_24 unit=Defiler
+[WORLD LOGIN] A Battle_1_2 unit=Zergling
+[WORLD LOGIN] C Battle_3_9 unit=Marine
+[WORLD LOGIN] A Battle_1_4 unit=Zergling
+[WORLD LOGOUT] Battle_1_14 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_8 unit=Zergling
+[WORLD LOGIN] A Battle_1_5 unit=Zergling
+[WORLD LOGIN] A Battle_1_32 unit=Zergling
+[WORLD LOGIN] C Battle_3_2 unit=Marine
+[WORLD LOGOUT] Battle_1_33 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_15 -> B Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_22 unit=Zergling
+[WORLD LOGIN] A Battle_1_29 unit=Zergling
+[WORLD LOGIN] A Battle_1_31 unit=Zergling
+[WORLD LOGIN] C Battle_3_7 unit=Marine
+[WORLD LOGIN] A Battle_1_23 unit=Zergling
+[WORLD LOGOUT] Battle_1_15 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_35 unit=Defiler
+[WORLD LOGOUT] Battle_1_20 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_19 unit=Zergling
+[WORLD LOGIN] A Battle_1_6 unit=Zergling
+[WORLD LOGOUT] Battle_1_40 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_9 unit=Zergling
+[WORLD LOGOUT] Battle_1_17 -> A Unit died; returned to game server
+[WORLD LOGIN] A Battle_1_27 unit=Defiler
+[WORLD LOGOUT] Battle_1_34 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_1_38 -> A Unit died; returned to game server
+[WORLD LOGOUT] Battle_2_23 -> B Unit died; returned to game server
+[METRICS] server=World active=0 commands=1934 rejected=519 queue_peak=104 tick_p95_us=3428 tick_max_us=3878 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Linear spatial_queries=2446 spatial_candidates=249688 spatial_verified=2446 spatial_build_us=540 spatial_select_us=6933 snapshot_send_us=42062 snapshot_p95_us=3207 snapshot_max_us=3285 replay_failed=0
+[STOP] Network workers joined; sockets closed.
+[REPLAY] Saved D:\work\Josun_Server\git_ProJect\Run64\Release\BattleRuns\20261018-143529-bc5ff52d50d3450cb9d1940dad9c1eca\Replays\c7c758e3018f256d515064451667add6.replay

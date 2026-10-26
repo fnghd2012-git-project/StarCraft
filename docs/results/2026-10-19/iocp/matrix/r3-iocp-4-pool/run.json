@@ -1,0 +1,56 @@
+{
+  "label": "iocp-4-pool",
+  "mode": "IOCP",
+  "pool": 1,
+  "battle_workers": 4,
+  "repeat": 3,
+  "realm": "engine_98331aa03d844dd2912190d777aba40b",
+  "runtime": "D:\\work\\Josun_Server\\git_ProJect\\.deps\\engine-benchmark\\engine_98331aa03d844dd2912190d777aba40b",
+  "measurements": {
+    "ping": {
+      "A": {
+        "cpu_one_core_percent": 16.922427268487336,
+        "peak_mb": 12.6640625
+      },
+      "B": {
+        "cpu_one_core_percent": 0.1301725174499026,
+        "peak_mb": 11.671875
+      },
+      "C": {
+        "cpu_one_core_percent": 0.1301725174499026,
+        "peak_mb": 11.6640625
+      },
+      "World": {
+        "cpu_one_core_percent": 0.2603450348998052,
+        "peak_mb": 12.0546875
+      },
+      "Dummy": {
+        "cpu_one_core_percent": 36.448304885972725,
+        "peak_mb": 27.03515625
+      }
+    },
+    "fixed-combat": {
+      "A": {
+        "cpu_one_core_percent": 0.13027580860276625,
+        "peak_mb": 19.7265625
+      },
+      "B": {
+        "cpu_one_core_percent": 0.13027580860276625,
+        "peak_mb": 18.96875
+      },
+      "C": {
+        "cpu_one_core_percent": 0.13027580860276625,
+        "peak_mb": 18.6484375
+      },
+      "World": {
+        "cpu_one_core_percent": 12.50647762586556,
+        "peak_mb": 24.56640625
+      },
+      "Dummy": {
+        "cpu_one_core_percent": 32.4386763420888,
+        "peak_mb": 28.77734375
+      }
+    }
+  },
+  "healthy_exit": true
+}

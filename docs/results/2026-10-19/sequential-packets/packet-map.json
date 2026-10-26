@@ -1,0 +1,110 @@
+[
+  {
+    "name": "SYS_ServerVersionCheck",
+    "number": 1
+  },
+  {
+    "name": "SYS_ServerVersionCheckReply",
+    "number": 2
+  },
+  {
+    "name": "SYS_Ping",
+    "number": 3
+  },
+  {
+    "name": "SYS_Pong",
+    "number": 4
+  },
+  {
+    "name": "CM_JoinGame",
+    "number": 10
+  },
+  {
+    "name": "SM_JoinGameReply",
+    "number": 11
+  },
+  {
+    "name": "CM_RequestTicket",
+    "number": 12
+  },
+  {
+    "name": "SM_WorldTicket",
+    "number": 13
+  },
+  {
+    "name": "CM_ResumeGame",
+    "number": 14
+  },
+  {
+    "name": "CM_Logout",
+    "number": 15
+  },
+  {
+    "name": "CM_EnterWorld",
+    "number": 16
+  },
+  {
+    "name": "SM_WorldReply",
+    "number": 17
+  },
+  {
+    "name": "CM_Move",
+    "number": 18
+  },
+  {
+    "name": "CM_Attack",
+    "number": 19
+  },
+  {
+    "name": "CM_LeaveWorld",
+    "number": 20
+  },
+  {
+    "name": "SM_ActionReply",
+    "number": 21
+  },
+  {
+    "name": "SM_WorldState",
+    "number": 22
+  },
+  {
+    "name": "SM_WorldEvent",
+    "number": 23
+  },
+  {
+    "name": "CM_Skill",
+    "number": 24
+  },
+  {
+    "name": "CM_Chat",
+    "number": 25
+  },
+  {
+    "name": "SM_ChatMessage",
+    "number": 26
+  },
+  {
+    "name": "SS_RelayConnect",
+    "number": 27
+  },
+  {
+    "name": "SS_RelayChallenge",
+    "number": 28
+  },
+  {
+    "name": "SS_RelayAuth",
+    "number": 29
+  },
+  {
+    "name": "SS_RelayChat",
+    "number": 30
+  },
+  {
+    "name": "CM_Rank",
+    "number": 31
+  },
+  {
+    "name": "SM_RankReply",
+    "number": 32
+  }
+]

@@ -1,0 +1,25 @@
+[LOAD PHASE] measure_begin
+[LOAD PHASE] measure_end
+[LOAD] Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+[LOAD] ping,8,3,10,240,240,0,0,0.123,0.181,0.223,0.238,79.682,26.725,0
+[LOAD PHASE] measure_begin
+[LOAD PHASE] measure_end
+[LOAD] Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+[LOAD] world,8,4,10,320,320,0,0,31.672,34.476,36.563,36.653,79.936,383.195,168
+[LOAD PHASE] measure_begin
+[LOAD PHASE] measure_end
+[LOAD] Mode,Clients,Seconds,RatePerClient,Requests,Accepted,Rejected,Errors,P50Ms,P95Ms,P99Ms,MaxMs,RequestsPerSecond,SetupP95Ms,SnapshotUpdates
+[LOAD] combat,8,6,10,480,314,166,0,17.564,35.913,46.783,46.819,79.915,385.146,240
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=404ce82c96dc7da4ca21ed193192d984 frames=544 snapshots=28 duration=27.200 complete=0 reason= winner=0
+[ACTION] Attack=29
+[ACTION] Enter=16
+[ACTION] Move=597
+[ACTION] Logout=16
+[ACTION] Skill=24
+[PARTICIPANTS] server=C unique=4
+[PARTICIPANTS] server=B unique=6
+[PARTICIPANTS] server=A unique=6
+[BATTLE SUMMARY] peak_units=8 deaths=0 death_reentries=0
+[PARTIAL] 마지막 정상 프레임까지만 검증했습니다. 전체 경기 완료 기록이 아닙니다.
+[OK] Release load checks passed. ReplayFailure=None. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\load-5dc740a189224d299d57cb32f5b53515

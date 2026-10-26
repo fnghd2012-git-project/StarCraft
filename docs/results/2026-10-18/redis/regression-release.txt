@@ -1,0 +1,260 @@
+[OK] Protobuf 33.6 / Release ready.
+[OK] hiredis 1.3.0 / Release ready
+  RankingCheck.cpp
+  DatabaseWorker.cpp
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(133,68): warning C4100: 'context': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(133,58): warning C4100: 'fn': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(599,66): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(600,65): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(601,46): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\base\prefetch.h(183,17): warning C4100: 'addr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(133,68): warning C4100: 'context': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(133,58): warning C4100: 'fn': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(599,66): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(600,65): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\port.h(601,46): warning C4100: 'ptr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\base\prefetch.h(183,17): warning C4100: 'addr': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(84,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(87,38): warning C4458: 'size' 선언은 클래스 멤버를 숨깁니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(72,14): message : 'google::protobuf::internal::MicroString::LargeRep::size' 선언을 참조하십시오. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(89,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(97,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(109,39): warning C4458: 'size' 선언은 클래스 멤버를 숨깁니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(102,13): message : 'google::protobuf::internal::MicroString::MicroRep::size' 선언을 참조하십시오. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(84,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(87,38): warning C4458: 'size' 선언은 클래스 멤버를 숨깁니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(72,14): message : 'google::protobuf::internal::MicroString::LargeRep::size' 선언을 참조하십시오. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(89,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(97,1): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(109,39): warning C4458: 'size' 선언은 클래스 멤버를 숨깁니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\micro_string.h(102,13): message : 'google::protobuf::internal::MicroString::MicroRep::size' 선언을 참조하십시오. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1759,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1764,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1768,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1759,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1764,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\repeated_ptr_field.h(1768,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(306,28): warning C4100: 'p': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(307,35): warning C4100: 'view': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(308,28): warning C4100: 'p': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(306,28): warning C4100: 'p': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(307,35): warning C4100: 'view': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\protobuf-33.6\src\google\protobuf\parse_context.h(308,28): warning C4100: 'p': 참조되지 않은 정식 매개 변수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(352,62): warning C4127: 조건식이 상수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(353,1): message : 'if constexpr' 문을 대신 사용해 보세요. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(343): message : 클래스 템플릿 멤버 함수 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>::~Storage(void)'을(를) 컴파일하는 중입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\inlined_vector.h(299): message : 컴파일되는 함수 템플릿 인스턴스화 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>::~Storage(void)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\inlined_vector.h(101): message : 컴파일되는 클래스 템플릿 인스턴스화 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\bind.h(194): message : 컴파일되는 클래스 템플릿 인스턴스화 'absl::lts_20250512::InlinedVector<absl::lts_20250512::str_format_internal::FormatArgImpl,4,std::allocator<T>>'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(352,62): warning C4127: 조건식이 상수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(353,1): message : 'if constexpr' 문을 대신 사용해 보세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\internal\inlined_vector.h(343): message : 클래스 템플릿 멤버 함수 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>::~Storage(void)'을(를) 컴파일하는 중입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\inlined_vector.h(299): message : 컴파일되는 함수 템플릿 인스턴스화 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>::~Storage(void)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\container\inlined_vector.h(101): message : 컴파일되는 클래스 템플릿 인스턴스화 'absl::lts_20250512::inlined_vector_internal::Storage<T,4,A>'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl,
+              A=std::allocator<absl::lts_20250512::str_format_internal::FormatArgImpl>
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\bind.h(194): message : 컴파일되는 클래스 템플릿 인스턴스화 'absl::lts_20250512::InlinedVector<absl::lts_20250512::str_format_internal::FormatArgImpl,4,std::allocator<T>>'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+          with
+          [
+              T=absl::lts_20250512::str_format_internal::FormatArgImpl
+          ]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(257,1): warning C4127: 조건식이 상수입니다. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(257,1): message : 'if constexpr' 문을 대신 사용해 보세요. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(349): message : 컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20250512::str_format_internal::ConsumeConversion<true>(const char *,const char *const ,absl::lts_20250512::str_format_internal::UnboundConversion *,int *)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\DummyClient\DummyClient.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(257,1): warning C4127: 조건식이 상수입니다. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(257,1): message : 'if constexpr' 문을 대신 사용해 보세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+D:\work\Josun_Server\git_ProJect\.deps\abseil-cpp-20250512.1\absl\strings\internal\str_format\constexpr_parser.h(349): message : 컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20250512::str_format_internal::ConsumeConversion<true>(const char *,const char *const ,absl::lts_20250512::str_format_internal::UnboundConversion *,int *)'에 대한 참조를 확인하세요. [D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\MultiThreadServer.vcxproj]
+  코드를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  5 of 6428 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    24 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  135 of 8038 functions ( 1.7%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    117 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  DummyClient.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Release\DummyClient.exe
+  MultiThreadServer.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Release\MultiThreadServer.exe
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Release
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[OK] Configuration / map / CSV
+ServerId=A
+ServerType=Game
+Race=Zerg
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+SpatialSearch=Grid
+SpatialCellSize=25
+VerifySpatialSearch=0
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Skill.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Zero start coordinates accepted
+[OK] server=A clients=8 rounds=10 replies=160 elapsed_ms=24
+[OK] server=B clients=8 rounds=10 replies=160 elapsed_ms=26
+[OK] server=C clients=8 rounds=10 replies=160 elapsed_ms=52
+[OK] server=World clients=8 rounds=10 replies=160 elapsed_ms=27
+[OK] Malformed packet rejected: length below header
+[OK] Malformed packet rejected: packet above 4096 bytes
+[OK] Malformed packet rejected: unsupported version
+[OK] Malformed packet rejected: ping before hello
+[OK] Malformed packet rejected: unknown type
+[OK] Malformed packet rejected: duplicate hello
+[OK] Malformed packet rejected: missing client name
+[OK] Malformed packet rejected: truncated protobuf string
+[OK] Malformed packet rejected: invalid UTF-8 client name
+[OK] Malformed packet rejected: invalid protobuf wire type
+[OK] Malformed packet rejected: missing ping sequence
+[OK] Partial header accumulation and Protobuf response
+[OK] server=A clients=16 rounds=10 replies=320 elapsed_ms=27
+[OK] Release network checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\network-check-3c7211aeeaac4a45b318dd9309a78d77
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Spatial INI validation and legacy defaults. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\spatial-check-7e3be438f188416e8ad2d18713e8375b
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-b1544b906ae24613940a9ee18424e3a4
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=43f4e64a433a7cba7ed6178330d2b56e frames=295 snapshots=15 duration=14.750 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2400
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Live network snapshot matches replay tick=168
+[OK] Replay verified match=43f4e64a433a7cba7ed6178330d2b56e frames=295 snapshots=15 duration=14.750 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2400
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=de96db749d434ab621552d0ff47ba821 frames=327 snapshots=17 duration=16.300 complete=1 reason=server_shutdown winner=0
+[ACTION] Enter=2
+[ACTION] Return=2
+[ACTION] Move=1
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=1
+[BATTLE SUMMARY] peak_units=1 deaths=0 death_reentries=0
+[OK] Rejected corrupt.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected corrupt-partial.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected magic.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: invalid file signature
+[OK] Rejected oversize.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record size exceeds limit
+[OK] Rejected truncated.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: truncated record body
+[OK] Truncated tail: normal load rejected; explicit partial mode recovered validated frames
+[OK] Rejected trailing.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: data after footer
+[OK] Release replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-b1544b906ae24613940a9ee18424e3a4\replay-validation
+[OK] A concurrent login accepted=1 rejected=7
+[OK] B concurrent login accepted=2 rejected=6
+[OK] DB queue rejection releases capacity reservation
+[OK] C concurrent login accepted=16 rejected=16
+[OK] World capacity=1, second entry rejected, original game login restored
+[OK] Release capacity checks: override A=1, fallback B=2, World=1, zero rejected. Logs: D:\work\Josun_Server\git_ProJect\.deps\capacity-5988ba3864dc450485a7523977a5a568
+[OK] Password authentication, duplicate login rejection, stable ID, per-server unit persistence, reconnect cooldown
+[OK] Insufficient MP/friendly-fire rejection, armor reduction and shield-first damage
+[OK] Slot/range validation, Stim HP cost/cooldown/expiry, channeled Heal
+[OK] Cloak cost/drain/detection, hidden-target rejection, Lockdown, OpticalFlare
+[OK] Burrow transition, visibility and action restrictions
+[OK] Storm periodic ally/enemy damage, DarkSwarm ranged/melee rules, damage type/size ratios
+[OK] Different cast times share one Storm damage interval per target
+[OK] Plague shield bypass/minimum HP, Restoration, channel stop, skill death and persisted return
+[OK] Release account/skill checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\account-skills-7b7731f95f804c46a89761925968cd99
+[OK] A: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] B: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] C: automatic entry, two enemy buildings destroyed, own faction wins, original game login
+[OK] Non-attacking unit approaches safely and waits; back remains available
+[OK] Release automatic building battle checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\auto-battle-check-4d061b5640084ff5b108b8e56d70d59e
+[OK] Release relay outage/restart: local chat stays available, global fails offline, reconnect restores delivery. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\chat-relay-check-84bfc2d83fc545c4b2548dec6e8aac72
+[OK] Game crash/restart: active lease rejected, same account/unit restored after expiry
+[OK] World crash/restart: account survives and persisted reentry cooldown remains
+[OK] Lost transfer: pending duplicate rejected, recovery after expiry, old ticket rejected
+[OK] DB lock/write failure: game chat responsive, no false login success, fresh retry succeeds
+[OK] Release recovery checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\recovery-5b8f127a6602420bbd26eb9974b8a389
+[OK] Release full regression passed

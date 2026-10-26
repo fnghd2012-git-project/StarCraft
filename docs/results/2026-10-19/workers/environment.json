@@ -1,0 +1,15 @@
+{
+  "Date": "2026-10-19",
+  "CPU": {
+    "Name": "AMD Ryzen 7 7700X 8-Core Processor             ",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "OS": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "BuildNumber": "26200",
+    "TotalVisibleMemorySize": 66224808
+  },
+  "CPUConvention": "100 percent = one logical CPU; machine share = one-core percent / 16",
+  "Sampling": "Process CPU deltas and sampled working set, phase markers observed at 50ms polling; SQL/Redis process CPU not included"
+}

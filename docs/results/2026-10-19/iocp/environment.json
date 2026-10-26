@@ -1,0 +1,14 @@
+{
+  "Cpu": {
+    "Name": "AMD Ryzen 7 7700X 8-Core Processor             ",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "System": {
+    "TotalPhysicalMemory": 67814203392
+  },
+  "Os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26200"
+  }
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{C5BEA4FD-3635-4B86-8ACE-D3B7FFD79C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D05CFC3E-2E25-4C9E-8C29-87407AE98CCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{3EFB98C3-2505-4EC9-A81B-AC02E34649FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{81FCED28-2F25-4581-A639-0AEEDC2F59F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol\Generated">
+      <UniqueIdentifier>{0DE47297-303D-43DD-990D-F3B200CAEC8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic">
+      <UniqueIdentifier>{D68CCADA-7F62-409C-9494-6D8DCCE69EE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoadTest">
+      <UniqueIdentifier>{84DAA36B-AA7E-4F94-8F7A-5DA0076A0051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Replay">
+      <UniqueIdentifier>{6EBBB164-1CBA-427E-9623-F966BC3B5E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{68DD9B57-5E75-4A5B-B5D6-B08247B20886}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClientConnection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayClient.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AutoBattle.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BattleDecision.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BattleClient.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FlowCheck.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AccountSkillCheck.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RankingCheck.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReplayClient.cpp">
+      <Filter>Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReplayWindow.cpp">
+      <Filter>Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadClient.cpp">
+      <Filter>LoadTest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SessionLoad.cpp">
+      <Filter>LoadTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MultiThreadServer\MultiThreadServer\src\Replay.cpp">
+      <Filter>Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MultiThreadServer\MultiThreadServer\src\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MultiThreadServer\MultiThreadServer\src\CsvTable.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ProtocolGeneratedDirectory)Game.pb.cc">
+      <Filter>Protocol\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ClientConnection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayClient.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AutoBattle.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BattleDecision.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BattleClient.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ReplayClient.h">
+      <Filter>Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ReplayWindow.h">
+      <Filter>Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadClient.h">
+      <Filter>LoadTest</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ProtocolGeneratedDirectory)Game.pb.h">
+      <Filter>Protocol\Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(ProtocolRoot)Game.proto">
+      <Filter>Protocol</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BattleWorker.h"><Filter>LoadTest</Filter></ClInclude>
+    <ClCompile Include="src\BattleWorker.cpp"><Filter>LoadTest</Filter></ClCompile>
+  </ItemGroup>
+</Project>

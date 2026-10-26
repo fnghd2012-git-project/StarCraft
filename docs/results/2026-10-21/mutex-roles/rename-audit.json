@@ -1,0 +1,110 @@
+{
+  "files": 18,
+  "comparison": "Only intended mutex identifiers changed; comments/whitespace excluded, literals/operators compared",
+  "plan": [
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleWorkers.cpp",
+      "mapping": {
+        "m_mutex": "m_battleMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/BattleWorkers.h",
+      "mapping": {
+        "m_mutex": "m_battleMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.cpp",
+      "mapping": {
+        "m_mutex": "m_databaseMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/DatabaseWorker.h",
+      "mapping": {
+        "m_mutex": "m_databaseMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.cpp",
+      "mapping": {
+        "m_mutex": "m_poolMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IoBufferPool.h",
+      "mapping": {
+        "m_mutex": "m_poolMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.cpp",
+      "mapping": {}
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpServer.h",
+      "mapping": {}
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/IocpSession.h",
+      "mapping": {
+        "mutex_FIELD": "sessionMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/NetworkWorker.cpp",
+      "mapping": {
+        "m_pendingMutex": "m_pendingClientsMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/NetworkWorker.h",
+      "mapping": {
+        "m_pendingMutex": "m_pendingClientsMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.cpp",
+      "mapping": {
+        "m_mutex": "m_rankingMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/RedisWorker.h",
+      "mapping": {
+        "m_mutex": "m_rankingMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Replay.cpp",
+      "mapping": {
+        "m_mutex": "m_recordMutex"
+      }
+    },
+    {
+      "file": "MultiThreadServer/MultiThreadServer/src/Replay.h",
+      "mapping": {
+        "m_mutex": "m_recordMutex"
+      }
+    },
+    {
+      "file": "DummyClient/src/ClientConnection.cpp",
+      "mapping": {
+        "m_mutex": "m_receiveMutex"
+      }
+    },
+    {
+      "file": "DummyClient/src/ClientConnection.h",
+      "mapping": {
+        "m_mutex": "m_receiveMutex"
+      }
+    },
+    {
+      "file": "DummyClient/src/ReplayClient.cpp",
+      "mapping": {
+        "control": "playbackMutex"
+      }
+    }
+  ]
+}

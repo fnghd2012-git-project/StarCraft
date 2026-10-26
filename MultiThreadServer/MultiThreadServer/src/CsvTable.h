@@ -3,7 +3,7 @@
 #include "Config.h"
 
 // CSV 원본 값을 보관한다. 숫자 변환과 범위 검사는 로딩 시 한 번 수행한다.
-struct CsvTable
+struct stCsvTable
 {
     vector<string> columns;
     vector<vector<string>> rows;
@@ -13,4 +13,4 @@ struct CsvTable
     double GetNumber(size_t row, string_view column) const;
 };
 
-CsvTable LoadCsvTable(const fs::path& path, const string& expectedHeader);
+stCsvTable LoadCsvTable(const fs::path& path, const string& expectedHeader);

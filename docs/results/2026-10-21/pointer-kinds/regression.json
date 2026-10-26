@@ -1,0 +1,47 @@
+[
+  {
+    "name": "build-debug",
+    "exit_code": 0,
+    "seconds": 16.28
+  },
+  {
+    "name": "build-release",
+    "exit_code": 0,
+    "seconds": 18.59
+  },
+  {
+    "name": "network-iocp",
+    "exit_code": 0,
+    "seconds": 18.61
+  },
+  {
+    "name": "network-wsapoll",
+    "exit_code": 0,
+    "seconds": 18.52
+  },
+  {
+    "name": "test-gameplay",
+    "exit_code": 0,
+    "seconds": 37.75
+  },
+  {
+    "name": "test-ranking",
+    "exit_code": 0,
+    "seconds": 41.11
+  },
+  {
+    "name": "test-replay",
+    "exit_code": 0,
+    "seconds": 38.44
+  },
+  {
+    "name": "test-auto-battle",
+    "exit_code": 0,
+    "seconds": 27.27
+  },
+  {
+    "name": "test-account-skills",
+    "exit_code": 0,
+    "seconds": 29.67
+  }
+]

@@ -1,0 +1,180 @@
+=tcp:127.0.0.1,1433 : The term '=tcp:127.0.0.1,1433' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+ again.
+At line:1 char:5
++ & { ='tcp:127.0.0.1,1433'; ='project_db'; .\Run64\Debug\MultiThreadSe ...
++     ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=tcp:127.0.0.1,1433:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=project_db : The term '=project_db' is not recognized as the name of a cmdlet, function, script file, or operable prog
+ram. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:28
++ & { ='tcp:127.0.0.1,1433'; ='project_db'; .\Run64\Debug\MultiThreadSe ...
++                            ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=project_db:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Debug
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[ODBC INFO] SQLDriverConnectW
+SQLSTATE=01000 NativeError=5701 [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]데이터베이스 컨텍스트가 'project_db'(으)로 변경되었습니다.
+SQLSTATE=01000 NativeError=5703 [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]언어 설정이 한국어(으)로 변경되었습니다.
+[OK] MSSQL ODBC 연결 및 조회
+서버: gnidev0051 / 버전: 16.0.1210.3
+DB: project_db / 전송: TCP / 인증: NTLM
+[OK] DB 이름, 정수 1, 한글 조회 결과 확인
+[OK] Protobuf 33.6 / Debug ready.
+  DummyClient.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\DummyClient.exe
+  MultiThreadServer.vcxproj -> D:\work\Josun_Server\git_ProJect\Run64\Debug\MultiThreadServer.exe
+MultiThreadServer 기본 환경 점검
+플랫폼: x64 / __cplusplus: 202002
+빌드: Debug
+[OK] Winsock 초기화
+[OK] ODBC 환경 핸들 생성 (DB 접속 전)
+[OK] C++20 jthread 생성 및 합류
+하드웨어 스레드 힌트: 16 (0이면 확인 불가)
+기본 환경 점검 완료.
+[OK] Configuration / map / CSV
+ServerId=A
+ServerType=Game
+Race=Zerg
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Unit.csv
+[OK] Invalid data rejected: Data\Skill.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\StartPoint.csv
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Data\Map.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Server.ini
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Invalid data rejected: Data\GameServer.csv
+[OK] Zero start coordinates accepted
+[OK] server=A clients=8 rounds=10 replies=160 elapsed_ms=28
+[OK] server=B clients=8 rounds=10 replies=160 elapsed_ms=29
+[OK] server=C clients=8 rounds=10 replies=160 elapsed_ms=33
+[OK] server=World clients=8 rounds=10 replies=160 elapsed_ms=37
+[OK] Malformed packet rejected: length below header
+[OK] Malformed packet rejected: packet above 4096 bytes
+[OK] Malformed packet rejected: unsupported version
+[OK] Malformed packet rejected: ping before hello
+[OK] Malformed packet rejected: unknown type
+[OK] Malformed packet rejected: duplicate hello
+[OK] Malformed packet rejected: missing client name
+[OK] Malformed packet rejected: truncated protobuf string
+[OK] Malformed packet rejected: invalid UTF-8 client name
+[OK] Malformed packet rejected: invalid protobuf wire type
+[OK] Malformed packet rejected: missing ping sequence
+[OK] Partial header accumulation and Protobuf response
+[OK] server=A clients=16 rounds=10 replies=320 elapsed_ms=31
+[OK] Debug network checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\network-check-e51faf6e46714dea8f50aff57d9feb9d
+[OK] Spatial equality: edges, radius boundary, duplicates, rebuild/removal, empty, invalid input, 9000 population queries
+[OK] Configuration / map / CSV
+ServerId=World
+ServerType=World
+Race=None
+MapIndex=1
+MinX=0
+MaxX=120
+MinY=0
+MaxY=120
+UnitCount=9
+SkillCount=10
+TickRate=20
+TerranSpawnX=60
+TerranSpawnY=104
+ProtossSpawnX=104
+ProtossSpawnY=60
+ZergSpawnX=60
+ZergSpawnY=16
+[OK] Spatial INI validation and legacy defaults. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\spatial-check-257f524a08df42f59f13ffb5a2b7d117
+[OK] Game-only commands, local chat broadcast/isolation, login checks, UTF-8/length/rate validation, logout exclusion
+[OK] World chat across four game servers, no duplicate echo, battle-local chat isolation, relay authentication and channel validation
+[OK] Random race assignment, signed transfer, duplicate/replay rejection, spawn, invalid requests
+[OK] Server movement, MP, damage, attack cooldown, death return and reentry
+[OK] Building elimination, winner return, restart, building restoration, manual return
+[OK] CSV servers 1=Zerg, 2=Zerg, 3=Protoss, 4=Terran: race spawn, allies and original-server return
+[OK] Game logout -> World login -> World logout -> original game login flow passed
+[OK] Interactive menu: game-only commands, Korean chat, World/back, return chat, server switch, case-insensitive commands
+[OK] Debug gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-79f1637eab7a462b8f5eeafd83f0e8b3
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=1bbb7237baf9b07076ed44cd700b849f frames=299 snapshots=15 duration=14.950 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2350
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Live network snapshot matches replay tick=172
+[OK] Replay verified match=1bbb7237baf9b07076ed44cd700b849f frames=299 snapshots=15 duration=14.950 complete=1 reason=round_finished winner=1
+[ACTION] Attack=4
+[ACTION] Enter=7
+[ACTION] Disconnect=2
+[ACTION] Move=4
+[ACTION] Return=5
+[PARTICIPANTS] server=2 unique=2
+[PARTICIPANTS] server=1 unique=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=3 unique=1
+[BATTLE SUMMARY] peak_units=4 deaths=1 death_reentries=1 min_reentry_ms=2350
+[REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[OK] Replay verified match=a2b4553fbde4dec459f938ad6acc9d3f frames=323 snapshots=17 duration=16.100 complete=1 reason=server_shutdown winner=0
+[ACTION] Enter=2
+[ACTION] Return=2
+[ACTION] Move=2
+[PARTICIPANTS] server=4 unique=1
+[PARTICIPANTS] server=2 unique=1
+[BATTLE SUMMARY] peak_units=1 deaths=0 death_reentries=0
+[OK] Rejected corrupt.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected corrupt-partial.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record checksum mismatch
+[OK] Rejected magic.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: invalid file signature
+[OK] Rejected oversize.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: record size exceeds limit
+[OK] Rejected truncated.replay.part : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: truncated record body
+[OK] Truncated tail: normal load rejected; explicit partial mode recovered validated frames
+[OK] Rejected trailing.replay : [REPLAY] 기록 파일을 읽고 검증하고 있습니다...
+[FAIL] Replay: data after footer
+[OK] Debug replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-79f1637eab7a462b8f5eeafd83f0e8b3\replay-validation
+MultiThreadServer.exe : [FAIL] Invalid integer: 0
+At D:\work\Josun_Server\git_ProJect\test-capacity.ps1:28 char:5
++     & (Join-Path $bin 'MultiThreadServer.exe') --config-check A --con ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([FAIL] Invalid integer: 0:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

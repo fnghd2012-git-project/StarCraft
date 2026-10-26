@@ -1,0 +1,20 @@
+2026-10-16 / x64 Debug and Release
+Command: powershell -NoProfile -ExecutionPolicy Bypass -File .\test-all.ps1 -Configuration Debug
+Command: powershell -NoProfile -ExecutionPolicy Bypass -File .\test-all.ps1 -Configuration Release
+
+[OK] Debug network checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\network-check-0159c7b7a26e4387aeb2f5d206bc8a94
+[OK] Debug gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-5c40ec6f3cfd4184a6cb8aff1e02dbcd
+[OK] Debug replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-5c40ec6f3cfd4184a6cb8aff1e02dbcd\replay-validation
+[OK] Debug account/skill checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\account-skills-2b4606d387b449de8f9bdbc13db1461b
+[OK] Debug automatic building battle checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\auto-battle-check-8cce7d642bba422c9a5db974457b4471
+[OK] Debug relay outage/restart: local chat stays available, global fails offline, reconnect restores delivery. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\chat-relay-check-a5afea367efa45feaf59a85121a90654
+[OK] Debug recovery checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\recovery-2c61e6b4dff34958a46e005b86d79cf8
+[OK] Debug full regression passed
+[OK] Release network checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\network-check-31231e46f5b8444dbadca90f2f8603d8
+[OK] Release gameplay checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-3d951de225bb4c618c465095329f934a
+[OK] Release replay checks passed: winner, exact live state, corruption, truncation, offline controls. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\gameplay-check-3d951de225bb4c618c465095329f934a\replay-validation
+[OK] Release account/skill checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\account-skills-a92933de6c804747b3973ed433fcffce
+[OK] Release automatic building battle checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\auto-battle-check-421cf7d57b734ce9ab8d250273f93039
+[OK] Release relay outage/restart: local chat stays available, global fails offline, reconnect restores delivery. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\chat-relay-check-fe3ad84aba0b420eb3604dd620d7887d
+[OK] Release recovery checks passed. Logs: D:\work\Josun_Server\git_ProJect\MultiThreadServer\MultiThreadServer\build\recovery-da6df560cc0942578f3731a528f7eea0
+[OK] Release full regression passed

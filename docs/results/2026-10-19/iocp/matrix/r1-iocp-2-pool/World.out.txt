@@ -1,0 +1,189 @@
+[MATCH] Started 15bd2d2219960e2a9be1556df517435d
+[REPLAY] Started match=15bd2d2219960e2a9be1556df517435d
+[LISTEN] World 127.0.0.1:56620 mode=IOCP workers=2 units=3 skills=10 max_players=128 spatial=Grid cell=25 spatial_verify=0 (Ctrl+C to stop)
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=6 rejected=0 queue_peak=1 tick_p95_us=37 tick_max_us=49 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=30 tick_max_us=33 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=37 tick_max_us=39 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=5 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=43 tick_max_us=266 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=253 tick_max_us=297 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=262 tick_max_us=286 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=3 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=42 tick_max_us=260 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=1 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=3 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=35 tick_max_us=41 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=29 tick_max_us=43 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=1 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=34 tick_max_us=75 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=1 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=36 tick_max_us=38 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=34 tick_max_us=41 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=43 tick_max_us=53 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=31 tick_max_us=79 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=39 tick_max_us=59 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=44 tick_max_us=45 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=15 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=39 tick_max_us=62 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[IOCP] server=World pending_io=11 recv_bytes=306 send_bytes=1557 dropped=0 pool=1 pool_requests=34 pool_allocations=13 pool_reused=21 pool_exhausted=0 pool_in_use=11 pool_peak=13 pool_cached=2 pool_block_bytes=4168 worker0=13 worker1=19
+[METRICS] server=World active=0 commands=0 rejected=0 queue_peak=0 tick_p95_us=31 tick_max_us=57 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=0 spatial_candidates=0 spatial_verified=0 spatial_build_us=0 spatial_select_us=0 snapshot_send_us=0 snapshot_p95_us=0 snapshot_max_us=0 battle_workers=2 battle_items=0,0, parallel_verified=0 battle_calculate_us=0 battle_apply_us=0 replay_failed=0
+[WORLD LOGIN] B Bench_1792402053489_1 unit=Zealot
+[WORLD LOGIN] B Bench_1792402053489_7 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_5 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_6 unit=Hydralisk
+[WORLD LOGIN] A Bench_1792402053489_0 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_2 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_3 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_4 unit=Zealot
+[IOCP] server=World pending_io=19 recv_bytes=1872 send_bytes=10445 dropped=0 pool=1 pool_requests=106 pool_allocations=27 pool_reused=79 pool_exhausted=0 pool_in_use=19 pool_peak=27 pool_cached=8 pool_block_bytes=4168 worker0=56 worker1=72
+[METRICS] server=World active=8 commands=16 rejected=0 queue_peak=6 tick_p95_us=184 tick_max_us=413 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=16 spatial_candidates=123 spatial_verified=0 spatial_build_us=11 spatial_select_us=17 snapshot_send_us=86 snapshot_p95_us=54 snapshot_max_us=86 battle_workers=2 battle_items=34,34, parallel_verified=0 battle_calculate_us=334 battle_apply_us=0 replay_failed=0
+[WORLD LOGIN] B Bench_1792402053489_10 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_12 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_11 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_9 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_13 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_8 unit=Marine
+[WORLD LOGIN] C Bench_1792402053489_14 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_15 unit=Hydralisk
+[WORLD LOGIN] A Bench_1792402053489_21 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_17 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_18 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_19 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_20 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_16 unit=Zealot
+[WORLD LOGIN] B Bench_1792402053489_22 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_23 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_24 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_29 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_31 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_27 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_26 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_28 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_30 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_25 unit=Zealot
+[IOCP] server=World pending_io=43 recv_bytes=6590 send_bytes=225064 dropped=0 pool=1 pool_requests=398 pool_allocations=71 pool_reused=327 pool_exhausted=0 pool_in_use=43 pool_peak=71 pool_cached=28 pool_block_bytes=4168 worker0=239 worker1=329
+[METRICS] server=World active=32 commands=48 rejected=0 queue_peak=6 tick_p95_us=652 tick_max_us=883 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=124 spatial_candidates=3100 spatial_verified=0 spatial_build_us=50 spatial_select_us=442 snapshot_send_us=2067 snapshot_p95_us=424 snapshot_max_us=629 battle_workers=2 battle_items=325,324, parallel_verified=0 battle_calculate_us=437 battle_apply_us=0 replay_failed=0
+[WORLD LOGIN] A Bench_1792402053489_36 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_37 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_39 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_34 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_32 unit=Marine
+[WORLD LOGIN] C Bench_1792402053489_38 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_33 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_35 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_42 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_40 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_41 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_46 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_47 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_45 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_44 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_43 unit=Zealot
+[WORLD LOGIN] B Bench_1792402053489_52 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_53 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_48 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_50 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_51 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_49 unit=Zealot
+[WORLD LOGIN] B Bench_1792402053489_55 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_54 unit=Hydralisk
+[IOCP] server=World pending_io=67 recv_bytes=11310 send_bytes=1573006 dropped=0 pool=1 pool_requests=1075 pool_allocations=125 pool_reused=950 pool_exhausted=0 pool_in_use=67 pool_peak=125 pool_cached=58 pool_block_bytes=4168 worker0=745 worker1=818
+[METRICS] server=World active=56 commands=48 rejected=0 queue_peak=6 tick_p95_us=1358 tick_max_us=1685 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=238 spatial_candidates=11236 spatial_verified=0 spatial_build_us=70 spatial_select_us=1098 snapshot_send_us=6180 snapshot_p95_us=1049 snapshot_max_us=1373 battle_workers=2 battle_items=903,901, parallel_verified=0 battle_calculate_us=465 battle_apply_us=0 replay_failed=0
+[WORLD LOGIN] C Bench_1792402053489_56 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_61 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_60 unit=Hydralisk
+[WORLD LOGIN] A Bench_1792402053489_57 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_58 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_59 unit=Marine
+[WORLD LOGIN] C Bench_1792402053489_62 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_63 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_64 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_66 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_65 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_69 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_68 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_70 unit=Zealot
+[WORLD LOGIN] B Bench_1792402053489_67 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_71 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_72 unit=Hydralisk
+[WORLD LOGIN] A Bench_1792402053489_78 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_79 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_74 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_76 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_77 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_73 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_75 unit=Hydralisk
+[IOCP] server=World pending_io=91 recv_bytes=16030 send_bytes=3854892 dropped=0 pool=1 pool_requests=1949 pool_allocations=173 pool_reused=1776 pool_exhausted=0 pool_in_use=91 pool_peak=173 pool_cached=82 pool_block_bytes=4168 worker0=1378 worker1=1457
+[METRICS] server=World active=80 commands=48 rejected=0 queue_peak=5 tick_p95_us=2712 tick_max_us=2813 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=350 spatial_candidates=24250 spatial_verified=0 spatial_build_us=81 spatial_select_us=2375 snapshot_send_us=12037 snapshot_p95_us=2335 snapshot_max_us=2396 battle_workers=2 battle_items=1765,1762, parallel_verified=0 battle_calculate_us=401 battle_apply_us=6 replay_failed=0
+[WORLD LOGIN] A Bench_1792402053489_87 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_85 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_84 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_83 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_82 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_80 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_81 unit=Hydralisk
+[WORLD LOGIN] C Bench_1792402053489_86 unit=Marine
+[WORLD LOGIN] C Bench_1792402053489_92 unit=Marine
+[WORLD LOGIN] B Bench_1792402053489_88 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_95 unit=Marine
+[WORLD LOGIN] A Bench_1792402053489_90 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_91 unit=Zealot
+[WORLD LOGIN] A Bench_1792402053489_93 unit=Hydralisk
+[WORLD LOGIN] B Bench_1792402053489_94 unit=Zealot
+[WORLD LOGIN] C Bench_1792402053489_89 unit=Marine
+[IOCP] server=World pending_io=107 recv_bytes=19176 send_bytes=7323841 dropped=0 pool=1 pool_requests=2981 pool_allocations=205 pool_reused=2776 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=2221 worker1=2138
+[METRICS] server=World active=96 commands=32 rejected=0 queue_peak=6 tick_p95_us=3301 tick_max_us=3585 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=460 spatial_candidates=42042 spatial_verified=0 spatial_build_us=101 spatial_select_us=3488 snapshot_send_us=16401 snapshot_p95_us=2781 snapshot_max_us=3078 battle_workers=2 battle_items=2899,2896, parallel_verified=0 battle_calculate_us=501 battle_apply_us=9 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=19176 send_bytes=11185646 dropped=0 pool=1 pool_requests=3941 pool_allocations=205 pool_reused=3736 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=2935 worker1=2864
+[METRICS] server=World active=96 commands=0 rejected=0 queue_peak=0 tick_p95_us=3368 tick_max_us=3441 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=102 spatial_select_us=3817 snapshot_send_us=17338 snapshot_p95_us=2928 snapshot_max_us=3052 battle_workers=2 battle_items=4147,4144, parallel_verified=0 battle_calculate_us=450 battle_apply_us=17 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=19176 send_bytes=15047451 dropped=0 pool=1 pool_requests=4901 pool_allocations=205 pool_reused=4696 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=3593 worker1=3646
+[METRICS] server=World active=96 commands=0 rejected=0 queue_peak=0 tick_p95_us=3339 tick_max_us=3382 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=111 spatial_select_us=3952 snapshot_send_us=17772 snapshot_p95_us=2886 snapshot_max_us=2911 battle_workers=2 battle_items=5347,5344, parallel_verified=0 battle_calculate_us=407 battle_apply_us=15 replay_failed=0
+[IOCP] server=World pending_io=109 recv_bytes=37512 send_bytes=18922225 dropped=0 pool=1 pool_requests=7063 pool_allocations=205 pool_reused=6858 pool_exhausted=0 pool_in_use=109 pool_peak=205 pool_cached=96 pool_block_bytes=4168 worker0=5222 worker1=5235
+[METRICS] server=World active=96 commands=626 rejected=192 queue_peak=96 tick_p95_us=3471 tick_max_us=3931 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=115 spatial_select_us=3883 snapshot_send_us=17066 snapshot_p95_us=3133 snapshot_max_us=3400 battle_workers=2 battle_items=6547,6544, parallel_verified=0 battle_calculate_us=463 battle_apply_us=21 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=96168 send_bytes=22825380 dropped=0 pool=1 pool_requests=11909 pool_allocations=205 pool_reused=11704 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=8812 worker1=8891
+[METRICS] server=World active=96 commands=1966 rejected=864 queue_peak=96 tick_p95_us=3457 tick_max_us=3499 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=120 spatial_select_us=3374 snapshot_send_us=14853 snapshot_p95_us=2724 snapshot_max_us=2810 battle_workers=2 battle_items=7747,7744, parallel_verified=0 battle_calculate_us=414 battle_apply_us=10 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=153768 send_bytes=26728637 dropped=0 pool=1 pool_requests=16723 pool_allocations=205 pool_reused=16518 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=12379 worker1=12552
+[METRICS] server=World active=96 commands=1920 rejected=832 queue_peak=96 tick_p95_us=3009 tick_max_us=3318 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=139 spatial_select_us=3205 snapshot_send_us=13387 snapshot_p95_us=2160 snapshot_max_us=2587 battle_workers=2 battle_items=8947,8944, parallel_verified=0 battle_calculate_us=562 battle_apply_us=10 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=211368 send_bytes=30633455 dropped=0 pool=1 pool_requests=21605 pool_allocations=205 pool_reused=21400 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=16081 worker1=16214
+[METRICS] server=World active=96 commands=1920 rejected=858 queue_peak=96 tick_p95_us=3501 tick_max_us=3944 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=83 spatial_select_us=3588 snapshot_send_us=15417 snapshot_p95_us=2896 snapshot_max_us=3311 battle_workers=2 battle_items=10195,10192, parallel_verified=0 battle_calculate_us=506 battle_apply_us=9 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=270260 send_bytes=34536648 dropped=0 pool=1 pool_requests=26440 pool_allocations=205 pool_reused=26235 pool_exhausted=0 pool_in_use=109 pool_peak=205 pool_cached=96 pool_block_bytes=4168 worker0=19707 worker1=19823
+[METRICS] server=World active=96 commands=1955 rejected=881 queue_peak=96 tick_p95_us=3446 tick_max_us=3573 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=173 spatial_select_us=3627 snapshot_send_us=16118 snapshot_p95_us=2834 snapshot_max_us=2843 battle_workers=2 battle_items=11395,11392, parallel_verified=0 battle_calculate_us=649 battle_apply_us=9 replay_failed=0
+[IOCP] server=World pending_io=108 recv_bytes=327176 send_bytes=38439730 dropped=0 pool=1 pool_requests=31221 pool_allocations=205 pool_reused=31016 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=23266 worker1=23447
+[METRICS] server=World active=96 commands=1903 rejected=827 queue_peak=96 tick_p95_us=3092 tick_max_us=3624 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=87 spatial_select_us=3464 snapshot_send_us=14151 snapshot_p95_us=2312 snapshot_max_us=2826 battle_workers=2 battle_items=12595,12592, parallel_verified=0 battle_calculate_us=879 battle_apply_us=12 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=387816 send_bytes=42343075 dropped=0 pool=1 pool_requests=36101 pool_allocations=205 pool_reused=35896 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=26976 worker1=27015
+[METRICS] server=World active=96 commands=1998 rejected=916 queue_peak=96 tick_p95_us=3394 tick_max_us=3864 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=149 spatial_select_us=3572 snapshot_send_us=15144 snapshot_p95_us=2731 snapshot_max_us=3120 battle_workers=2 battle_items=13795,13792, parallel_verified=0 battle_calculate_us=560 battle_apply_us=17 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=445416 send_bytes=46246152 dropped=0 pool=1 pool_requests=40901 pool_allocations=205 pool_reused=40696 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=30568 worker1=30623
+[METRICS] server=World active=96 commands=1920 rejected=855 queue_peak=96 tick_p95_us=3397 tick_max_us=3487 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=211 spatial_select_us=3499 snapshot_send_us=15094 snapshot_p95_us=2766 snapshot_max_us=2923 battle_workers=2 battle_items=15043,15040, parallel_verified=0 battle_calculate_us=498 battle_apply_us=11 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=503016 send_bytes=50151278 dropped=0 pool=1 pool_requests=45797 pool_allocations=205 pool_reused=45592 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=34253 worker1=34330
+[METRICS] server=World active=96 commands=1920 rejected=847 queue_peak=96 tick_p95_us=3573 tick_max_us=3668 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=99 spatial_select_us=3703 snapshot_send_us=15671 snapshot_p95_us=2870 snapshot_max_us=2881 battle_workers=2 battle_items=16243,16240, parallel_verified=0 battle_calculate_us=536 battle_apply_us=15 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=560616 send_bytes=54054209 dropped=0 pool=1 pool_requests=50597 pool_allocations=205 pool_reused=50392 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=37804 worker1=37979
+[METRICS] server=World active=96 commands=1920 rejected=858 queue_peak=96 tick_p95_us=2771 tick_max_us=3383 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=99 spatial_select_us=3466 snapshot_send_us=12871 snapshot_p95_us=2096 snapshot_max_us=2580 battle_workers=2 battle_items=17443,17440, parallel_verified=0 battle_calculate_us=403 battle_apply_us=7 replay_failed=0
+[IOCP] server=World pending_io=108 recv_bytes=618788 send_bytes=57957643 dropped=0 pool=1 pool_requests=55424 pool_allocations=205 pool_reused=55219 pool_exhausted=0 pool_in_use=108 pool_peak=205 pool_cached=97 pool_block_bytes=4168 worker0=41438 worker1=41573
+[METRICS] server=World active=96 commands=1949 rejected=833 queue_peak=96 tick_p95_us=3659 tick_max_us=3669 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=153 spatial_select_us=3577 snapshot_send_us=15015 snapshot_p95_us=2981 snapshot_max_us=3044 battle_workers=2 battle_items=18643,18640, parallel_verified=0 battle_calculate_us=481 battle_apply_us=10 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=677928 send_bytes=61860390 dropped=0 pool=1 pool_requests=60293 pool_allocations=205 pool_reused=60088 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=44959 worker1=45320
+[METRICS] server=World active=96 commands=1987 rejected=856 queue_peak=96 tick_p95_us=2722 tick_max_us=3468 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=78 spatial_select_us=3342 snapshot_send_us=13217 snapshot_p95_us=2065 snapshot_max_us=2795 battle_workers=2 battle_items=19843,19840, parallel_verified=0 battle_calculate_us=466 battle_apply_us=7 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=735528 send_bytes=65763828 dropped=0 pool=1 pool_requests=65093 pool_allocations=205 pool_reused=64888 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=48607 worker1=48872
+[METRICS] server=World active=96 commands=1920 rejected=820 queue_peak=96 tick_p95_us=3456 tick_max_us=3558 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=102 spatial_select_us=3617 snapshot_send_us=15239 snapshot_p95_us=2794 snapshot_max_us=2801 battle_workers=2 battle_items=21043,21040, parallel_verified=0 battle_calculate_us=479 battle_apply_us=15 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=793128 send_bytes=69669217 dropped=0 pool=1 pool_requests=69989 pool_allocations=205 pool_reused=69784 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=52265 worker1=52606
+[METRICS] server=World active=96 commands=1920 rejected=849 queue_peak=96 tick_p95_us=3325 tick_max_us=3532 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=576 spatial_candidates=55296 spatial_verified=0 spatial_build_us=101 spatial_select_us=4089 snapshot_send_us=16988 snapshot_p95_us=2664 snapshot_max_us=2960 battle_workers=2 battle_items=22339,22336, parallel_verified=0 battle_calculate_us=442 battle_apply_us=12 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=850728 send_bytes=73572173 dropped=0 pool=1 pool_requests=74789 pool_allocations=205 pool_reused=74584 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=55870 worker1=56201
+[METRICS] server=World active=96 commands=1920 rejected=840 queue_peak=96 tick_p95_us=3553 tick_max_us=3593 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=480 spatial_candidates=46080 spatial_verified=0 spatial_build_us=117 spatial_select_us=3643 snapshot_send_us=15653 snapshot_p95_us=2781 snapshot_max_us=2850 battle_workers=2 battle_items=23539,23536, parallel_verified=0 battle_calculate_us=417 battle_apply_us=8 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=883232 send_bytes=77999408 dropped=0 pool=1 pool_requests=78040 pool_allocations=205 pool_reused=77835 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=58284 worker1=58663
+[METRICS] server=World active=83 commands=1070 rejected=503 queue_peak=96 tick_p95_us=3427 tick_max_us=3801 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=460 spatial_candidates=42458 spatial_verified=0 spatial_build_us=95 spatial_select_us=3313 snapshot_send_us=14161 snapshot_p95_us=2769 snapshot_max_us=3159 battle_workers=2 battle_items=24701,24693, parallel_verified=0 battle_calculate_us=422 battle_apply_us=13 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=883360 send_bytes=80146130 dropped=0 pool=1 pool_requests=78738 pool_allocations=205 pool_reused=78533 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=58868 worker1=59126
+[METRICS] server=World active=50 commands=32 rejected=0 queue_peak=1 tick_p95_us=1883 tick_max_us=1911 skipped_ticks=0 db_outstanding=0 replay_queue_bytes=0 spatial=Grid spatial_queries=317 spatial_candidates=20495 spatial_verified=0 spatial_build_us=83 spatial_select_us=1883 snapshot_send_us=8353 snapshot_p95_us=1462 snapshot_max_us=1569 battle_workers=2 battle_items=25525,25502, parallel_verified=0 battle_calculate_us=497 battle_apply_us=3 replay_failed=0
+[IOCP] server=World pending_io=107 recv_bytes=883492 send_bytes=80826019 dropped=0 pool=1 pool_requests=79042 pool_allocations=205 pool_reused=78837 pool_exhausted=0 pool_in_use=107 pool_peak=205 pool_cached=98 pool_block_bytes=4168 worker0=59121 worker1=59366
+[METRICS] server=World active=18 commands=33 rejected=0 queue_peak=1 tick_p95_us=834 tick_max_us=1283 skipped_ticks=0 db_outstanding=1 replay_queue_bytes=0 spatial=Grid spatial_queries=156 spatial_candidates=5290 spatial_verified=0 spatial_build_us=47 spatial_select_us=738 snapshot_send_us=3371 snapshot_p95_us=648 snapshot_max_us=1036 battle_workers=2 battle_items=25947,25911, parallel_verified=0 battle_calculate_us=362 battle_apply_us=0 replay_failed=0
+[IOCP STOP] server=World pending_io=0 recv_bytes=883560 send_bytes=80851825 dropped=0 pool=1 pool_requests=79095 pool_allocations=205 pool_reused=78890 pool_exhausted=0 pool_in_use=0 pool_peak=205 pool_cached=205 pool_block_bytes=4168 worker0=59173 worker1=59510
+[STOP] Network workers joined; sockets closed.
+[REPLAY] Saved D:\work\Josun_Server\git_ProJect\.deps\engine-benchmark\engine_308e4a5f4c42439eb5198cb804b7692e\Replays\15bd2d2219960e2a9be1556df517435d.replay
+[MATCH DB] committed 15bd2d2219960e2a9be1556df517435d.xml

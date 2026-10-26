@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-20",
+  "scope": "Header declarations and direct class definitions; PDF source positions updated.",
+  "pages": 203,
+  "source_hashes_verified": true,
+  "pdfs": [
+    {
+      "file": "D:/work/Josun_Server/git_ProJect/output/pdf/01_Code_Study_Guide.pdf",
+      "pages": 51,
+      "sha256": "2388bb03203af48c4dc7d7d615efd9ed47d787afff9997cfd46bb4ff9af7f9a5",
+      "text_chars": 54391,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    },
+    {
+      "file": "D:/work/Josun_Server/git_ProJect/output/pdf/02_Interview_Questions_Answers.pdf",
+      "pages": 32,
+      "sha256": "4d528987cd5e6c3c31921055580a19c1551f7aecf61676003b010dff05492715",
+      "text_chars": 30715,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    },
+    {
+      "file": "D:/work/Josun_Server/git_ProJect/output/pdf/03_Practice_and_Portfolio_Workbook.pdf",
+      "pages": 20,
+      "sha256": "4329fe9a288455d2cd6f51e1edbc0adbd44e475a6ad6a05abcc332fedd605ec1",
+      "text_chars": 20640,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    },
+    {
+      "file": "D:/work/Josun_Server/git_ProJect/output/pdf/04_Server_Ini_Manual.pdf",
+      "pages": 12,
+      "sha256": "0efc52a8a9c09d71164dc6657ddf739ff107f097cd9aa4dbe3223fefa6978cc4",
+      "text_chars": 9919,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    },
+    {
+      "file": "D:/work/Josun_Server/git_ProJect/output/pdf/05_Network_Thread_Core_Guide.pdf",
+      "pages": 18,
+      "sha256": "22c7a967dc1bb1bdb54ae4a48bf6446cd3aa6e8d86ad10bf8c68da1d5a170142",
+      "text_chars": 21090,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    },
+    {
+      "file": "D:/work/Josun_Server/Thema/A/민수홍_Cpp_멀티스레드_포트폴리오_A.pdf",
+      "pages": 35,
+      "sha256": "c6d5777675de0d6f954e9a32df7bf9cbf0a1c8216bbb4a9162822c2fe092bdbd",
+      "text_chars": 22953,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    },
+    {
+      "file": "D:/work/Josun_Server/Thema/B/민수홍_Cpp_멀티스레드_포트폴리오_B.pdf",
+      "pages": 35,
+      "sha256": "4f796823c492baba0b5a17ef4de28f05f1302437d9a2b38c69dee22aced99284",
+      "text_chars": 22956,
+      "obsolete_markers": [],
+      "text_outside_page": [],
+      "visual_review": "All pages rendered and inspected in contact sheets; edited code and architecture pages also inspected at full page size."
+    }
+  ]
+}

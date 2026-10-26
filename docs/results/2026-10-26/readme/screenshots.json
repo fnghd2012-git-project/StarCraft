@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "reference_readme": "https://github.com/jej10e5/NetCore",
+  "historical_recording": "Battle-1500-9686cc240d2f93f9ae6ecabd8b77b8c6.replay",
+  "recording_date": "2026-10-19",
+  "render_build_date": "2026-10-26",
+  "method": "DummyClient --replay FILE --image PNG --at SECONDS; viewer Draw() shared path",
+  "images": [
+    {
+      "path": "docs/images/replay-1500-60s.png",
+      "time_seconds": 60,
+      "sha256": "7cdde6292d0c8493402607eabf34041739ed5ba7e784f32daadfd4ffeb5b6113"
+    },
+    {
+      "path": "docs/images/replay-1500-210s.png",
+      "time_seconds": 210,
+      "sha256": "85a9b5b4b114452feb453a55446c9a02fb2a2695666111ba8b0b672991e36c08"
+    }
+  ]
+}

@@ -5,6 +5,32 @@ package wire;
 // 패킷 직렬화만 사용하므로 리플렉션 기능이 없는 작은 런타임으로 생성한다.
 option optimize_for = LITE_RUNTIME;
 
+// 31 요청 / 32 응답. 클라이언트가 점수를 보내지 않고 World가 확정한 총계만 조회한다.
+enum RankMetric {
+  RANK_UNSPECIFIED = 0;
+  RANK_KILLS = 1;
+  RANK_DEATHS = 2;
+  RANK_ENTRIES = 3;
+}
+message RankRequest { RankMetric metric = 1; }
+message RankEntry {
+  string player_id = 1;
+  string name = 2;
+  string game_server = 3;
+  uint32 kills = 4;
+  uint32 deaths = 5;
+  uint32 entries = 6;
+  uint32 rank = 7; // 1부터 시작. 동점은 PlayerId 역순으로 정렬한 개별 순위다.
+}
+message RankReply {
+  bool ok = 1;
+  string message = 2;
+  string match_id = 3;
+  RankMetric metric = 4;
+  repeated RankEntry top = 5;
+  RankEntry self = 6;
+}
+
 enum ServerRole {
   SERVER_ROLE_UNSPECIFIED = 0;
   SERVER_ROLE_GAME = 1;
@@ -34,12 +60,14 @@ message MapInfo {
   repeated StartPoint start_points = 6;
 }
 
-// 계정 로그인이 아닌 통신 점검용 인사다. 이름은 서버에서 1~64바이트로 제한한다.
-message HelloRequest {
+// TCP 접속 직후 한 번 프로토콜 버전을 확인한다. 계정 로그인은 별도 요청이다.
+// client_name은 접속 점검용 이름이며 서버에서 1~64바이트로 제한한다.
+message ServerVersionCheckRequest {
   string client_name = 1;
+  uint32 protocol_version = 2;
 }
 
-message HelloReply {
+message ServerVersionCheckReply {
   string server_id = 1;
   ServerRole server_role = 2;
   Race race = 3;
@@ -47,6 +75,17 @@ message HelloReply {
   uint32 unit_count = 5;
   uint32 skill_count = 6;
   uint32 tick_rate = 7;
+  repeated SkillInfo skill_info = 8;
+  uint32 protocol_version = 9;
+}
+
+message SkillInfo {
+  uint32 skill_index = 1;
+  string name = 2;
+  string target_type = 3;
+  int32 mp_cost = 4;
+  uint32 cooldown_ms = 5;
+  double cast_range = 6;
 }
 
 // sequence로 응답 순서를 확인한다. padding은 최대 크기 패킷 검증용 바이너리다.
@@ -60,4 +99,157 @@ message Pong {
   uint64 sequence = 1;
   string text = 2;
   bytes padding = 3;
+}
+
+// 게임 서버가 배정한 유닛. 전장 수치는 항상 World 서버가 계산한다.
+message UnitState {
+  string player_id = 1;
+  string name = 2;
+  string game_server = 3;
+  Race race = 4;
+  uint32 unit_index = 5;
+  string unit_name = 6;
+  int32 hp = 7;
+  int32 max_hp = 8;
+  int32 shield = 9;
+  int32 mp = 10;
+  double x = 11;
+  double y = 12;
+  double attack_range = 13;
+  int32 attack_damage = 14;
+  repeated uint32 skills = 15;
+  bool cloaked = 16;
+  bool burrowed = 17;
+  bool locked = 18;
+  bool blinded = 19;
+  bool stimulated = 20;
+  bool healing = 21;
+  int32 max_mp = 22;
+}
+// name은 계정 ID다. 최초 로그인 시 등록하며 비밀번호 해시는 서버 DB 워커에서 계산한다.
+message JoinGameRequest { string name = 1; string password = 2; }
+message JoinGameReply { UnitState unit = 1; uint32 retry_after_seconds = 2; }
+message EmptyRequest {}
+
+// 이 본문의 원본 바이트에 HMAC-SHA256을 붙인다. 공유 키는 클라이언트에 전송하지 않는다.
+message EntryClaims {
+  string player_id = 1;
+  string name = 2;
+  string game_server = 3;
+  uint32 unit_index = 4;
+  int64 expires_at = 5;
+  string nonce = 6;
+  string destination = 7;
+  int64 reentry_at = 8;
+}
+message WorldTicket {
+  bytes claims = 1;
+  bytes signature = 2;
+  string address = 3;
+  uint32 port = 4;
+}
+message EnterWorldRequest { bytes claims = 1; bytes signature = 2; }
+message WorldReply {
+  bool ok = 1;
+  string message = 2;
+  UnitState unit = 3;
+  bool in_world = 4;
+  uint32 retry_after_seconds = 5;
+  WorldTicket return_ticket = 6;
+}
+message MoveRequest { double x = 1; double y = 2; }
+// 건물 ID는 building:Terran / building:Protoss / building:Zerg, 유닛 ID는 player_id다.
+message AttackRequest { string target_id = 1; }
+// slot은 Unit.csv의 Skill1~5 슬롯 번호다. Self는 대상 생략, Unit은 ID, Point는 X/Y를 사용한다.
+message SkillRequest { uint32 slot = 1; string target_id = 2; double x = 3; double y = 4; bool cancel = 5; }
+message ActionReply { bool ok = 1; string message = 2; }
+enum ChatChannel {
+  CHAT_LOCAL = 0;
+  CHAT_WORLD = 1;
+}
+// 발신자 정보는 요청에 넣지 않는다. 서버의 로그인 세션에서 채운다.
+message ChatRequest { string text = 1; ChatChannel channel = 2; }
+message ChatMessage {
+  string server_id = 1;
+  string player_id = 2;
+  string name = 3;
+  string text = 4;
+  ChatChannel channel = 5;
+  string message_id = 6;
+}
+// 게임 서버와 World 중계 연결의 상호 인증. 클라이언트/서버 nonce를 모두 서명한다.
+message RelayConnect { string server_id = 1; string client_nonce = 2; }
+message RelayChallenge { string server_nonce = 1; bytes signature = 2; }
+message RelayAuth { bytes signature = 1; }
+message BuildingState {
+  string id = 1;
+  Race race = 2;
+  string name = 3;
+  double x = 4;
+  double y = 5;
+  double radius = 6;
+  int32 hp = 7;
+  int32 shield = 8;
+}
+// 수신자에게 보이는 상태를 4유닛씩 분할한다. complete 뒤에만 화면 상태를 교체한다.
+message WorldState {
+  uint64 tick = 1;
+  repeated UnitState units = 2;
+  repeated BuildingState buildings = 3;
+  bool complete = 4;
+  bool round_running = 5;
+  Race winner = 6;
+  repeated AreaState areas = 7;
+}
+message AreaState { uint32 skill_index = 1; double x = 2; double y = 3; double radius = 4; uint32 remaining_ms = 5; }
+message WorldEvent {
+  string message = 1;
+  string player_id = 2;
+  bool returned_to_game = 3;
+  uint32 retry_after_seconds = 4;
+  WorldTicket return_ticket = 5;
+}
+
+// 리플레이는 네트워크 패킷과 별도의 파일 형식이다. 비밀번호/입장권/채팅은 기록하지 않는다.
+message ReplayDataFile { string name = 1; bytes content = 2; fixed64 checksum = 3; }
+message ReplayHeader {
+  uint32 format_version = 1;
+  string match_id = 2;
+  int64 started_at_ms = 3;
+  uint32 tick_rate = 4;
+  uint64 start_tick = 5;
+  uint32 protocol_version = 6;
+  repeated ReplayDataFile data_files = 7;
+}
+message ReplayAction {
+  string kind = 1;
+  string player_id = 2;
+  string name = 3;
+  bool accepted = 4;
+  string message = 5;
+  MoveRequest move = 6;
+  AttackRequest attack = 7;
+  SkillRequest skill = 8;
+}
+message ReplayFrame {
+  uint64 sequence = 1;
+  uint64 tick = 2;
+  uint64 elapsed_ms = 3;
+  bool full = 4;
+  repeated UnitState units = 5;
+  repeated string removed = 6;
+  repeated BuildingState buildings = 7;
+  repeated AreaState areas = 8;
+  bool round_running = 9;
+  Race winner = 10;
+  repeated ReplayAction actions = 11;
+  fixed64 state_checksum = 12;
+}
+message ReplayFooter {
+  uint64 frame_count = 1;
+  fixed64 final_checksum = 2;
+  string reason = 3;
+}
+message ReplayRecord {
+  oneof body { ReplayHeader header = 1; ReplayFrame frame = 2; ReplayFooter footer = 3; }
 }

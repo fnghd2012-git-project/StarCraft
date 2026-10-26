@@ -428,12 +428,17 @@ FodyWeavers.xsd
 #*.lscache
 
 # C++ 서버 포트폴리오의 빌드 결과와 외부 의존성
+/Run64/
 **/build/
 **/x64/
 *.exe
 *.ipch
 .deps/
 Protocol/Generated/
+Replays/
+MatchResults/
+*.replay
+*.replay.part
 
 # 덤프와 개인 DB 접속 정보
 *.dmp
@@ -442,3 +447,10 @@ Protocol/Generated/
 !.env.example
 *.local.json
 *.local.ini
+
+# 로컬 편집 사본, 생성 PDF와 대용량 측정 표본은 보관만 한다.
+/tmp/
+/output/
+docs/results/**/*-samples.csv
+docs/results/**/*.diff
+!docs/results/**/*.log

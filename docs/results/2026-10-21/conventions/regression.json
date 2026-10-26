@@ -1,0 +1,86 @@
+[
+  {
+    "name": "build-debug",
+    "exit_code": 0,
+    "seconds": 19.58,
+    "log": "build-debug.log"
+  },
+  {
+    "name": "build-release",
+    "exit_code": 0,
+    "seconds": 17.3,
+    "log": "build-release.log"
+  },
+  {
+    "name": "network-debug-iocp",
+    "exit_code": 0,
+    "seconds": 18.38,
+    "log": "network-debug-iocp.log"
+  },
+  {
+    "name": "network-debug-wsapoll",
+    "exit_code": 0,
+    "seconds": 18.31,
+    "log": "network-debug-wsapoll.log"
+  },
+  {
+    "name": "parallel-release",
+    "exit_code": 0,
+    "seconds": 141.42,
+    "log": "parallel-release.log"
+  },
+  {
+    "name": "gameplay-wsapoll",
+    "exit_code": 0,
+    "seconds": 37.69,
+    "log": "gameplay-wsapoll.log"
+  },
+  {
+    "name": "test-capacity",
+    "exit_code": 0,
+    "seconds": 5.98,
+    "log": "test-capacity.log"
+  },
+  {
+    "name": "test-auto-battle",
+    "exit_code": 0,
+    "seconds": 27.25,
+    "log": "test-auto-battle.log"
+  },
+  {
+    "name": "test-chat-relay",
+    "exit_code": 0,
+    "seconds": 5.38,
+    "log": "test-chat-relay.log"
+  },
+  {
+    "name": "test-recovery",
+    "exit_code": 0,
+    "seconds": 58.06,
+    "log": "test-recovery.log"
+  },
+  {
+    "name": "test-ranking",
+    "exit_code": 0,
+    "seconds": 41.95,
+    "log": "test-ranking.log"
+  },
+  {
+    "name": "test-replay",
+    "exit_code": 0,
+    "seconds": 38.33,
+    "log": "test-replay.log"
+  },
+  {
+    "name": "build-debug-final",
+    "exit_code": 0,
+    "seconds": 16.31,
+    "log": "build-debug-final.log"
+  },
+  {
+    "name": "build-release-final",
+    "exit_code": 0,
+    "seconds": 18.61,
+    "log": "build-release-final.log"
+  }
+]

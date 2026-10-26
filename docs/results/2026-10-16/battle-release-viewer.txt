@@ -1,0 +1,3 @@
+[OK] Release graphical replay: default 1x, continuous play, pause, resume speed, live speed, seek, replay after end.
+[FRAME IMAGE] D:\work\Josun_Server\git_ProJect\.deps\replay-window-check\Release.png
+[VIEWER] pid=386076 hwnd=5968534

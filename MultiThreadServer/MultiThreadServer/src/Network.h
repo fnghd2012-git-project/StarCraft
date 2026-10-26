@@ -5,10 +5,10 @@
 #include "Common.h"
 
 // Winsock 사용 구간을 객체 수명으로 묶는다. 모든 소켓보다 먼저 만들고 마지막에 정리한다.
-class WinsockSession final
+class CWinsockSession final
 {
 public:
-    WinsockSession()
+    CWinsockSession()
     {
         WSADATA data{};
         const int result = WSAStartup(MAKEWORD(2, 2), &data);
@@ -18,41 +18,54 @@ public:
         }
     }
 
-    ~WinsockSession() { WSACleanup(); }
-    WinsockSession(const WinsockSession&) = delete;
-    WinsockSession& operator=(const WinsockSession&) = delete;
+    ~CWinsockSession()
+    {
+        WSACleanup();
+    }
+    CWinsockSession(const CWinsockSession&) = delete;
+    CWinsockSession& operator=(const CWinsockSession&) = delete;
 };
 
 // 소켓은 복사할 수 없다. 이동할 때 소유권도 넘어가므로 두 곳에서 닫는 실수를 막는다.
-class Socket final
+class CSocket final
 {
 public:
-    explicit Socket(SOCKET handle = INVALID_SOCKET) : handle_(handle) {}
-    ~Socket() { Reset(); }
-    Socket(const Socket&) = delete;
-    Socket& operator=(const Socket&) = delete;
-    Socket(Socket&& other) noexcept : handle_(exchange(other.handle_, INVALID_SOCKET)) {}
-    Socket& operator=(Socket&& other) noexcept
+    explicit CSocket(SOCKET handle = INVALID_SOCKET) : m_handle(handle)
+    {
+    }
+    ~CSocket()
+    {
+        Reset();
+    }
+    CSocket(const CSocket&) = delete;
+    CSocket& operator=(const CSocket&) = delete;
+    CSocket(CSocket&& other) noexcept : m_handle(exchange(other.m_handle, INVALID_SOCKET))
+    {
+    }
+    CSocket& operator=(CSocket&& other) noexcept
     {
         if (this != &other)
         {
             Reset();
-            handle_ = exchange(other.handle_, INVALID_SOCKET);
+            m_handle = exchange(other.m_handle, INVALID_SOCKET);
         }
         return *this;
     }
-    SOCKET Get() const { return handle_; }
+    SOCKET Get() const
+    {
+        return m_handle;
+    }
     void Reset()
     {
-        if (handle_ != INVALID_SOCKET)
+        if (m_handle != INVALID_SOCKET)
         {
-            closesocket(handle_);
-            handle_ = INVALID_SOCKET;
+            closesocket(m_handle);
+            m_handle = INVALID_SOCKET;
         }
     }
 
 private:
-    SOCKET handle_;
+    SOCKET m_handle;
 };
 
 inline void SocketCheck(bool ok, const string& operation)

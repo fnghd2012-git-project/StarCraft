@@ -1,0 +1,31 @@
+{
+  "status": "verified",
+  "files": [
+    {
+      "file": "D:\\work\\Josun_Server\\Portfolio\\content\\documents.json",
+      "sha256": "8d515bca7ca7238075c2e2ff6855157a506f8a01da2472b638d7b8d1386e8918",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-mutex-roles-152514\\documents.json"
+    },
+    {
+      "file": "C:\\Users\\mycom\\.codex\\skills\\git-project\\SKILL.md",
+      "sha256": "443b23ed75671993791e9bcec81f7aeac2c1c81f487bb28fe0ea7ecfbb0e046b",
+      "backup": "D:\\work\\Josun_Server\\Portfolio\\archive\\2026-10-21-before-mutex-roles-152514\\git-project-SKILL.md"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf",
+      "sha256": "6c5ad5853e4023dea5261a6e17efd1a6501cf694705c950ee9700ca3194c284a",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-mutex-roles-152514\\민수홍_Cpp_멀티스레드_포트폴리오_A.pdf"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\민수홍_경력기술서_A.pdf",
+      "sha256": "7f316a630a73aa07285e7d2d446b590f1900b9f0efa978df813d1a672b029552",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-mutex-roles-152514\\민수홍_경력기술서_A.pdf"
+    },
+    {
+      "file": "D:\\work\\Josun_Server\\Thema\\A\\layout-manifest.json",
+      "sha256": "7ee99ab5b819c586a784e3ed633cf3b7d62ace3844d7fd08ad16bd06c379f5d6",
+      "backup": "D:\\work\\Josun_Server\\Thema\\A\\archive\\2026-10-21-before-mutex-roles-152514\\layout-manifest.json"
+    }
+  ],
+  "date": "2026-10-21"
+}

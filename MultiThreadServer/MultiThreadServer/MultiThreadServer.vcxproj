@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -45,8 +45,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Label="ProjectDefaults">
-    <LocalDebuggerWorkingDirectory>$(ProjectDir)..\..\</LocalDebuggerWorkingDirectory>
-    <OutDir>$(ProjectDir)build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <OutDir>$(ProjectDir)..\..\Run64\$(Configuration)\</OutDir>
+    <LocalDebuggerWorkingDirectory>$(OutDir)</LocalDebuggerWorkingDirectory>
     <IntDir>$(ProjectDir)build\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -72,7 +72,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Ws2_32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;odbc32.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -96,28 +96,84 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Ws2_32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;odbc32.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Common.h" />
     <ClInclude Include="src\Database.h" />
+    <ClInclude Include="src\DatabaseWorker.h" />
     <ClInclude Include="src\Config.h" />
     <ClInclude Include="src\CsvTable.h" />
     <ClInclude Include="src\GameData.h" />
     <ClInclude Include="src\Network.h" />
     <ClInclude Include="src\Packet.h" />
     <ClInclude Include="src\TcpServer.h" />
+    <ClInclude Include="src\GameLogic.h" />
+    <ClInclude Include="src\RedisWorker.h" />
+    <ClInclude Include="src\EntryTicket.h" />
+    <ClInclude Include="src\ChatRelay.h" />
+    <ClInclude Include="src\Replay.h" />
+    <ClInclude Include="src\SpatialIndex.h" />
+    <ClInclude Include="src\SpatialCheck.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Database.cpp" />
+    <ClCompile Include="src\DatabaseWorker.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Config.cpp" />
     <ClCompile Include="src\CsvTable.cpp" />
     <ClCompile Include="src\GameData.cpp" />
     <ClCompile Include="src\TcpServer.cpp" />
+    <ClCompile Include="src\GameLogic.cpp" />
+    <ClCompile Include="src\GamePersistence.cpp" />
+    <ClCompile Include="src\GameSkills.cpp" />
+    <ClCompile Include="src\Replay.cpp" />
+    <ClCompile Include="src\GameReplay.cpp" />
+    <ClCompile Include="src\RedisWorker.cpp" />
+    <ClCompile Include="src\GameRanking.cpp" />
+    <ClCompile Include="src\EntryTicket.cpp" />
+    <ClCompile Include="src\ChatRelay.cpp" />
+    <ClCompile Include="src\SpatialIndex.cpp" />
+    <ClCompile Include="src\SpatialCheck.cpp" />
   </ItemGroup>
+  <Import Project="..\..\.deps\redis-$(Configuration).props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <!-- 서버 빌드에서 공용 실행 데이터를 복사한다. 같은 폴더의 더미도 이 파일을 사용한다. -->
+  <Target Name="CopyRuntimeData" AfterTargets="Build">
+    <Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -File &quot;$(ProjectDir)..\..\prepare-runtime.ps1&quot; -OutputDirectory &quot;$(OutDir).&quot;" />
+  </Target>
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PacketDispatch.cpp" />
+    <ClInclude Include="src\PacketDispatch.h" />
+    <ClCompile Include="src\IocpServer.cpp" />
+    <ClInclude Include="src\IocpServer.h" />
+    <ClInclude Include="src\IoBufferPool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BattleWorkers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BattleWorkers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BattleCalculation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BattleCalculation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GameBattle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GameSnapshot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\IocpSession.h" />
+    <ClCompile Include="src\IoBufferPool.cpp" />
+    <ClInclude Include="src\NetworkWorker.h" />
+    <ClCompile Include="src\NetworkWorker.cpp" />
+  </ItemGroup>
 </Project>

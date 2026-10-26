@@ -1,0 +1,11 @@
+Index,SkillIndex,Name,SkillType,CastType,TargetType,TargetFilter,MpCost,HpCost,MpPerSecond,CooldownMs,CastTimeMs,DurationMs,TickIntervalMs,CastRange,AreaRadius,Power,MoveSpeedPercent,AttackSpeedPercent,MinTargetHP,AffectsBuildings,AffectsAllies,AffectsEnemies,StackRule
+1,1,StimPack,Stim,Instant,Self,AnyUnit,0,10,0,1000,0,10000,0,0,0,0,150,150,0,0,1,0,Refresh
+2,2,Cloaking,Cloak,Toggle,Self,AnyUnit,25,0,1,1000,0,0,1000,0,0,0,100,100,0,0,1,0,Unique
+3,3,Lockdown,Lockdown,Instant,Unit,Mechanical,100,0,0,1000,0,10000,0,8,0,0,100,100,0,0,0,1,Refresh
+4,4,Heal,Heal,Channel,Unit,BiologicalGround,1,0,0,0,0,0,200,2,0,2,100,100,0,0,1,0,Unique
+5,5,Restoration,Cleanse,Instant,Unit,AnyUnit,50,0,0,1000,0,0,0,6,0,0,100,100,0,0,1,0,Unique
+6,6,OpticalFlare,Blind,Instant,Unit,AnyUnit,75,0,0,1000,0,0,0,6,0,1,100,100,0,0,0,1,Unique
+7,7,PsionicStorm,Storm,Instant,Point,AnyUnit,75,0,0,1000,0,4000,500,9,2,10,100,100,0,0,1,1,Unique
+8,8,DarkSwarm,DarkSwarm,Instant,Point,Ground,100,0,0,1000,0,15000,0,9,3,0,100,100,0,0,1,1,Unique
+9,9,Plague,Plague,Instant,Point,AnyUnit,150,0,0,1000,0,12000,1000,9,2,25,100,100,1,1,1,1,Unique
+10,10,Burrow,Burrow,Toggle,Self,Ground,0,0,0,1000,500,0,0,0,0,0,100,100,0,0,1,0,Unique
